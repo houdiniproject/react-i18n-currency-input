@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+  },
+  "files": [
+    "./src/index.tsx",
+    "./src/number_format_helper.ts"
+  ]
+}

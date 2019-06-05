@@ -1,0 +1,448 @@
+// License: LGPL-3.0-or-later
+// from: https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js
+import 'jest';
+import * as React from 'react'
+import IntlCurrencyInput from './index'
+import * as ReactDOM from 'react-dom';
+import * as ReactTestUtils from 'react-dom/test-utils';
+import setup from '../setupTests'
+
+const nbsp = " ";
+
+describe('react-intl-currency-input', function () {
+  let renderedComponent:any, inputComponent:any
+  beforeEach(() => {
+    setup();
+  })
+  describe('default arguments', function () {
+    let renderedComponent:any, inputComponent:any
+    beforeEach( function () {
+      renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput />
+      );
+
+      inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent as any,
+        'input'
+      );
+    });
+
+    it('<CurrencyInput> should have masked value of "0.00"', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00')
+    });
+
+
+    it('<input> should be of type "text"', function () {
+      expect(inputComponent.getAttribute('type')).toBe('text')
+    });
+
+    // it('does not auto-focus by default', function () {
+    //   expect(this.renderedComponent.props.autoFocus).to.be.false
+    // });
+  });
+
+  describe('custom arguments', function () {
+
+    beforeEach( function () {
+      renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput
+          value="123456789"
+          inputType="tel"
+          id="currencyInput"/>
+      );
+
+     inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent,
+        'input'
+      );
+    });
+
+    it('<CurrencyInput> should have masked value of "123.456,789"', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
+    });
+
+    it('<input> should be of type "tel"', function () {
+      expect(inputComponent.getAttribute('type')).toBe('tel')
+    });
+  });
+
+
+  describe('properly convert number value props into display values', function () {
+
+    it('adds decimals to whole numbers to match precision', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={123456789} />
+      ) as any
+      expect(renderedComponent.getMaskedValue()).toBe('$123,456,789.00')
+    });
+
+    it('Does not change value when precision matches', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput  value={1234567.89} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
+    });
+
+
+    it('Rounds down properly when an number with extra decimals is passed in', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={1234567.89123} />
+      )as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
+    });
+
+
+    it('Rounds up properly when an number with extra decimals is passed in', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={1234567.89999} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.90')
+    });
+
+    it('it handles initial value as the integer 0,', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={0} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00')
+    });
+
+    it('it handles initial value as the float 0.00,', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={0.00} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00')
+    });
+
+  });
+
+
+  describe('properly convert string value props into display values', function () {
+
+    it('adds decimals to whole numbers to match precision', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="6300.00" />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$6,300.00')
+    });
+
+
+    it('Does not change value when precision matches', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="1234567.89" />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
+    });
+
+
+    it('Rounds down properly when an number with extra decimals is passed in', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={1234567.89123} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
+    });
+
+
+    it('Rounds up properly when an number with extra decimals is passed in', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value={1234567.89999} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.90')
+    });
+
+
+    it('Rounds up the whole number when an number with extra decimals is passed in', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput currency="JPY" value={1234567.999} />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('¥1,234,568')
+    });
+
+
+    it('Handles strings with separators', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="1,000.01" />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,000.01')
+    });
+
+
+    it('Handles strings with prefixes', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="$10.01" />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$10.01')
+    });
+
+    it('Handles strings with suffixes', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="10.01 EUR" locale="de-de" currency="EUR" />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe(`10,01${nbsp}€`)
+    });
+
+
+    it('Handles strings with custom separators', function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="123.456.789,12" locale="de-de"/>
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe(`123.456.789,12${nbsp}$`)
+    });
+
+
+    it("Handles 1,234,567.89 format", function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="1,234,567.89"/>
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
+    });
+
+    it("Handles 1.234.567,89 format", function () {
+      var renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput value="1.234.567,89" locale='de-de' />
+      ) as any;
+      expect(renderedComponent.getMaskedValue()).toBe(`1.234.567,89${nbsp}$`)
+    });
+  });
+
+  describe('change events', function () {
+    let handleChange:any
+    beforeEach(function () {
+      handleChange = jest.fn()
+
+      renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput onChange={handleChange} value="0" />
+      );
+
+      inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent,
+        'input'
+      );
+    });
+
+    it('should call onChange', function () {
+      let inputComponent= renderedComponent.inputRef.current
+      inputComponent.value = 123456789;
+      ReactTestUtils.Simulate.change(inputComponent);
+      expect(handleChange).toBeCalledWith(expect.anything(), "$1,234,567.89", 1234567.89);
+    });
+
+
+    it('should change the masked value', function () {
+      inputComponent.value = 123456789;
+      ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe("$1,234,567.89");
+    });
+
+
+    it('should change the component value', function () {
+      inputComponent.value = 123456789;
+      ReactTestUtils.Simulate.change(inputComponent);
+      expect(inputComponent.value).toBe("$1,234,567.89");
+    });
+
+    it('should change the input value properly when a single number is added', () => {
+      inputComponent.value = "5"
+      ReactTestUtils.Simulate.change(inputComponent);
+      expect(inputComponent.value).toBe("$0.05");
+    })
+    
+    it('should change the input value properly when two numbers added', () => {
+      inputComponent.value = "55"
+      ReactTestUtils.Simulate.change(inputComponent);
+      expect(inputComponent.value).toBe("$0.55");
+    })
+  });
+
+  describe('blur events', () => {
+    let handleBlur:any
+    beforeEach(function () {
+      handleBlur = jest.fn()
+
+      renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput onBlur={handleBlur} value="0" />
+      );
+
+      inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent,
+        'input'
+      );
+    });
+
+    it('calls blur when the input is blurred', () => {
+      ReactTestUtils.Simulate.focus(inputComponent)
+      expect(handleBlur).not.toBeCalled()
+      ReactTestUtils.Simulate.blur(inputComponent)
+      expect(handleBlur).toBeCalled()
+    })
+  })
+
+
+  describe('negative numbers', function () {
+    let handleChange
+    beforeEach( function () {
+      handleChange = jest.fn()
+      renderedComponent = ReactTestUtils.renderIntoDocument(
+        <IntlCurrencyInput onChange={handleChange} value="0" allowNegative={true} />
+      );
+
+      inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent,
+        'input'
+      );
+
+      inputComponent.value = "0";
+      ReactTestUtils.Simulate.change(inputComponent);
+    });
+
+    it('should render 0 without negative sign', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "-0"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+    });
+
+    it('should render number with no or even number of "-" as positive', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "--123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123--456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123456--"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "--123--456--"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123456----"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+    });
+
+    it('should render number with odd number of "-" as negative', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "-123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('-$1,234.56');
+      inputComponent.value = "123-456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('-$1,234.56');
+      inputComponent.value = "123456-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('-$1,234.56');
+      inputComponent.value = "-123-456-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('-$1,234.56');
+    });
+
+    it('should correctly change between negative and positive numbers', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "1,234.56-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('-$1,234.56');
+      inputComponent.value = "-1,234.56-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "1-,234.56"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('-$1,234.56');
+      inputComponent.value = "-1,234.-56"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+    });
+
+    
+
+  });
+
+  describe('input selection', function () {
+    let defaultProps = {
+      allowNegative: true,
+      onChange: () => { },
+      value: '0'
+    };
+    let divElem:any;
+    let renderComponent = function (props = {}) {
+      divElem = document.createElement('div');
+      document.body.appendChild(divElem);
+
+      const componentProps = {...defaultProps, ...props};
+
+      const renderedComponent = ReactDOM.render(
+        <IntlCurrencyInput {...componentProps} tabindex="1"/>,
+        divElem
+      ) as any;
+
+      const inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent,
+        'input'
+      ) as HTMLInputElement;
+
+      inputComponent.value = "0";
+      ReactTestUtils.Simulate.change(inputComponent);
+
+      return { renderedComponent, inputComponent };
+    };
+
+    afterEach(function () {
+      document.body.removeChild(divElem);
+    });
+
+    it('sanity - renders "$0.00"', function () {
+      const { renderedComponent } = renderComponent();
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+    });
+
+    it('should consider precision absence', function () {
+      const { inputComponent } = renderComponent({ currency:'JPY' });
+
+      expect(inputComponent.selectionStart).toBe(0);
+      expect(inputComponent.selectionEnd).toBe(0);
+    });
+
+    xit('should highlight number on focus', function () { 
+      const { inputComponent } = renderComponent();
+      ReactTestUtils.Simulate.focus(inputComponent);
+      expect(inputComponent.selectionStart).toBe(1);
+      expect(inputComponent.selectionEnd).toBe(5);
+    });
+
+    xit('should consider the negative sign when highlighting', function () {
+      const { inputComponent } = renderComponent();
+
+      inputComponent.value = '-4.35';
+      ReactTestUtils.Simulate.change(inputComponent);
+
+      ReactTestUtils.Simulate.focus(inputComponent);
+      expect(inputComponent.selectionStart).toBe(2);
+      expect(inputComponent.selectionEnd).toBe(6);
+    });
+
+    xit('should adjust start/end by 1 when entering a number', function () {
+      const { inputComponent } = renderComponent();
+
+      inputComponent.value = '134';
+      ReactTestUtils.Simulate.change(inputComponent);
+      ReactTestUtils.Simulate.focus(inputComponent);
+
+      inputComponent.setSelectionRange(1, 1);
+      inputComponent.value = '1234';
+      ReactTestUtils.Simulate.change(inputComponent);
+
+      expect(inputComponent.selectionStart).toBe(2);
+      expect(inputComponent.selectionEnd).toBe(2);
+    });
+
+    it('should move the caret to the end when requireNegative AND value was blank', () => {
+      const {inputComponent} = renderComponent({requireNegative:true})
+      
+      ReactTestUtils.Simulate.focus(inputComponent);
+      inputComponent.value = "";
+      ReactTestUtils.Simulate.change(inputComponent);
+      
+      // we're blank now
+      
+      inputComponent.value = "9"
+      ReactTestUtils.Simulate.change(inputComponent);
+
+      //we should have 
+      expect(inputComponent.value).toBe("-$0.09")
+
+      expect(inputComponent.selectionStart).toBe(6)
+      expect(inputComponent.selectionEnd).toBe(6)
+    })
+
+  });
+
+});
