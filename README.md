@@ -1,6 +1,6 @@
 # react-i18n-currency-input (inspired by [`react-currency-input`](https://github.com/jsillitoe/react-currency-input))
 
-An ES2015 react component for currency using the [ECMAScript Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) based upon [`react-currency-input`](https://github.com/jsillitoe/react-currency-input)
+An Typescript react component for currency using the [ECMAScript Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) based upon [`react-currency-input`](https://github.com/jsillitoe/react-currency-input)
 
 
 ## Changes
