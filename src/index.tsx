@@ -90,35 +90,35 @@ interface CurrencyInputProps {
 }
 
 /**
- * The internal state of IntlCurrencyInput
- * @interface IntlCurrencyInputState
+ * The internal state of I18nCurrencyInput
+ * @interface I18nCurrencyInputState
  */
-interface IntlCurrencyInputState {
+interface I18nCurrencyInputState {
   /**
    * The input value after going through the masking process. In the case of "1" (a string) and default properties, you'll end up with "$0.01"
    * @type string
-   * @memberof IntlCurrencyInputState
+   * @memberof I18nCurrencyInputState
    */
   maskedValue: string,
 
   /**
    * the numerical value of the input value after the masking process. In the case of "1" (a string) and default properties, you'll end up with 0.01
    * @type number
-   * @memberof IntlCurrencyInputState
+   * @memberof I18nCurrencyInputState
    */
   value: number,
 
   /**
    * any properties passed to the component which will be passed to our input value
    * @type *
-   * @memberof IntlCurrencyInputState
+   * @memberof I18nCurrencyInputState
    */
   customProps: any
 }
 
 type FullCurrencyInputProps = CurrencyInputProps & Partial<NumberFormatHelperOptions>
 
-class IntlCurrencyInput extends React.Component<FullCurrencyInputProps, IntlCurrencyInputState> {
+class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurrencyInputState> {
   inputSelectionStart: number;
   inputSelectionEnd: number;
 
@@ -174,7 +174,7 @@ class IntlCurrencyInput extends React.Component<FullCurrencyInputProps, IntlCurr
    * @returns {{ maskedValue: {String}, value: {Number}, customProps: {Object} }}
    */
   @boundMethod
-  private prepareProps(props: FullCurrencyInputProps): IntlCurrencyInputState {
+  private prepareProps(props: FullCurrencyInputProps): I18nCurrencyInputState {
     let customProps = { ...props };
 
     delete customProps.allowEmpty
@@ -219,7 +219,7 @@ class IntlCurrencyInput extends React.Component<FullCurrencyInputProps, IntlCurr
     this.inputSelectionEnd = node.selectionEnd;
   }
 
-  componentDidUpdate(_prevProps: CurrencyInputProps, prevState: IntlCurrencyInputState) {
+  componentDidUpdate(_prevProps: CurrencyInputProps, prevState: I18nCurrencyInputState) {
     const formatHelper = this.createNumberFormatHelper(this.props)
     const groupSeparator = formatHelper.getGroupSeparator();
     const decimalSeparator = formatHelper.getDecimalSeparator();
@@ -332,4 +332,4 @@ class IntlCurrencyInput extends React.Component<FullCurrencyInputProps, IntlCurr
   }
 }
 
-export default IntlCurrencyInput
+export default I18nCurrencyInput

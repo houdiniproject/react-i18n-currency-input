@@ -1,5 +1,5 @@
 {
-  "name": "react-intl-currency-input",
+  "name": "@houdiniproject/react-i18n-currency-input",
   "version": "1.0.0-pre1",
   "description": "",
   "main": "./dist/index.js",

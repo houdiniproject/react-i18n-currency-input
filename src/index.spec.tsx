@@ -2,7 +2,7 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js
 import 'jest';
 import * as React from 'react'
-import IntlCurrencyInput from './index'
+import I18nCurrencyInput from './index'
 import * as ReactDOM from 'react-dom';
 import * as ReactTestUtils from 'react-dom/test-utils';
 import setup from '../setupTests'
@@ -18,7 +18,7 @@ describe('react-intl-currency-input', function () {
     let renderedComponent:any, inputComponent:any
     beforeEach( function () {
       renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput />
+        <I18nCurrencyInput />
       );
 
       inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
@@ -45,7 +45,7 @@ describe('react-intl-currency-input', function () {
 
     beforeEach( function () {
       renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput
+        <I18nCurrencyInput
           value="123456789"
           inputType="tel"
           id="currencyInput"/>
@@ -71,14 +71,14 @@ describe('react-intl-currency-input', function () {
 
     it('adds decimals to whole numbers to match precision', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={123456789} />
+        <I18nCurrencyInput value={123456789} />
       ) as any
       expect(renderedComponent.getMaskedValue()).toBe('$123,456,789.00')
     });
 
     it('Does not change value when precision matches', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput  value={1234567.89} />
+        <I18nCurrencyInput  value={1234567.89} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
     });
@@ -86,7 +86,7 @@ describe('react-intl-currency-input', function () {
 
     it('Rounds down properly when an number with extra decimals is passed in', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={1234567.89123} />
+        <I18nCurrencyInput value={1234567.89123} />
       )as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
     });
@@ -94,21 +94,21 @@ describe('react-intl-currency-input', function () {
 
     it('Rounds up properly when an number with extra decimals is passed in', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={1234567.89999} />
+        <I18nCurrencyInput value={1234567.89999} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.90')
     });
 
     it('it handles initial value as the integer 0,', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={0} />
+        <I18nCurrencyInput value={0} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$0.00')
     });
 
     it('it handles initial value as the float 0.00,', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={0.00} />
+        <I18nCurrencyInput value={0.00} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$0.00')
     });
@@ -120,7 +120,7 @@ describe('react-intl-currency-input', function () {
 
     it('adds decimals to whole numbers to match precision', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="6300.00" />
+        <I18nCurrencyInput value="6300.00" />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$6,300.00')
     });
@@ -128,7 +128,7 @@ describe('react-intl-currency-input', function () {
 
     it('Does not change value when precision matches', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="1234567.89" />
+        <I18nCurrencyInput value="1234567.89" />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
     });
@@ -136,7 +136,7 @@ describe('react-intl-currency-input', function () {
 
     it('Rounds down properly when an number with extra decimals is passed in', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={1234567.89123} />
+        <I18nCurrencyInput value={1234567.89123} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
     });
@@ -144,7 +144,7 @@ describe('react-intl-currency-input', function () {
 
     it('Rounds up properly when an number with extra decimals is passed in', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value={1234567.89999} />
+        <I18nCurrencyInput value={1234567.89999} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.90')
     });
@@ -152,7 +152,7 @@ describe('react-intl-currency-input', function () {
 
     it('Rounds up the whole number when an number with extra decimals is passed in', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput currency="JPY" value={1234567.999} />
+        <I18nCurrencyInput currency="JPY" value={1234567.999} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('¥1,234,568')
     });
@@ -160,7 +160,7 @@ describe('react-intl-currency-input', function () {
 
     it('Handles strings with separators', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="1,000.01" />
+        <I18nCurrencyInput value="1,000.01" />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,000.01')
     });
@@ -168,14 +168,14 @@ describe('react-intl-currency-input', function () {
 
     it('Handles strings with prefixes', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="$10.01" />
+        <I18nCurrencyInput value="$10.01" />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$10.01')
     });
 
     it('Handles strings with suffixes', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="10.01 EUR" locale="de-de" currency="EUR" />
+        <I18nCurrencyInput value="10.01 EUR" locale="de-de" currency="EUR" />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe(`10,01${nbsp}€`)
     });
@@ -183,7 +183,7 @@ describe('react-intl-currency-input', function () {
 
     it('Handles strings with custom separators', function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="123.456.789,12" locale="de-de"/>
+        <I18nCurrencyInput value="123.456.789,12" locale="de-de"/>
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe(`123.456.789,12${nbsp}$`)
     });
@@ -191,14 +191,14 @@ describe('react-intl-currency-input', function () {
 
     it("Handles 1,234,567.89 format", function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="1,234,567.89"/>
+        <I18nCurrencyInput value="1,234,567.89"/>
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
     });
 
     it("Handles 1.234.567,89 format", function () {
       var renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput value="1.234.567,89" locale='de-de' />
+        <I18nCurrencyInput value="1.234.567,89" locale='de-de' />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe(`1.234.567,89${nbsp}$`)
     });
@@ -210,7 +210,7 @@ describe('react-intl-currency-input', function () {
       handleChange = jest.fn()
 
       renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput onChange={handleChange} value="0" />
+        <I18nCurrencyInput onChange={handleChange} value="0" />
       );
 
       inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
@@ -259,7 +259,7 @@ describe('react-intl-currency-input', function () {
       handleBlur = jest.fn()
 
       renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput onBlur={handleBlur} value="0" />
+        <I18nCurrencyInput onBlur={handleBlur} value="0" />
       );
 
       inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
@@ -282,7 +282,7 @@ describe('react-intl-currency-input', function () {
     beforeEach( function () {
       handleChange = jest.fn()
       renderedComponent = ReactTestUtils.renderIntoDocument(
-        <IntlCurrencyInput onChange={handleChange} value="0" allowNegative={true} />
+        <I18nCurrencyInput onChange={handleChange} value="0" allowNegative={true} />
       );
 
       inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
@@ -359,8 +359,9 @@ describe('react-intl-currency-input', function () {
 
       const componentProps = {...defaultProps, ...props};
 
+      // we need tabIndex because jsdom won't focus a field without tabIndex
       const renderedComponent = ReactDOM.render(
-        <IntlCurrencyInput {...componentProps} tabindex="1"/>,
+        <I18nCurrencyInput {...componentProps} tabIndex="1"/>,
         divElem
       ) as any;
 
@@ -371,7 +372,8 @@ describe('react-intl-currency-input', function () {
 
       inputComponent.value = "0";
       ReactTestUtils.Simulate.change(inputComponent);
-
+      //we need to run the focus function because jsdom won't change the activeElement if we don't
+      inputComponent.focus()
       return { renderedComponent, inputComponent };
     };
 
@@ -426,17 +428,14 @@ describe('react-intl-currency-input', function () {
 
     it('should move the caret to the end when requireNegative AND value was blank', () => {
       const {inputComponent} = renderComponent({requireNegative:true})
-      
-      ReactTestUtils.Simulate.focus(inputComponent);
+  
       inputComponent.value = "";
       ReactTestUtils.Simulate.change(inputComponent);
-      
-      // we're blank now
       
       inputComponent.value = "9"
       ReactTestUtils.Simulate.change(inputComponent);
 
-      //we should have 
+     
       expect(inputComponent.value).toBe("-$0.09")
 
       expect(inputComponent.selectionStart).toBe(6)

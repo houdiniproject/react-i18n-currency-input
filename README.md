@@ -1,4 +1,4 @@
-# react-intl-currency-input (inspired by [`react-currency-input`](https://github.com/jsillitoe/react-currency-input))
+# react-i18n-currency-input (inspired by [`react-currency-input`](https://github.com/jsillitoe/react-currency-input))
 
 An ES2015 react component for currency using the [ECMAScript Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) based upon [`react-currency-input`](https://github.com/jsillitoe/react-currency-input)
 
@@ -19,7 +19,7 @@ You can store the value passed in to the change handler in your state.
 
 ```typescript
 import * as React from 'react'
-import IntlCurrencyInput from 'react-intl-currency-input';
+import I18nCurrencyInput from 'react-i18n-currency-input';
 
 class MyApp extends React.Component<{}, {amount:string}> {
     getInitialState(){
@@ -32,7 +32,7 @@ class MyApp extends React.Component<{}, {amount:string}> {
     render() {
         return (
             <div>
-                <IntlCurrencyInput value={this.state.amount} onChangeEvent={this.handleChange}/>
+                <I18nCurrencyInput value={this.state.amount} onChangeEvent={this.handleChange}/>
             </div>
         );
     }
@@ -44,11 +44,11 @@ You can also assign a reference then access the value using a call to getMaskedV
 
 ```typescript
 import * as React from 'react'
-import IntlCurrencyInput from 'react-intl-currency-input';
+import I18nCurrencyInput from 'react-i18n-currency-input';
 
 class MyApp extends React.Component {
   
-  sampleRef: React.RefObject<IntlCurrencyInput>;
+  sampleRef: React.RefObject<I18nCurrencyInput>;
   
   constructor(props: any){
     super(props)
@@ -77,14 +77,14 @@ Default locale is US English with dollars as currency
 
 ```typescript
     // $1,234,567.89
-    <IntlCurrencyInput  />
+    <I18nCurrencyInput  />
 ```
 
 A German locale and Euro as the currency
 
 ```typescript
     // 1.234.567,89 € (the space is a non-breaking space, i.e. character code 160)
-    <IntlCurrencyInput locale="de-de" currency="EUR" />
+    <I18nCurrencyInput locale="de-de" currency="EUR" />
 ```
 
 
@@ -143,7 +143,7 @@ selectAllOnFocus  | false         | Selects all text on focus or does not
 
 ## Questions
 ### Why did you fork react-currency-input?
-[react-currency-input](https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js) is a really great library and most of the code in react-intl-currency-input is a fairly direct copy from react-currency-input.  react-intl-currency-input would not exist without react-currency-input. 
+[react-currency-input](https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js) is a really great library and most of the code in react-i18n-currency-input is a fairly direct copy from react-currency-input.  react-i18n-currency-input would not exist without react-currency-input. 
 
 That said, I had one major issue when using react-currency-input: it doesn't use the [ECMAScript Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). The future of the Houdini Project demands that have a consistent, reliable way to do internationalization of currency amounts. The best way to do so it to use the ECMAScript Internationalization and "outsource" internationalization to a reliable source.
 
