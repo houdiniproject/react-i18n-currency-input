@@ -1,13 +1,14 @@
 language: node_js
 node_js:
-  - "lts/*"
+- lts/*
 cache: npm
 before_install:
-  - "npm install -g full-icu"
+- npm install -g full-icu
 deploy:
   provider: npm
-  email: "eric@commitchange.com"
+  email: eric@commitchange.com
   on:
     tags: true
-script: "npm run travis-test"
-    
+  api_key:
+    secure: Sx2KZz6nSE3IS2NqyE0qE8AJJBiXjWHGTW5Sv3zq1XFNOTysAF+/Q8NpsfXmDmVPo9gPoqze1yVfF4Z4teorYJUMq3jUcEcrody06EjipHQeTDSFHgw6F55PaY7vHLfnMG+YQatrjM6OYESR80f9vdsjfEH5ZWR7vl3cNU0m/bpYcFAHs2uDU8omDigDAm+EesReVTmTQGPIoFRvOJ+di2G08i/3zOJ0N3LKrgajAWevwKfWjQMr6rz13BKNbzeIgwCqGHYttAgPTi1O8KmClShUbOMGx/DPA98Vworg0YBQVxH5X+jJQ96laetByXWZi8IURsA4efNr65J97ocQ7ZHscFN/lmXSF+sPJBbnJAlk5DjlSahmORQunZ15DnNksrbdXxm+WZF9/paSAbHgMk3YhcfgCPk0xRxIoM+5Kzaw0ZL5mXCi2l2BtbjQpS3tiGLyrQvhieDvQyzj2m10560bIYjM/Hq8sP5xUJ73R6769o2XND8vrMQgQce3O4zQcLl/AvsiwEUtnWKFlD5osCHovElMw6HCxoXDzryTsapNPwQ5iXDTFjsyG+RQ1YlHBgb4FvKJTEJx/lYTD5rcnUb4zizghRa/QqptNMrHWOqzfX8xSlQVVOi4xwCvwdPPJ3ppFblXlGFzlUuBfu3HUgV6LK/H0+L0CqTAmaUvLmQ=
+script: npm run travis-test
