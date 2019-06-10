@@ -1,6 +1,6 @@
 {
   "name": "@houdiniproject/react-i18n-currency-input",
-  "version": "1.0.0-pre1",
+  "version": "1.0.0-pre2",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
