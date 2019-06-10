@@ -7,3 +7,8 @@ test/
 .gitignore
 .vscode/
 examples/
+.travis.yml
+jest.config.js
+setupTests.ts
+tsconfig*.json
+webpack.config.js
