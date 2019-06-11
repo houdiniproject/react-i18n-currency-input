@@ -6,11 +6,12 @@ An Typescript react component for currency using the [ECMAScript Internationaliz
 ## Changes
 
 ## v1.0.0
+Initial release
 
 ## Installation
 
 ```
-not yet!
+npm install @houdiniproject/react-i18n-currency-input
 ```
 
 ## Integration
@@ -92,14 +93,14 @@ Locale and currency with different grouping options
 
 ```typescript
     // ₹ 12,34,567.89 (the space is a non-breaking space, i.e. character code 160)
-    <CurrencyInput locale="en-IN" currency="INR" />
+    <I18nCurrencyInput locale="en-IN" currency="INR" />
 ```
 
 Currency without decimals prints just the integer portion
 
 ```typescript
     // ￥123,456,789
-    <CurrencyInput locale="jp-jp" currency="JPY" />
+    <I18nCurrencyInput locale="jp-jp" currency="JPY" />
 ```
 
 ## Negatives
@@ -108,18 +109,18 @@ You can control whether the user can input negative or positive amounts.
 
 For example, any negative symbols added to the following input will be stripped:
 ```typescript
-    <CurrencyInput allowNegatives={false} />
+    <I18nCurrencyInput allowNegatives={false} />
 ```
 
 On the other hand, the following input will always be negative, no matter if the user attempts to remove the negative:
 ```typescript
-    <CurrencyInput forceNegative={true} />
+    <I18nCurrencyInput forceNegative={true} />
 ```
 
 All other attributes are applied to the input element. For example, you can integrate bootstrap styling:
 
 ```typescript
-    <CurrencyInput className="form-control" />
+    <I18nCurrencyInput className="form-control" />
 ```
 
 ## Options
