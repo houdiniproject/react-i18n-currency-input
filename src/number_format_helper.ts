@@ -2,7 +2,6 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
 import { boundMethod } from "autobind-decorator";
 import _ = require("lodash");
-const regexEscapeRegex = /[-[\]{}()*+?.,\\^$|#\s]/g;
 
 interface MaskedAndRawValues {
   /**
@@ -121,9 +120,6 @@ export class NumberFormatHelper {
       const decimal = this.getDecimalSeparator()
       let decimalRegexpString = "\\d"
       const hasDecimalSeparator = decimal && decimal != '';
-      // if (hasDecimalSeparator) {
-      //   decimalRegexpString += "|" + decimal.replace(regexEscapeRegex, '\\$&')
-      // }
       const decimalRegexp = new RegExp(decimalRegexpString, 'g')
       let items = value.match(decimalRegexp) || ['0'];
       if (hasDecimalSeparator) {
