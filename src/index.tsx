@@ -70,20 +70,20 @@ interface CurrencyInputProps {
 
   /**
    * A callback after the input has changed and has been processed. The arguments for the onChange are as follows:
-   * - event: the React.ChangeEvent representing the value change
+   * - instance: the instance of I18nCurrencyInput which fired this event
    * - maskedValue: the value after going through the masking process. In the case of "1" (a string) and default properties, you'll end up with "$0.01"
    * - value: the numerical value of the input value after the masking process. Use this when you need to do math using the input value. In the case of In the case of "1" (a string) and default properties, you'll end up with 0.01.
    * @default (no-op function)
    * @memberof CurrencyInputProps
    */
-  onChange?: (event: React.ChangeEvent<any>, maskedValue: string, value: number) => void
+  onChange?: (instance: I18nCurrencyInput, maskedValue: string, value: number) => void
 
   /**
    * A callback on the blur event
    * @default (no-op function)
    * @memberof CurrencyInputProps
    */
-  onBlur?: (event:FocusEvent) => void
+  onBlur?: (instance:I18nCurrencyInput) => void
 
   // you can pass along any other properties you'd like to the input field itself
   [customProps: string]: any
@@ -139,8 +139,8 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     currencyDisplay: 'symbol',
     useGrouping: true,
     inputType: 'text',
-    onChange: (event: React.ChangeEvent<any>, maskedValue: string, value: number) => { /** no-op */ },
-    onBlur: (event:React.FocusEvent) => { /** no-op */}
+    onChange: (instance:I18nCurrencyInput, maskedValue: string, value: number) => { /** no-op */ },
+    onBlur: (instance:I18nCurrencyInput) => { /** no-op */}
   }
 
   /**
@@ -211,6 +211,9 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     selectionEnd = Math.min(node.selectionEnd || 0, this.inputRef.current.value.length - suffix.length);
     selectionStart = Math.min(node.selectionStart || 0, selectionEnd);
     this.setSelectionRange(node, selectionStart, selectionEnd);
+    
+    this.props.onChange(this, this.getMaskedValue(), this.state.value)
+    
   }
   
   componentWillUpdate() {
@@ -258,6 +261,9 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     this.setSelectionRange(node, selectionStart, selectionEnd);
     this.inputSelectionStart = selectionStart;
     this.inputSelectionEnd = selectionEnd;
+    if (_prevProps.value !== this.props.value && this.props.value !== this.getMaskedValue()){
+        this.props.onChange(this, this.getMaskedValue(), this.state.value)
+    }
   }
 
   /**
@@ -286,7 +292,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     event.persist();  // fixes issue #23
 
     this.setState({ maskedValue, value }, () => {
-      this.props.onChange(event, maskedValue, value);
+      this.props.onChange(this, maskedValue, value);
     });
   }
 
@@ -313,13 +319,13 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
   @boundMethod
   private handleBlur(event: FocusEvent) {
 
-    this.props.onBlur(event)
+    this.props.onBlur(this)
   }
 
   render() {
     return (
       <input
-        ref={this.inputRef }
+        ref={this.inputRef}
         type={this.props.inputType}
         value={this.state.maskedValue}
         onChange={this.handleChange}
