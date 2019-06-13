@@ -64,7 +64,7 @@ class MyApp extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <CurrencyInput ref={this.sampleRef} />
+                <I18nCurrencyInput ref={this.sampleRef} />
             </form>
         );
     }
