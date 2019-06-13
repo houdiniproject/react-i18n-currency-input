@@ -1,5 +1,4 @@
 node_modules/
-src/
 test/
 .idea/
 .babelrc
@@ -10,5 +9,5 @@ examples/
 .travis.yml
 jest.config.js
 setupTests.ts
-tsconfig*.json
 webpack.config.js
+src/*.spec.ts*
