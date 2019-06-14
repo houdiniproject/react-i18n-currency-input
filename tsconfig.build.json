@@ -5,6 +5,6 @@
   },
   "files": [
     "./src/index.tsx",
-    "./src/number_format_helper.ts"
+    "./src/money_format_helper.ts"
   ]
 }

@@ -1,20 +1,20 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/mask.spec.js
 import 'jest';
-import {NumberFormatHelper} from './number_format_helper'
+import {MoneyFormatHelper} from './money_format_helper'
 
 const nbsp = String.fromCharCode(160)
 
-const enUS = NumberFormatHelper.initializeFromProps('en-us', {currency: 'USD', style: 'currency'});
-const jaJP = NumberFormatHelper.initializeFromProps('ja-JP', { style: 'currency', currency: 'JPY' })
+const enUS = MoneyFormatHelper.initializeFromProps('en-us', {currency: 'USD', style: 'currency'});
+const jaJP = MoneyFormatHelper.initializeFromProps('ja-JP', { style: 'currency', currency: 'JPY' })
 
-const enIN = NumberFormatHelper.initializeFromProps('en-IN', { style: 'currency', currency: 'INR' })
+const enIN = MoneyFormatHelper.initializeFromProps('en-IN', { style: 'currency', currency: 'INR' })
 
-const deDE = NumberFormatHelper.initializeFromProps('de-DE', { style: 'currency', currency: 'EUR' })
+const deDE = MoneyFormatHelper.initializeFromProps('de-DE', { style: 'currency', currency: 'EUR' })
 
-const enUSNoNegative = NumberFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {allowNegative:false})
+const enUSNoNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {allowNegative:false})
 
-const enUSRequireNegative = NumberFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requireNegative:true})
+const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requireNegative:true})
 
 describe('mask', function () {
   

@@ -4,7 +4,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { boundMethod } from 'autobind-decorator';
-import { NumberFormatHelper, NumberFormatHelperOptions } from './number_format_helper';
+import { MoneyFormatHelper, MoneyFormatHelperOptions } from './money_format_helper';
 
 interface CurrencyInputProps {
   /**
@@ -116,7 +116,7 @@ interface I18nCurrencyInputState {
   customProps: any
 }
 
-type FullCurrencyInputProps = CurrencyInputProps & Partial<NumberFormatHelperOptions>
+type FullCurrencyInputProps = CurrencyInputProps & Partial<MoneyFormatHelperOptions>
 
 class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurrencyInputState> {
   inputSelectionStart: number;
@@ -154,13 +154,13 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
 
 
 
-  private createNumberFormatHelper(props: FullCurrencyInputProps): NumberFormatHelper {
+  private createMoneyFormatHelper(props: FullCurrencyInputProps): MoneyFormatHelper {
     let otherOptions = undefined
     if (props.allowNegative || props.requireNegative) {
       otherOptions = { allowNegative: props.allowNegative, requireNegative: props.requireNegative }
     }
 
-    return NumberFormatHelper.initializeFromProps(props.locale, {
+    return MoneyFormatHelper.initializeFromProps(props.locale, {
       style: "currency",
       currency: props.currency,
       currencyDisplay: props.currencyDisplay,
@@ -195,7 +195,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
       initialValue = props.allowEmpty ? null : '';
     }
 
-    const { maskedValue, value } = this.createNumberFormatHelper(props).mask(initialValue);
+    const { maskedValue, value } = this.createMoneyFormatHelper(props).mask(initialValue);
 
     return { maskedValue, value, customProps };
   }
@@ -207,7 +207,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
   componentDidMount() {
     let node = ReactDOM.findDOMNode(this.inputRef.current) as HTMLInputElement;
     let selectionStart, selectionEnd;
-    const suffix = this.createNumberFormatHelper(this.props).getSuffix()
+    const suffix = this.createMoneyFormatHelper(this.props).getSuffix()
     selectionEnd = Math.min(node.selectionEnd || 0, this.inputRef.current.value.length - suffix.length);
     selectionStart = Math.min(node.selectionStart || 0, selectionEnd);
     this.setSelectionRange(node, selectionStart, selectionEnd);
@@ -223,7 +223,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
   }
 
   componentDidUpdate(_prevProps: CurrencyInputProps, prevState: I18nCurrencyInputState) {
-    const formatHelper = this.createNumberFormatHelper(this.props)
+    const formatHelper = this.createMoneyFormatHelper(this.props)
     const groupSeparator = formatHelper.getGroupSeparator();
     const decimalSeparator = formatHelper.getDecimalSeparator();
     const prefix = formatHelper.getPrefix()
@@ -287,7 +287,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
   @boundMethod
   private handleChange(event: React.ChangeEvent<any>) {
     event.preventDefault();
-    let { maskedValue, value } = this.createNumberFormatHelper(this.props).mask(event.target.value)
+    let { maskedValue, value } = this.createMoneyFormatHelper(this.props).mask(event.target.value)
 
     event.persist();  // fixes issue #23
 
@@ -303,7 +303,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
    */
   @boundMethod
   private handleFocus(event: FocusEvent) {
-    const formatHelper = this.createNumberFormatHelper(this.props)
+    const formatHelper = this.createMoneyFormatHelper(this.props)
     const prefix = formatHelper.getPrefix()
     const suffix = formatHelper.getSuffix()
     //Whenever we receive focus check to see if the position is before the suffix, if not, move it.
@@ -337,5 +337,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     )
   }
 }
+
+export {MoneyFormatHelper}
 
 export default I18nCurrencyInput

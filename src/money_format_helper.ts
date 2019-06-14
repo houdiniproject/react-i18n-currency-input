@@ -18,7 +18,7 @@ interface MaskedAndRawValues {
   maskedValue: string
 };
 
-export type NumberFormatHelperOptions = {
+export type MoneyFormatHelperOptions = {
   /**
    * Do we want to allow negative numbers? If false, we strip negative signs.
    * @default true
@@ -39,32 +39,32 @@ const defaultOptions = { allowNegative: true }
 /**
  * A class which takes an `Intl.NumberFormat` and some options provides functionality for converting `number` or a string containing a number into an appropriately masked value.
  * @export
- * @class NumberFormatHelper
+ * @class MoneyFormatHelper
  */
-export class NumberFormatHelper {
+export class MoneyFormatHelper {
   /**
-   * Creates an instance of NumberFormatHelper.
+   * Creates an instance of MoneyFormatHelper.
    * @param  {Intl.NumberFormat} numberFormat the format you want to use for number formatting
-   * @param  {NumberFormatHelperOptions} [options=defaultOptions] some options related to negative numbers. By default, this value is `{allowNegative:true}`
-   * @memberof NumberFormatHelper
+   * @param  {MoneyFormatHelperOptions} [options=defaultOptions] some options related to negative numbers. By default, this value is `{allowNegative:true}`
+   * @memberof MoneyFormatHelper
    */
   constructor(
     readonly numberFormat: Intl.NumberFormat,
-    readonly options: NumberFormatHelperOptions = defaultOptions
+    readonly options: MoneyFormatHelperOptions = defaultOptions
   ) { }
 
   /**
-   * A convenience factory method for creating a new `NumberFormatHelper` using the inputoptions for `Intl.NumberFormat`. This allows you to create the `Intl.NumberFormat` and  `NumberFormatHelper` in a single lineo f code
+   * A convenience factory method for creating a new `MoneyFormatHelper` using the inputoptions for `Intl.NumberFormat`. This allows you to create the `Intl.NumberFormat` and  `MoneyFormatHelper` in a single line of code
    * @static
    * @param  {(string | string[])} [locales] a locale to pass to the `Intl.NumberFormat` constructor. If multiple locales are passed, the ECMAScript Internationalization API uses the first locale which it has support for. For more information, see the [Intl.NumberFormat docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat)
    * @param  {Intl.NumberFormatOptions} [numberFormatOpts] The options for creating a `Intl.NumberFormat`. For more information, see the [Intl.NumberFormat docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat).
-   * @param  {NumberFormatHelperOptions} [options] some options related to negative numbers. By default, this value is `{allowNegative:true}`
-   * @return NumberFormatHelper A new `NumberFormatHelper` which uses the 
-   * @memberof NumberFormatHelper
+   * @param  {MoneyFormatHelperOptions} [options] some options related to negative numbers. By default, this value is `{allowNegative:true}`
+   * @return MoneyFormatHelper A new `MoneyFormatHelper` which uses the 
+   * @memberof MoneyFormatHelper
    */
-  public static initializeFromProps(locales?: string | string[], numberFormatOpts?: Intl.NumberFormatOptions, options?: NumberFormatHelperOptions): NumberFormatHelper {
+  public static initializeFromProps(locales?: string | string[], numberFormatOpts?: Intl.NumberFormatOptions, options?: MoneyFormatHelperOptions): MoneyFormatHelper {
 
-    return new NumberFormatHelper(new Intl.NumberFormat(locales, numberFormatOpts), options || defaultOptions)
+    return new MoneyFormatHelper(new Intl.NumberFormat(locales, numberFormatOpts), options || defaultOptions)
   }
 
   /**
@@ -78,7 +78,7 @@ export class NumberFormatHelper {
    *  If we allow both negative and positive numbers, i.e. allowNegatives:true, we decide whether to make the number positive or negative. We do this by counting the number of minus signs in the string. If there is an even number of minus signs, it's a positive number and if there's a odd number of minus signs, it's a negative number. As an example $0.-11 would be converted to -$0.11 while --$0.11 would be converted to $0.11. Again this makes sense for a form input.
    * @param  {(number | string | null)} [value] the value you want to be formatted.
    * @return MaskedAndRawValues 
-   * @memberof NumberFormatHelper
+   * @memberof MoneyFormatHelper
    */
   @boundMethod
   mask(value?: number | string | null): MaskedAndRawValues {
@@ -161,7 +161,7 @@ export class NumberFormatHelper {
   /**
    * The separator between the integer and decimal positions. As an example, in the us-en, we use the period: for example, 1000 is formatted as $1,000.00. In Europe, the comma is often used.
    * @return string the decimal separator for the `Intl.NumberFormat`. If there's no decimal separator in that locale and currency, such as for Japanese Yen, you'll receive an empty string
-   * @memberof NumberFormatHelper
+   * @memberof MoneyFormatHelper
    */
   @boundMethod
   getDecimalSeparator() {
@@ -185,7 +185,7 @@ export class NumberFormatHelper {
   /**
    * The separator for integer digits. As an example, in the us-en, we use the comma: for example, 1000 is formatted as $1,000.00. In Europe, the period is often used.
    * @return string the group separator for the `Intl.NumberFormat`. If there's no group separator in that locale and currency, you'll receive an empty string.
-   * @memberof NumberFormatHelper
+   * @memberof MoneyFormatHelper
    */
   @boundMethod
   getGroupSeparator(): string {
@@ -211,7 +211,7 @@ export class NumberFormatHelper {
    * Returns the currency value prefix for your given `Intl.NumberFormat`. As an example,
    * if your number format is locale: 'jp-jp' and the currency is JPY, we would return '￥' 
    * @return string the prefix for currency values. If no prefix is used, the empty string is returned.
-   * @memberof NumberFormatHelper
+   * @memberof MoneyFormatHelper
    */
   @boundMethod
   getPrefix(): string {
@@ -237,7 +237,7 @@ export class NumberFormatHelper {
    * Returns the currency value suffix for your given `Intl.NumberFormat`. As an example,
    * if your number format is locale: 'de-de' and the currency is EUR, we would return ' €' (the space is a non-breaking space, i.e. character code 160)
    * @return string the prefix for currency values. If no suffix is used, the empty string is returned.
-   * @memberof NumberFormatHelper
+   * @memberof MoneyFormatHelper
    */
   @boundMethod
   getSuffix(): string {
@@ -260,7 +260,7 @@ export class NumberFormatHelper {
    * a helper method to handle formatToParts because it's not properly defined in Typescript
    * @param  {Number} [number] 
    * @return Array<{type:string, value:string}> 
-   * @memberof NumberFormatHelper
+   * @memberof MoneyFormatHelper
    */
   @boundMethod
   private formatToParts(number?: Number): Array<{ type: string, value: string }> {

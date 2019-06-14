@@ -3,10 +3,11 @@
 import 'jest';
 import * as React from 'react'
 import I18nCurrencyInput from './index'
+import {MoneyFormatHelper as ExportedHelper} from './index'
+import {MoneyFormatHelper} from './money_format_helper'
 import * as ReactDOM from 'react-dom';
 import * as ReactTestUtils from 'react-dom/test-utils';
 import setup from '../setupTests'
-import { boundMethod } from 'autobind-decorator';
 
 const nbsp = " ";
 
@@ -480,5 +481,9 @@ describe('react-intl-currency-input', function () {
     })
 
   });
+
+  it('exports MoneyFormatHelper properly', () => {
+    expect(MoneyFormatHelper).toBe(ExportedHelper)
+  })
 
 });
