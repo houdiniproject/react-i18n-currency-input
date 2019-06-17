@@ -2,6 +2,7 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
 import { boundMethod } from "autobind-decorator";
 import _ = require("lodash");
+import { isInteger } from "lodash";
 
 interface MaskedAndRawValues {
   /**
@@ -16,6 +17,13 @@ interface MaskedAndRawValues {
    * @memberof MaskedAndRawValues
    */
   maskedValue: string
+
+  /**
+   * The value in the lowest currency value. In the cases of USD, this is in cents, i.e: for $4.00 is 400. For JPY, this is simply in yen.
+   * @type number
+   * @memberof MaskedAndRawValues
+   */
+  valueInCents:number
 };
 
 export type MoneyFormatHelperOptions = {
@@ -88,7 +96,8 @@ export class MoneyFormatHelper {
     if (value === null || value === undefined) {
       return {
         value: 0,
-        maskedValue: ''
+        maskedValue: '',
+        valueInCents: 0,
       };
     }
 
@@ -103,17 +112,20 @@ export class MoneyFormatHelper {
       if (value === -0) {
         value = 0
       }
+      const valueInCents = Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits))
 
       return {
-        value: value,
-        maskedValue: this.numberFormat.format(value)
+        value,
+        maskedValue: this.numberFormat.format(value),
+        valueInCents
       }
     }
     else {
       if (value === '') {
         return {
           value: 0,
-          maskedValue: ''
+          maskedValue: '',
+          valueInCents: 0,
         };
       }
 
@@ -151,11 +163,31 @@ export class MoneyFormatHelper {
         parsedValue = 0
       }
 
+      let numberInCents = Number(items.filter((i) => i !== '.').join(''))
+      if (numberInCents === -0) {
+        numberInCents = 0
+      }
+
       return {
         value: parsedValue,
-        maskedValue: this.numberFormat.format(parsedValue)
+        maskedValue: this.numberFormat.format(parsedValue),
+        valueInCents: numberInCents
       }
     }
+  }
+
+  /**
+   * Takes an integer of a monetary value provided in the lowest currency value and passes it through mask. 
+   * As an example: passing in 400 for USD is the same as passing 4 or $4.00 to mask
+   * @param  {number} cents 
+   * @return MaskedAndRawValues 
+   * @throws TypeError when a non-integer value is provided
+   * @memberof MoneyFormatHelper
+   */
+  public maskFromCents(cents:number) : MaskedAndRawValues {
+    if (!isInteger(cents))
+      throw new TypeError("cents must be provided an integer")
+    return this.mask(cents.toString())
   }
 
   /**

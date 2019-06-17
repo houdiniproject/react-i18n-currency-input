@@ -245,7 +245,7 @@ describe('react-intl-currency-input', function () {
       let inputComponent = renderedComponent.inputRef.current
       inputComponent.value = 123456789;
       ReactTestUtils.Simulate.change(inputComponent);
-      expect(handleChange).toBeCalledWith(renderedComponent, "$1,234,567.89", 1234567.89);
+      expect(handleChange).toBeCalledWith(renderedComponent, "$1,234,567.89", 1234567.89, 123456789);
     });
 
 
@@ -280,7 +280,7 @@ describe('react-intl-currency-input', function () {
         <I18nCurrencyInput value={1234567.89} onChange={change} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
-      expect(change).toBeCalledWith(renderedComponent, '$1,234,567.89', 1234567.89)
+      expect(change).toBeCalledWith(renderedComponent, '$1,234,567.89', 1234567.89, 123456789)
     });
 
     it('runs a change even when masking is unneeded', function () {
@@ -289,7 +289,7 @@ describe('react-intl-currency-input', function () {
         <I18nCurrencyInput value={"$1,234,567.89"} onChange={change} />
       ) as any;
       expect(renderedComponent.getMaskedValue()).toBe('$1,234,567.89')
-      expect(change).toBeCalledWith(renderedComponent, '$1,234,567.89', 1234567.89)
+      expect(change).toBeCalledWith(renderedComponent, '$1,234,567.89', 1234567.89, 123456789)
     });
 
     it('runs a change if the value property is changed and a correction is needed', function () {
@@ -304,7 +304,7 @@ describe('react-intl-currency-input', function () {
       renderedComponent.setState({value:2})
       
       expect(i18nRef.current.getMaskedValue()).toBe('$2.00')
-      expect(change).toBeCalledWith(i18nRef.current, '$2.00', 2)
+      expect(change).toBeCalledWith(i18nRef.current, '$2.00', 2, 200)
     });
 
 

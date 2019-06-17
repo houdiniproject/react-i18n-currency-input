@@ -27,7 +27,7 @@ class MyApp extends React.Component<{}, {amount:string}> {
         return ({amount: "0.00"});
     },
 
-    handleChange(event, maskedvalue, floatvalue){
+    handleChange(event, maskedvalue, floatvalue, valueInCents){
         this.setState({amount: maskedvalue});
     },
     render() {

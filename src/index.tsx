@@ -73,10 +73,12 @@ interface CurrencyInputProps {
    * - instance: the instance of I18nCurrencyInput which fired this event
    * - maskedValue: the value after going through the masking process. In the case of "1" (a string) and default properties, you'll end up with "$0.01"
    * - value: the numerical value of the input value after the masking process. Use this when you need to do math using the input value. In the case of In the case of "1" (a string) and default properties, you'll end up with 0.01.
+   * - valueInCents: the numerical value of the input value after the masking process in the lowest fractional value in the denomination. In the case of "1" (a string) and default properties, you'll end up with 1. For a currency without fractional values, like JPY, this will be the same as value.
+   * @type number
    * @default (no-op function)
    * @memberof CurrencyInputProps
    */
-  onChange?: (instance: I18nCurrencyInput, maskedValue: string, value: number) => void
+  onChange?: (instance: I18nCurrencyInput, maskedValue: string, value: number, valueInCents:number) => void
 
   /**
    * A callback on the blur event
@@ -107,6 +109,13 @@ interface I18nCurrencyInputState {
    * @memberof I18nCurrencyInputState
    */
   value: number,
+
+  /**
+   * the numerical value of the input value after the masking process in the lowest fractional value in the denomination. In the case of "1" (a string) and default properties, you'll end up with 1. For a currency without fractional values, like JPY, this will be the same as value.
+   * @type number
+   * @memberof I18nCurrencyInputState
+   */
+  valueInCents: number,
 
   /**
    * any properties passed to the component which will be passed to our input value
@@ -195,9 +204,9 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
       initialValue = props.allowEmpty ? null : '';
     }
 
-    const { maskedValue, value } = this.createMoneyFormatHelper(props).mask(initialValue);
+    const { maskedValue, value, valueInCents } = this.createMoneyFormatHelper(props).mask(initialValue);
 
-    return { maskedValue, value, customProps };
+    return { maskedValue, value, valueInCents, customProps };
   }
   componentWillReceiveProps(nextProps: CurrencyInputProps) {
     this.setState(this.prepareProps(nextProps));
@@ -212,7 +221,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     selectionStart = Math.min(node.selectionStart || 0, selectionEnd);
     this.setSelectionRange(node, selectionStart, selectionEnd);
     
-    this.props.onChange(this, this.getMaskedValue(), this.state.value)
+    this.props.onChange(this, this.getMaskedValue(), this.state.value,this.state.valueInCents)
     
   }
   
@@ -262,7 +271,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     this.inputSelectionStart = selectionStart;
     this.inputSelectionEnd = selectionEnd;
     if (_prevProps.value !== this.props.value && this.props.value !== this.getMaskedValue()){
-        this.props.onChange(this, this.getMaskedValue(), this.state.value)
+        this.props.onChange(this, this.getMaskedValue(), this.state.value, this.state.valueInCents)
     }
   }
 
@@ -287,12 +296,12 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
   @boundMethod
   private handleChange(event: React.ChangeEvent<any>) {
     event.preventDefault();
-    let { maskedValue, value } = this.createMoneyFormatHelper(this.props).mask(event.target.value)
+    let { maskedValue, value, valueInCents } = this.createMoneyFormatHelper(this.props).mask(event.target.value)
 
     event.persist();  // fixes issue #23
 
-    this.setState({ maskedValue, value }, () => {
-      this.props.onChange(this, maskedValue, value);
+    this.setState({ maskedValue, value, valueInCents }, () => {
+      this.props.onChange(this, maskedValue, value, valueInCents);
     });
   }
 
