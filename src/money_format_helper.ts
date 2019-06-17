@@ -64,7 +64,7 @@ export class MoneyFormatHelper {
    */
   public static initializeFromProps(locales?: string | string[], numberFormatOpts?: Intl.NumberFormatOptions, options?: MoneyFormatHelperOptions): MoneyFormatHelper {
 
-    return new MoneyFormatHelper(new Intl.NumberFormat(locales, numberFormatOpts), options || defaultOptions)
+    return new MoneyFormatHelper(new Intl.NumberFormat(locales, {...numberFormatOpts, style: 'currency'}), options || defaultOptions)
   }
 
   /**

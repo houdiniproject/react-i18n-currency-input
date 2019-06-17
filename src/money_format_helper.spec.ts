@@ -5,16 +5,16 @@ import {MoneyFormatHelper} from './money_format_helper'
 
 const nbsp = String.fromCharCode(160)
 
-const enUS = MoneyFormatHelper.initializeFromProps('en-us', {currency: 'USD', style: 'currency'});
+const enUS = MoneyFormatHelper.initializeFromProps('en-us', {currency: 'USD'});
 const jaJP = MoneyFormatHelper.initializeFromProps('ja-JP', { style: 'currency', currency: 'JPY' })
 
-const enIN = MoneyFormatHelper.initializeFromProps('en-IN', { style: 'currency', currency: 'INR' })
+const enIN = MoneyFormatHelper.initializeFromProps('en-IN', { currency: 'INR' })
 
-const deDE = MoneyFormatHelper.initializeFromProps('de-DE', { style: 'currency', currency: 'EUR' })
+const deDE = MoneyFormatHelper.initializeFromProps('de-DE', { currency: 'EUR' })
 
 const enUSNoNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {allowNegative:false})
 
-const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requireNegative:true})
+const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { currency: 'USD'  }, {requireNegative:true})
 
 describe('mask', function () {
   
