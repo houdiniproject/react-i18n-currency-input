@@ -28,21 +28,18 @@ interface MaskedAndRawValues {
 
 export type MoneyFormatHelperOptions = {
   /**
-   * Do we want to allow negative numbers? If false, we strip negative signs.
-   * @default true
+   * Do we want to require positive numbers? If true, we strip negative signs.
    * @type boolean
    */
-  allowNegative: boolean
+  requirePositive?: boolean
 } |
 {
   /**
    * Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
    * @type boolean
    */
-  requireNegative: boolean
+  requireNegative?: boolean
 }
-
-const defaultOptions = { allowNegative: true }
 
 /**
  * A class which takes an `Intl.NumberFormat` and some options provides functionality for converting `number` or a string containing a number into an appropriately masked value.
@@ -58,7 +55,7 @@ export class MoneyFormatHelper {
    */
   constructor(
     readonly numberFormat: Intl.NumberFormat,
-    readonly options: MoneyFormatHelperOptions = defaultOptions
+    readonly options: MoneyFormatHelperOptions = {}
   ) { }
 
   /**
@@ -72,7 +69,7 @@ export class MoneyFormatHelper {
    */
   public static initializeFromProps(locales?: string | string[], numberFormatOpts?: Intl.NumberFormatOptions, options?: MoneyFormatHelperOptions): MoneyFormatHelper {
 
-    return new MoneyFormatHelper(new Intl.NumberFormat(locales, {...numberFormatOpts, style: 'currency'}), options || defaultOptions)
+    return new MoneyFormatHelper(new Intl.NumberFormat(locales, {...numberFormatOpts, style: 'currency'}), options)
   }
 
   /**
@@ -90,7 +87,7 @@ export class MoneyFormatHelper {
    */
   @boundMethod
   mask(value?: number | string | null): MaskedAndRawValues {
-    const allowNegative = _.get(this.options, 'allowNegative')
+    const requirePositive = _.get(this.options, 'requirePositive')
     const requireNegative = _.get(this.options, 'requireNegative')
 
     if (value === null || value === undefined) {
@@ -102,7 +99,7 @@ export class MoneyFormatHelper {
     }
 
     const forceToNegative = requireNegative
-    const forceToPositive = !forceToNegative && !allowNegative
+    const forceToPositive = !forceToNegative && requirePositive
 
     if (typeof value === 'number') {
       if ((forceToPositive && value < 0) || (forceToNegative && value > 0)) {

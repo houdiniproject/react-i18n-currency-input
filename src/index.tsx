@@ -165,8 +165,8 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
 
   private createMoneyFormatHelper(props: FullCurrencyInputProps): MoneyFormatHelper {
     let otherOptions = undefined
-    if (props.allowNegative || props.requireNegative) {
-      otherOptions = { allowNegative: props.allowNegative, requireNegative: props.requireNegative }
+    if (props.requirePositive || props.requireNegative) {
+      otherOptions = { requirePositive: props.requirePositive, requireNegative: props.requireNegative }
     }
 
     return MoneyFormatHelper.initializeFromProps(props.locale, {

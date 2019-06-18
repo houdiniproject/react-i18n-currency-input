@@ -18,7 +18,7 @@ ReactDOM.render(<I18nCurrencyInput />, document.getElementById('example3'));
 
 ReactDOM.render(<I18nCurrencyInput requireNegative={true}/>, document.getElementById('example4'));
 
-ReactDOM.render(<I18nCurrencyInput value="1" allowNegative={true}/>, document.getElementById('example6'));
+ReactDOM.render(<I18nCurrencyInput value="1" requirePositive={true}/>, document.getElementById('example6'));
 
 var onChangeEvent = function(instance:any, mask:string, floatValue:number) {
   console.log(instance)

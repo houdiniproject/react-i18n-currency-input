@@ -354,7 +354,7 @@ describe('react-intl-currency-input', function () {
     beforeEach(function () {
       handleChange = jest.fn()
       renderedComponent = ReactTestUtils.renderIntoDocument(
-        <I18nCurrencyInput onChange={handleChange} value="0" allowNegative={true} />
+        <I18nCurrencyInput onChange={handleChange} value="0"/>
       );
 
       inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
@@ -418,6 +418,71 @@ describe('react-intl-currency-input', function () {
 
   });
 
+  describe('requirePositive true', () => {
+    let handleChange
+    beforeEach(function () {
+      handleChange = jest.fn()
+      renderedComponent = ReactTestUtils.renderIntoDocument(
+        <I18nCurrencyInput onChange={handleChange} value="0" requirePositive={true} />
+      );
+
+      inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+        renderedComponent,
+        'input'
+      );
+
+      inputComponent.value = "0";
+      ReactTestUtils.Simulate.change(inputComponent);
+    });
+
+    it('should render 0 without negative sign', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "-0"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+    });
+
+    it('should render number with no or even number of "-" as positive', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "--123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123--456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123456--"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "--123--456--"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123456----"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+    });
+
+    it('should render number with odd number of "-" as negative', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "-123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123-456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "123456-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "-123-456-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+    });
+
+    it('should correctly change between negative and positive numbers', function () {
+      expect(renderedComponent.getMaskedValue()).toBe('$0.00');
+      inputComponent.value = "123456"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "1,234.56-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "-1,234.56-"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "1-,234.56"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+      inputComponent.value = "-1,234.-56"; ReactTestUtils.Simulate.change(inputComponent);
+      expect(renderedComponent.getMaskedValue()).toBe('$1,234.56');
+    });
+  })
   describe('input selection', function () {
     let defaultProps = {
       allowNegative: true,
