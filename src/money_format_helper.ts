@@ -50,7 +50,7 @@ export class MoneyFormatHelper {
   /**
    * Creates an instance of MoneyFormatHelper.
    * @param  {Intl.NumberFormat} numberFormat the format you want to use for number formatting
-   * @param  {MoneyFormatHelperOptions} [options=defaultOptions] some options related to negative numbers. By default, this value is `{allowNegative:true}`
+   * @param  {MoneyFormatHelperOptions} [options=defaultOptions] some options related to negative numbers. By default, this value is `{}`
    * @memberof MoneyFormatHelper
    */
   constructor(
@@ -63,7 +63,7 @@ export class MoneyFormatHelper {
    * @static
    * @param  {(string | string[])} [locales] a locale to pass to the `Intl.NumberFormat` constructor. If multiple locales are passed, the ECMAScript Internationalization API uses the first locale which it has support for. For more information, see the [Intl.NumberFormat docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat)
    * @param  {Intl.NumberFormatOptions} [numberFormatOpts] The options for creating a `Intl.NumberFormat`. For more information, see the [Intl.NumberFormat docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat).
-   * @param  {MoneyFormatHelperOptions} [options] some options related to negative numbers. By default, this value is `{allowNegative:true}`
+   * @param  {MoneyFormatHelperOptions} [options] some options related to negative numbers. By default, this value is `{}`
    * @return MoneyFormatHelper A new `MoneyFormatHelper` which uses the 
    * @memberof MoneyFormatHelper
    */
@@ -80,7 +80,7 @@ export class MoneyFormatHelper {
    * - a number goes through limited pre-processing. If we expect it to be positive or negative and it doesn't meet that expectation, we flip its sign. If it's a -0, we turn it to 0 becuase -0 is just a headache.
    * - a string goes through the most pre-processing. It includes the pre-processing done by numbers along with additional processing. Some examples of that processing include:
    *  If the string has a number with too many digits after the decimal separator for our given `Intl.NumberFormat`, we shift the numbers over by one. As an example, if we received $0.011, we would convert this into $0.11. If your value is coming from a form input, this is what you want to have happen.
-   *  If we allow both negative and positive numbers, i.e. allowNegatives:true, we decide whether to make the number positive or negative. We do this by counting the number of minus signs in the string. If there is an even number of minus signs, it's a positive number and if there's a odd number of minus signs, it's a negative number. As an example $0.-11 would be converted to -$0.11 while --$0.11 would be converted to $0.11. Again this makes sense for a form input.
+   *  If we allow both negative and positive numbers, we decide whether to make the number positive or negative. We do this by counting the number of minus signs in the string. If there is an even number of minus signs, it's a positive number and if there's a odd number of minus signs, it's a negative number. As an example $0.-11 would be converted to -$0.11 while --$0.11 would be converted to $0.11. Again this makes sense for a form input.
    * @param  {(number | string | null)} [value] the value you want to be formatted.
    * @return MaskedAndRawValues 
    * @memberof MoneyFormatHelper

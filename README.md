@@ -109,7 +109,7 @@ You can control whether the user can input negative or positive amounts.
 
 For example, any negative symbols added to the following input will be stripped:
 ```typescript
-    <I18nCurrencyInput allowNegatives={false} />
+    <I18nCurrencyInput requirePositive={false} />
 ```
 
 On the other hand, the following input will always be negative, no matter if the user attempts to remove the negative:

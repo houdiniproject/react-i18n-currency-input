@@ -485,7 +485,6 @@ describe('react-intl-currency-input', function () {
   })
   describe('input selection', function () {
     let defaultProps = {
-      allowNegative: true,
       onChange: () => { },
       value: '0'
     };

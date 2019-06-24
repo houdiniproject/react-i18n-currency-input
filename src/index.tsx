@@ -195,7 +195,7 @@ class I18nCurrencyInput extends React.Component<FullCurrencyInputProps, I18nCurr
     delete customProps.useGrouping
     delete customProps.value
     delete customProps.onChange
-    delete customProps.allowNegative
+    delete customProps.requirePositive
     delete customProps.requireNegative
     delete customProps.onBlur
 
