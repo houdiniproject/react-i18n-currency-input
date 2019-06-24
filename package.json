@@ -1,8 +1,11 @@
 {
   "name": "@houdiniproject/react-i18n-currency-input",
   "version": "1.0.0-pre11",
-  "description": "",
+  "description": "Typescript React component for currency using the ECMAScript Internationalization API",
   "main": "./dist/index.js",
+  "bugs": {
+    "url": "https://github.com/houdiniproject/react-i18n-currency-input/issues"
+  },
   "scripts": {
     "build:tsc": "tsc -p tsconfig.build.json",
     "build": "rimraf dist && npm run build:tsc",
@@ -44,5 +47,6 @@
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.5.1"
   },
+  "repository": "github:houdiniproject/react-i18n-currency-field",
   "types": "./dist/index.d.ts"
 }

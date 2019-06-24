@@ -135,7 +135,7 @@ onChange          | n/a           | Callback function to handle value changes.
 onBlur            | n/a           | Callback function on when focus is removed from the input
 inputType         | "text"        | Input field tag type. You may want to use `number` or `tel`*
 useGrouping       | true          | whether to include the integer grouping symbols. For example, in the US, a comma is added every three digits: "1000" is turned into "1,000"   
-allowNegative     | true          | Allows negative numbers in the input
+requirePositive   | false         | Require all non-zero numbers to be positive
 requireNegative   | false         | Require all non-zero numbers to be negative
 selectAllOnFocus  | false         | Selects all text on focus or does not
 
