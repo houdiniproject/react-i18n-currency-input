@@ -47,6 +47,6 @@
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.5.1"
   },
-  "repository": "github:houdiniproject/react-i18n-currency-field",
+  "repository": "github:houdiniproject/react-i18n-currency-input",
   "types": "./dist/index.d.ts"
 }
