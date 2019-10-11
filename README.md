@@ -146,6 +146,6 @@ selectAllOnFocus  | false         | Selects all text on focus or does not
 ### Why did you fork react-currency-input?
 [react-currency-input](https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js) is a really great library and most of the code in react-i18n-currency-input is a fairly direct copy from react-currency-input.  react-i18n-currency-input would not exist without react-currency-input. 
 
-That said, I had one major issue when using react-currency-input: it doesn't use the [ECMAScript Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). The future of the Houdini Project demands that have a consistent, reliable way to do internationalization of currency amounts. The best way to do so it to use the ECMAScript Internationalization and "outsource" internationalization to a reliable source.
+That said, I had one major issue when using react-currency-input: it doesn't use the [ECMAScript Internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). The future of the Houdini Project demands we that have a consistent, reliable way to do internationalization of currency amounts. The best way to do so it to use the ECMAScript Internationalization and "outsource" internationalization to a reliable source.
 
 Given this along with the more minor issues of react-currency-input being seemingly unmaintained and not having a Typescript API, it seems like it makes sense to go in a different direction.
