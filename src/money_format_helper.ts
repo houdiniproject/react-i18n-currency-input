@@ -1,8 +1,8 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
 import { boundMethod } from "autobind-decorator";
-import _ = require("lodash");
-import { isInteger } from "lodash";
+import get = require("lodash/get");
+import isInteger  = require("lodash/isInteger");
 
 interface MaskedAndRawValues {
   /**
@@ -87,8 +87,8 @@ export class MoneyFormatHelper {
    */
   @boundMethod
   mask(value?: number | string | null): MaskedAndRawValues {
-    const requirePositive = _.get(this.options, 'requirePositive')
-    const requireNegative = _.get(this.options, 'requireNegative')
+    const requirePositive = get(this.options, 'requirePositive')
+    const requireNegative = get(this.options, 'requireNegative')
 
     if (value === null || value === undefined) {
       return {
