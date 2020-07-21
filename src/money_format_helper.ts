@@ -4,7 +4,7 @@ import { boundMethod } from "autobind-decorator";
 import get = require("lodash/get");
 import isInteger  = require("lodash/isInteger");
 
-interface MaskedAndRawValues {
+export interface MaskedAndRawValues {
   /**
    * The numerical value we've created after masking
    * @type number
@@ -26,21 +26,11 @@ interface MaskedAndRawValues {
   valueInCents:number
 };
 
-export type MoneyFormatHelperOptions = {
-  /**
-   * Do we want to require positive numbers? If true, we strip negative signs.
-   * @type boolean
-   */
-  requirePositive?: boolean
-} |
-{
-  /**
-   * Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
-   * @type boolean
-   */
-  requireNegative?: boolean
+export interface MoneyFormatHelperOptions {
+  //Do we want to require positive numbers? If so, we strip negative sign
+  //Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
+  requireSign?: 'positive'|'negative'
 }
-
 /**
  * A class which takes an `Intl.NumberFormat` and some options provides functionality for converting `number` or a string containing a number into an appropriately masked value.
  * @export
@@ -87,8 +77,8 @@ export class MoneyFormatHelper {
    */
   @boundMethod
   mask(value?: number | string | null): MaskedAndRawValues {
-    const requirePositive = get(this.options, 'requirePositive')
-    const requireNegative = get(this.options, 'requireNegative')
+    const requirePositive = this.options && this.options.requireSign === 'positive'
+    const requireNegative = this.options && this.options.requireSign === 'negative'
 
     if (value === null || value === undefined) {
       return {
@@ -292,9 +282,9 @@ export class MoneyFormatHelper {
    * @memberof MoneyFormatHelper
    */
   @boundMethod
-  private formatToParts(number?: Number): Array<{ type: string, value: string }> {
+  private formatToParts(number?: number): Array<{ type: string, value: string }> {
     // a number with a decimal
-    let fmt_local: any = this.numberFormat
+    let fmt_local = this.numberFormat
 
     return fmt_local.formatToParts(number)
   }

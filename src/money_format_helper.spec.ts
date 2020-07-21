@@ -12,9 +12,9 @@ const enIN = MoneyFormatHelper.initializeFromProps('en-IN', { currency: 'INR' })
 
 const deDE = MoneyFormatHelper.initializeFromProps('de-DE', { currency: 'EUR' })
 
-const enUSNoNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requirePositive:true})
+const enUSNoNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requireSign:'positive'})
 
-const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { currency: 'USD'  }, {requireNegative:true})
+const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { currency: 'USD'  }, {requireSign:'negative'})
 
 describe('mask', function () {
   
