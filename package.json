@@ -20,12 +20,11 @@
   "author": "Houdini Project contributors, react-currency-input contributors and Cedric Dugas",
   "license": "LGPL-3.0+",
   "peerDependencies": {
-    "react": "^16.0.0",
+    "lodash": ">=4.17",
+    "react": ">=16..0",
     "react-dom": "^16.0.0"
   },
-  "dependencies": {
-    "lodash": ">=4.17.13"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@testing-library/react": "^8.0.1",
     "@types/autobind-decorator": "^2.1.0",
