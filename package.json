@@ -8,11 +8,11 @@
   },
   "scripts": {
     "build:tsc": "tsc -p tsconfig.build.json",
-    "build": "rimraf dist && npm run build:tsc",
-    "prepublish": "npm run build",
+    "build": "rimraf dist && yarn build:tsc",
+    "prepublish": "yarn build",
     "build-example": "webpack",
-    "test": "npm run build && npm run jest",
-    "travis-test": "npm run build && NODE_ICU_DATA=$(npx node-full-icu-path) npm run jest",
+    "test": "yarn build && yarn jest",
+    "travis-test": "yarn build && yarn jest",
     "jest": "jest",
     "webpack": "webpack",
     "webpack-dev": "webpack-dev-server --host 0.0.0.0"
@@ -22,7 +22,8 @@
   "peerDependencies": {
     "lodash": ">=4.17",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react-dom": ">=16.8.0",
+    "react-use": "^15.3.2"
   },
   "dependencies": {},
   "devDependencies": {
@@ -36,6 +37,10 @@
     "autobind-decorator": "^2.4.0",
     "jest": "^24.8.0",
     "jsdom": "^15.1.1",
+    "lodash": ">=4.17",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-use": "^15.3.2",
     "rimraf": "^2.6.3",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.2",
