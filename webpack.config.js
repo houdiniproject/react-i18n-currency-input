@@ -1,14 +1,16 @@
+// License: LGPL-3.0-or-later
 const {
   basename, dirname, join, relative, resolve, normalize
 } = require('path')
 var webpack = require('webpack');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.ts',
   output: {
     path: resolve(__dirname, 'dist'),
-    filename: '[name].js',
+    filename: 'react-i18n-currency-input.js',
     library: 'reactI18nCurrencyInput',
     libraryTarget: 'umd',
   },
@@ -27,10 +29,10 @@ module.exports = {
   },
   devtool: 'source-map',
   optimization: {
-    runtimeChunk: true
+    minimize: true,
+    minimizer: [new TerserPlugin()],
   },
   resolve: {
-
     extensions: [".js", ".json", ".jsx", ".ts", ".tsx",],
   },
   externals: {
