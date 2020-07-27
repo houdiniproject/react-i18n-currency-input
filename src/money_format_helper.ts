@@ -1,7 +1,6 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
 import { boundMethod } from "autobind-decorator";
-import get = require("lodash/get");
 import isInteger  = require("lodash/isInteger");
 
 export interface MaskedAndRawValues {
