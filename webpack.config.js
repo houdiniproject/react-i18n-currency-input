@@ -1,35 +1,62 @@
-var path = require('path');
+const {
+  basename, dirname, join, relative, resolve, normalize
+} = require('path')
 var webpack = require('webpack');
 
 module.exports = {
-    mode: 'development',
-    entry: './examples/index.tsx',
-    output: {
-        path: path.resolve(__dirname, 'examples'),
-        filename: 'bundle.js'
+  mode: 'development',
+  entry: './src/index.ts',
+  output: {
+    path: resolve(__dirname, 'dist'),
+    filename: '[name].js',
+    library: 'reactI18nCurrencyInput',
+    libraryTarget: 'umd',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(ts|tsx)?$/,
+        exclude: [/node_modules/, /src\/.+\.spec\..+/, /src\/.+\.stories\..+/, /examples/],
+        loader: 'ts-loader'
+      }
+
+    ]
+  },
+  stats: {
+    colors: true
+  },
+  devtool: 'source-map',
+  optimization: {
+    runtimeChunk: true
+  },
+  resolve: {
+
+    extensions: [".js", ".json", ".jsx", ".ts", ".tsx",],
+  },
+  externals: {
+    'lodash': {
+      commonjs: "lodash",
+      commonjs2: "lodash",
+      amd: "lodash",
+      root: "_"
     },
-    module: {
-        rules: [
-            
-            { test: /\.tsx?$/, 
-            loader:"ts-loader"
-        }
-            
-        ]
+    'lodash/isInteger': {
+      commonjs: "lodash/isInteger",
+      commonjs2: "lodash/isInteger",
+      amd: "lodash/isInteger",
     },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ],
-    devServer: {
-        hot: true,
-        contentBase: './examples'
+
+    "react": {
+      commonjs: "react",
+      commonjs2: "react",
+      amd: "react",
+      root: "React"
     },
-    stats: {
-        colors: true
-    },
-    devtool: 'inline-source-map',
-    resolve: {
-   
-      extensions: [".js", ".json", ".jsx", ".ts", ".tsx",],
+
+    "react-use": {
+      commonjs: "react-use",
+      commonjs2: "react-use",
+      amd: "react",
     }
+  }
 };
