@@ -21,14 +21,15 @@ export interface MaskedAndRawValues {
    * @type number
    * @memberof MaskedAndRawValues
    */
-  valueInCents: number
+  valueInCents:number
 };
 
 export interface MoneyFormatHelperOptions {
   //Do we want to require positive numbers? If so, we strip negative sign
   //Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
-  requireSign?: 'positive' | 'negative'
+  requireSign?: 'positive'|'negative'
 }
+
 /**
  * A class which takes an `Intl.NumberFormat` and some options provides functionality for converting `number` or a string containing a number into an appropriately masked value.
  * @export
@@ -45,16 +46,17 @@ export class MoneyFormatHelper {
     readonly numberFormat: Intl.NumberFormat,
     readonly options: MoneyFormatHelperOptions = {}
   ) {
-    [
-      this.mask,
-      this.maskFromCents,
-      this.getDecimalSeparator,
-      this.getGroupSeparator,
-      this.getPrefix,
-      this.getSuffix,
-      this.formatToParts
-    ].forEach((func) => func.bind(this))
-  }
+      [
+        this.mask,
+        this.maskFromCents, 
+        this.getDecimalSeparator, 
+        this.getGroupSeparator, 
+        this.getPrefix,
+        this.getSuffix,
+        this.formatToParts
+      ].forEach((func) => func.bind(this))
+    
+   }
 
   /**
    * A convenience factory method for creating a new `MoneyFormatHelper` using the inputoptions for `Intl.NumberFormat`. This allows you to create the `Intl.NumberFormat` and  `MoneyFormatHelper` in a single line of code
@@ -67,7 +69,7 @@ export class MoneyFormatHelper {
    */
   public static initializeFromProps(locales?: string | string[], numberFormatOpts?: Intl.NumberFormatOptions, options?: MoneyFormatHelperOptions): MoneyFormatHelper {
 
-    return new MoneyFormatHelper(new Intl.NumberFormat(locales, { ...numberFormatOpts, style: 'currency' }), options)
+    return new MoneyFormatHelper(new Intl.NumberFormat(locales, {...numberFormatOpts, style: 'currency'}), options)
   }
 
   /**
@@ -83,11 +85,13 @@ export class MoneyFormatHelper {
    * @return MaskedAndRawValues 
    * @memberof MoneyFormatHelper
    */
-  mask(value?: number | string | null): MaskedAndRawValues {
+  mask(value?: number | string | null| {value?: number | string |null, notInCents?:boolean}): MaskedAndRawValues {
+    
+    let notInCents = false;
     const requirePositive = this.options && this.options.requireSign === 'positive'
     const requireNegative = this.options && this.options.requireSign === 'negative'
 
-    if (value === null || value === undefined) {
+    if (value === null || value === undefined || (typeof value === 'object' && !value.value)) {
       return {
         value: 0,
         maskedValue: '',
@@ -95,6 +99,10 @@ export class MoneyFormatHelper {
       };
     }
 
+    if (typeof value === 'object') {
+      notInCents = value.notInCents;
+      value = value.value;
+    }
     const forceToNegative = requireNegative
     const forceToPositive = !forceToNegative && requirePositive
 
@@ -106,12 +114,23 @@ export class MoneyFormatHelper {
       if (value === -0) {
         value = 0
       }
-      const valueInCents = Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits))
-
-      return {
-        value,
-        maskedValue: this.numberFormat.format(value),
-        valueInCents
+      if (notInCents) {
+        
+        return {
+          value,
+          maskedValue: this.numberFormat.format(value),
+          valueInCents: Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits))
+        }
+      }
+      else {
+        const valueInCents = Math.round(value)
+        value = valueInCents * Math.pow(10, -1 * this.numberFormat.resolvedOptions().minimumFractionDigits)
+        
+        return {
+          value,
+          valueInCents,
+          maskedValue: this.numberFormat.format(value),
+        }
       }
     }
     else {
@@ -178,7 +197,7 @@ export class MoneyFormatHelper {
    * @throws TypeError when a non-integer value is provided
    * @memberof MoneyFormatHelper
    */
-  public maskFromCents(cents: number): MaskedAndRawValues {
+  public maskFromCents(cents:number) : MaskedAndRawValues {
     if (!isInteger(cents))
       throw new TypeError("cents must be provided an integer")
     return this.mask(cents.toString())
