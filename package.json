@@ -23,7 +23,7 @@
     "lodash": ">=4.17",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "react-use": "^15.3.2"
+    "react-use": ">=15.3.0"
   },
   "dependencies": {},
   "devDependencies": {
@@ -42,7 +42,7 @@
     "lodash": ">=4.17",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "react-use": "^15.3.2",
+    "react-use": ">=15.3.0",
     "rimraf": "^2.6.3",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.2",
