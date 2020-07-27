@@ -2,13 +2,12 @@
   "name": "@houdiniproject/react-i18n-currency-input",
   "version": "1.0.1",
   "description": "Typescript React component for currency using the ECMAScript Internationalization API",
-  "main": "./dist/index.js",
+  "main": "./dist/react-i18n-currency-input.js",
   "bugs": {
     "url": "https://github.com/houdiniproject/react-i18n-currency-input/issues"
   },
   "scripts": {
-    "build:tsc": "tsc -p tsconfig.build.json",
-    "build": "rimraf dist && yarn build:tsc",
+    "build": "rimraf dist && yarn webpack",
     "prepublish": "yarn build",
     "build-example": "webpack",
     "test": "yarn build && yarn jest",
