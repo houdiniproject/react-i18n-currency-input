@@ -5,7 +5,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 import I18nCurrencyInput from '../src/index';
-import { boundMethod } from 'autobind-decorator';
 
 
 ReactDOM.render(<I18nCurrencyInput value={0.0}/>, document.getElementById('example0'));
@@ -40,7 +39,6 @@ class GetRefThing extends React.Component {
     this.sampleRef = React.createRef()
   }
   
-  @boundMethod
   exampleLog(){
     console.log(this.sampleRef.current.getMaskedValue());
   }

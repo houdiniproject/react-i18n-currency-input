@@ -1,6 +1,5 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
-import { boundMethod } from "autobind-decorator";
 import isInteger from "lodash/isInteger";
 
 export interface MaskedAndRawValues {
@@ -22,13 +21,13 @@ export interface MaskedAndRawValues {
    * @type number
    * @memberof MaskedAndRawValues
    */
-  valueInCents:number
+  valueInCents: number
 };
 
 export interface MoneyFormatHelperOptions {
   //Do we want to require positive numbers? If so, we strip negative sign
   //Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
-  requireSign?: 'positive'|'negative'
+  requireSign?: 'positive' | 'negative'
 }
 /**
  * A class which takes an `Intl.NumberFormat` and some options provides functionality for converting `number` or a string containing a number into an appropriately masked value.
@@ -45,7 +44,17 @@ export class MoneyFormatHelper {
   constructor(
     readonly numberFormat: Intl.NumberFormat,
     readonly options: MoneyFormatHelperOptions = {}
-  ) { }
+  ) {
+    [
+      this.mask,
+      this.maskFromCents,
+      this.getDecimalSeparator,
+      this.getGroupSeparator,
+      this.getPrefix,
+      this.getSuffix,
+      this.formatToParts
+    ].forEach((func) => func.bind(this))
+  }
 
   /**
    * A convenience factory method for creating a new `MoneyFormatHelper` using the inputoptions for `Intl.NumberFormat`. This allows you to create the `Intl.NumberFormat` and  `MoneyFormatHelper` in a single line of code
@@ -58,7 +67,7 @@ export class MoneyFormatHelper {
    */
   public static initializeFromProps(locales?: string | string[], numberFormatOpts?: Intl.NumberFormatOptions, options?: MoneyFormatHelperOptions): MoneyFormatHelper {
 
-    return new MoneyFormatHelper(new Intl.NumberFormat(locales, {...numberFormatOpts, style: 'currency'}), options)
+    return new MoneyFormatHelper(new Intl.NumberFormat(locales, { ...numberFormatOpts, style: 'currency' }), options)
   }
 
   /**
@@ -74,7 +83,6 @@ export class MoneyFormatHelper {
    * @return MaskedAndRawValues 
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   mask(value?: number | string | null): MaskedAndRawValues {
     const requirePositive = this.options && this.options.requireSign === 'positive'
     const requireNegative = this.options && this.options.requireSign === 'negative'
@@ -170,7 +178,7 @@ export class MoneyFormatHelper {
    * @throws TypeError when a non-integer value is provided
    * @memberof MoneyFormatHelper
    */
-  public maskFromCents(cents:number) : MaskedAndRawValues {
+  public maskFromCents(cents: number): MaskedAndRawValues {
     if (!isInteger(cents))
       throw new TypeError("cents must be provided an integer")
     return this.mask(cents.toString())
@@ -181,7 +189,6 @@ export class MoneyFormatHelper {
    * @return string the decimal separator for the `Intl.NumberFormat`. If there's no decimal separator in that locale and currency, such as for Japanese Yen, you'll receive an empty string
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getDecimalSeparator() {
     // a number with a decimal
     let number = 11456456.0222,
@@ -205,7 +212,6 @@ export class MoneyFormatHelper {
    * @return string the group separator for the `Intl.NumberFormat`. If there's no group separator in that locale and currency, you'll receive an empty string.
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getGroupSeparator(): string {
     // a number with a decimal
     let number = 11456456.0222,
@@ -231,7 +237,6 @@ export class MoneyFormatHelper {
    * @return string the prefix for currency values. If no prefix is used, the empty string is returned.
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getPrefix(): string {
     const parts = this.formatToParts();
 
@@ -257,7 +262,6 @@ export class MoneyFormatHelper {
    * @return string the prefix for currency values. If no suffix is used, the empty string is returned.
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getSuffix(): string {
     const parts = this.formatToParts();
     let startedNan = false
@@ -280,7 +284,6 @@ export class MoneyFormatHelper {
    * @return Array<{type:string, value:string}> 
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   private formatToParts(number?: number): Array<{ type: string, value: string }> {
     // a number with a decimal
     let fmt_local = this.numberFormat

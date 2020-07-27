@@ -409,13 +409,6 @@
     "@babel/runtime" "^7.5.5"
     "@testing-library/dom" "^5.6.1"
 
-"@types/autobind-decorator@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@types/autobind-decorator/-/autobind-decorator-2.1.0.tgz#f8ffd384c1080635a1575b30db2220ac40b0d3dc"
-  integrity sha512-OOS4XPWJEs3MSuya0wy2om9T//PIapkyXdkCqf1t9Rlh3yDs2/wSj6LdmHNWX9ZtxR+DoOcMnWb7LQrkJFT2uQ==
-  dependencies:
-    autobind-decorator "*"
-
 "@types/babel__core@^7.1.0":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.9.tgz#77e59d438522a6fb898fa43dc3455c6e72f3963d"
@@ -1007,11 +1000,6 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-autobind-decorator@*, autobind-decorator@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/autobind-decorator/-/autobind-decorator-2.4.0.tgz#ea9e1c98708cf3b5b356f7cf9f10f265ff18239c"
-  integrity sha512-OGYhWUO72V6DafbF8PM8rm3EPbfuyMZcJhtm5/n26IDwO18pohE4eNazLoCGhPiXOCD0gEGmrbU3849QvM8bbw==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
