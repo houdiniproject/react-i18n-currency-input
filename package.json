@@ -27,6 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^8.0.1",
     "@types/autobind-decorator": "^2.1.0",
     "@types/jest": "^24.0.13",
@@ -36,6 +37,7 @@
     "@types/react-dom": "^16.8.4",
     "autobind-decorator": "^2.4.0",
     "jest": "^24.8.0",
+    "jest-environment-jsdom-fifteen": "^1.0.2",
     "jsdom": "^15.1.1",
     "lodash": ">=4.17",
     "react": ">=16.8.0",
