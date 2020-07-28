@@ -11,3 +11,4 @@ jest.config.js
 setupTests.ts
 webpack.config.js
 src/*.spec.ts*
+dist/examples
