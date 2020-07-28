@@ -12,3 +12,5 @@ setupTests.ts
 webpack.config.js
 src/*.spec.ts*
 dist/examples
+dist/src/*.spec.*
+dist/src/*.stories.*
