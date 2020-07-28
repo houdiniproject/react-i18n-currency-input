@@ -18,10 +18,9 @@ module.exports = {
     rules: [
       {
         test: /\.(ts|tsx)?$/,
-        exclude: [/node_modules/, /src\/.+\.spec\..+/, /src\/.+\.stories\..+/, /examples/],
+        exclude: [/node_modules/, /src\/.+\.spec\..+/, /src\/.+\.stories\..+/],
         loader: 'ts-loader'
       }
-
     ]
   },
   stats: {
