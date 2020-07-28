@@ -1,26 +1,41 @@
-// // License: LGPL-3.0-or-later
-// // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js
-// import 'jest';
-// import * as React from 'react'
-// import I18nCurrencyInput from './index'
-// import {MoneyFormatHelper as ExportedHelper} from './index'
-// import {MoneyFormatHelper} from './money_format_helper'
-// import * as ReactDOM from 'react-dom';
-// import * as ReactTestUtils from 'react-dom/test-utils';
-// import setup from '../setupTests'
+// License: LGPL-3.0-or-later
+// from: https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js
+import 'jest';
+import * as React from 'react'
+import {MoneyFormatHelper as ExportedHelper} from './index'
+import {MoneyFormatHelper} from './money_format_helper'
+import I18nCurrencyInput, { Types } from './index';
+import { useCallback, useRef, useState } from 'react';
+import { valuesIn } from 'lodash';
+import { cleanup } from '@testing-library/react';
+import { CurrencyInputTests } from './test';
 
-// const nbsp = " ";
+const nbsp = " ";
 
-// //we uses this for testing correct behavior on modifications and mount
-// interface UWInputProps {
-//   initialValue: any,
-//   render: (outerState: UWState) => React.ReactNode
-// }
+interface WrapperValue{
+  maskedValue?:string,
+  value?: number,
+  valueInCents?:number
+}
 
-// interface UWState {
-//   value: any
-// }
+function UpdateWrapper(props: Omit<Types.I18nCurrencyInputProps, 'onChange'>) {
+  const [values, setValues] = useState<WrapperValue>({})
+  const onChange = useCallback((maskedValue:string, value:number, valueInCents: number) => {
+    setValues({maskedValue, value, valueInCents})
+  }, [setValues]);
 
+  return <div>
+    <p data-testid="value">{values.value}</p>
+    <p data-testid="valueInCents">{values.valueInCents}</p>
+    <p data-testid="maskedValue">{values.maskedValue}</p>
+    <I18nCurrencyInput data-testid="input"{...props} onChange={onChange}/>
+  </div>
+}
+
+describe('I18nCurrencyInput', function () {
+  afterEach(cleanup);
+  CurrencyInputTests(UpdateWrapper)
+});
 // class UpdateWrapper extends React.Component<UWInputProps, UWState> {
 //   constructor(props: UWInputProps) {
 //     super(props)
