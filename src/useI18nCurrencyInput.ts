@@ -42,6 +42,14 @@ const defaultProps:Partial<UseI18nCurrencyInputProps> = {  value: 0,
     useGrouping: true
 };
 
+
+/**
+ * A hook for creating your own I18nCurrencyInput-like component. 
+ *
+ * @export
+ * @param {UseI18nCurrencyInputProps} props
+ * @returns
+ */
 export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) {
     props = {...defaultProps,...props}
     const initialValues = prepareProps(props)
