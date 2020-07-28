@@ -1,16 +1,17 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/index.js
 
-import * as React from 'react'
+import React, { useEffect, useCallback, useRef } from 'react'
 import useI18nCurrencyInput from './useI18nCurrencyInput';
-import { useEffect, useCallback } from 'react';
 import { I18nCurrencyInputProps } from './types';
 
 
-const I18nCurrencyInput = React.forwardRef((props:I18nCurrencyInputProps, ref:any) =>  {
+function I18nCurrencyInput(props:I18nCurrencyInputProps & {inputRef?:any}) {
+  const internalRef = useRef();
+  const inputRef = props.inputRef || internalRef;
   
   const {onChange, onBlur:_onBlur} = props;
-  const currencyInput = useI18nCurrencyInput({inputRef:ref, ...props});
+  const currencyInput = useI18nCurrencyInput({inputRef, ...props});
   
   const {value, valueInCents, maskedValue} = currencyInput;
 
@@ -21,8 +22,8 @@ const I18nCurrencyInput = React.forwardRef((props:I18nCurrencyInputProps, ref:an
   const onBlur = useCallback(() => {
     _onBlur()
   }, [_onBlur, value, valueInCents, maskedValue]);
-  return <input {...props} onSelect={currencyInput.onSelect} value={currencyInput.maskedValue} onChange={currencyInput.onChange} ref={ref} onBlur={onBlur}/>
-});
+  return <input {...props} onSelect={currencyInput.onSelect} value={currencyInput.maskedValue} onChange={currencyInput.onChange} ref={inputRef} onBlur={onBlur}/>;
+};
 
 I18nCurrencyInput.defaultProps = {
   value: 0,
