@@ -2,15 +2,10 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js
 import 'jest';
 import * as React from 'react'
-import {MoneyFormatHelper as ExportedHelper} from './index'
-import {MoneyFormatHelper} from './money_format_helper'
 import I18nCurrencyInput, { Types } from './index';
-import { useCallback, useRef, useState } from 'react';
-import { valuesIn } from 'lodash';
+import { useCallback, useState } from 'react';
 import { cleanup } from '@testing-library/react';
 import { CurrencyInputTests } from './test';
-
-const nbsp = " ";
 
 interface WrapperValue{
   maskedValue?:string,

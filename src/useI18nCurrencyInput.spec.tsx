@@ -5,12 +5,9 @@ import * as React from 'react'
 import {useI18nCurrencyInput, Types} from './index'
 
 import { useRef } from 'react';
-import { render, cleanup, fireEvent, RenderResult } from '@testing-library/react';
+import {  cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { CurrencyInputTests } from './test';
-
-
-
 
 function UpdateWrapper(props: Omit<Types.UseI18nCurrencyInputProps, 'inputRef'>) {
   const inputRef = useRef<HTMLInputElement>()
