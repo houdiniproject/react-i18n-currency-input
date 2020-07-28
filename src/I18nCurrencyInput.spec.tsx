@@ -14,22 +14,23 @@ interface WrapperValue{
 }
 
 function UpdateWrapper(props: Omit<Types.I18nCurrencyInputProps, 'onChange'>) {
-  const [values, setValues] = useState<WrapperValue>({})
+  const [values, setValues] = useState<WrapperValue>(null)
   const onChange = useCallback((maskedValue:string, value:number, valueInCents: number) => {
     setValues({maskedValue, value, valueInCents})
   }, [setValues]);
 
+  const value = values === null ? props.value : values.value
   return <div>
-    <p data-testid="value">{values.value}</p>
-    <p data-testid="valueInCents">{values.valueInCents}</p>
-    <p data-testid="maskedValue">{values.maskedValue}</p>
-    <I18nCurrencyInput data-testid="input"{...props} onChange={onChange}/>
-  </div>
+    <p data-testid="value">{values && values.value}</p>
+    <p data-testid="valueInCents">{values && values.valueInCents}</p>
+    <p data-testid="maskedValue">{values && values.maskedValue}</p>
+    <I18nCurrencyInput data-testid="input"{...props} value={value} onChange={onChange}/>
+  </div>;
 }
 
 describe('I18nCurrencyInput', function () {
   afterEach(cleanup);
-  CurrencyInputTests(UpdateWrapper)
+  CurrencyInputTests(UpdateWrapper, (input) => ({value:input}))
 });
 // class UpdateWrapper extends React.Component<UWInputProps, UWState> {
 //   constructor(props: UWInputProps) {

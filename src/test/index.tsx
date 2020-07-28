@@ -5,7 +5,7 @@ import { render, cleanup, fireEvent, RenderResult } from '@testing-library/react
 import '@testing-library/jest-dom/extend-expect';
 const nbsp = " ";
 
-export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
+export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>, createValueProps:(input:any) => any) {
   function expectValues(beforeAction: () => RenderResult, values: string[][]) {
     it.each(values)('%s should be "%s', (id, output, type) => {
       const { getByTestId } = beforeAction();
@@ -51,7 +51,7 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
       ['handles initial value as the integer 0', 0, '$0.00'],
       ['handles initial value as the float 0.00', 0.00, '$0.00']
     ])("%s", (_name, input, output) => {
-      const { getByTestId } = render(<WrapperClass value={input} />)
+      const { getByTestId } = render(<WrapperClass {...createValueProps(input)} />)
       expect(getByTestId('input')).toHaveValue(output)
     })
 
@@ -62,7 +62,7 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
       ['adds decimals to whole numbers to match precision', '6300.00', '$6,300.00'],
       ['Does not change value when precision matches', "1234567.89", '$1,234,567.89']
     ])("%s", (_name, input, output) => {
-      const { getByTestId } = render(<WrapperClass value={input} />)
+      const { getByTestId } = render(<WrapperClass {...createValueProps(input)} />)
       expect(getByTestId('input')).toHaveValue(output)
     })
   });
@@ -74,7 +74,7 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
       ['Rounds up the whole number when an number with extra decimals is passed in', 1234567.999, '¥1,234,568', 'JPY'],
     ])("%s", (_name, input, output, currency) => {
       const { getByTestId } = render(<WrapperClass
-        value={input} currency={currency} />)
+        {...createValueProps(input)} currency={currency} />)
       expect(getByTestId('input')).toHaveValue(output)
     })
   });
@@ -89,7 +89,7 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
       ["--123--456--", 'with no or even number of "-" as positive', '$1,234.56'],
       ["123456----", 'with no or even number of "-" as positive', '$1,234.56']
     ])('should render %s %s', (_name, input, output) => {
-      const { getByTestId } = render(<WrapperClass value={input} />)
+      const { getByTestId } = render(<WrapperClass {...createValueProps(input)} />)
       fireEvent.change(getByTestId('input'), { target: { value: output } });
       expect(getByTestId('input')).toHaveValue(output)
     })
@@ -125,12 +125,12 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
       ["1,234,567.89", "handles 1,234,567.89 format", undefined, undefined, '$1,234,567.89'],
       ['1.234.567,89', "Handles 1.234.567,89 format", 'de-de', undefined, `1.234.567,89${nbsp}$` ],
     ])("Passing %s %s and locale %s, currency %s", (value, _name, locale, currency, output) => {
-      let args:any = {value}
+      let args:any = {}
       if (locale)
         args['locale'] = locale
       if (currency)
         args['currency'] = currency
-      const { getByTestId } = render(<WrapperClass {...args}/>)
+      const { getByTestId } = render(<WrapperClass {...args} {...createValueProps(value)}/>)
       expect(getByTestId('input')).toHaveValue(output)
     })
   });
