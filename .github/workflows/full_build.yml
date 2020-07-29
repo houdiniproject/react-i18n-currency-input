@@ -22,6 +22,8 @@ jobs:
             bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-
       - name: install node packages
         run: yarn install --frozen-lockfile
+      - name: verify NOTICE
+        run: npx @houdiniproject/noticeme
       - name: run jest
         run: yarn jest
       - name: Webpack compile everything
