@@ -9,10 +9,35 @@ function I18nCurrencyInput(props:I18nCurrencyInputProps) {
   const internalRef = useRef();
   const inputRef = props.inputRef || internalRef;
   
-  const {onChange, onBlur:_onBlur} = props;
+  const {onChange, 
+    onBlur:_onBlur, 
+    onFocus:_onFocus, 
+    onMouseUp:_onMouseUp, 
+    onSelect:_onSelect,
+    // the rest are just pulling out unused props
+    useGrouping,
+    locale,
+    currency,
+    currencyDisplay,
+    selectAllOnFocus,
+    minimumIntegerDigits, 
+    minimumFractionDigits,
+    maximumFractionDigits,
+    minimumSignificantDigits,
+    maximumSignificantDigits,
+    allowEmpty, 
+    ...passThruProps
+  } = props;
+
   const currencyInput = useI18nCurrencyInput({inputRef, ...props});
   
-  const {value, valueInCents, maskedValue} = currencyInput;
+  const {value, 
+    valueInCents,
+    maskedValue, 
+    onFocus:_innerOnFocus,
+    onMouseUp:_innerOnMouseUp,
+    onSelect: _innerOnSelect,
+  } = currencyInput;
 
   useEffect(() => {
      onChange(maskedValue, value, valueInCents);
@@ -21,7 +46,31 @@ function I18nCurrencyInput(props:I18nCurrencyInputProps) {
   const onBlur = useCallback(() => {
     _onBlur()
   }, [_onBlur, value, valueInCents, maskedValue]);
-  return <input {...props} onSelect={currencyInput.onSelect} value={currencyInput.maskedValue} onChange={currencyInput.onChange} ref={inputRef} onBlur={onBlur}/>;
+
+  const onFocus = useCallback((event:React.FocusEvent<HTMLInputElement>) => {
+    _innerOnFocus(event);
+    _onFocus && _onFocus(event);
+  }, [_innerOnFocus, _onFocus] );
+
+  const onMouseUp = useCallback((event:React.MouseEvent<HTMLInputElement, MouseEvent>) => {
+    _innerOnMouseUp(event)
+    _onMouseUp && _onMouseUp(event)
+  }, [_innerOnMouseUp, _onMouseUp])
+
+  const onSelect = useCallback((event:React.SyntheticEvent<HTMLInputElement, Event>) => {
+    _innerOnSelect(event);
+    _onSelect && _onSelect(event)
+  }, [_innerOnSelect, _onSelect])
+
+  return <input {...passThruProps} 
+    onSelect={onSelect} 
+    value={currencyInput.maskedValue}
+    onChange={currencyInput.onChange}
+    onBlur={onBlur}
+    onFocus={onFocus}
+    onMouseUp={onMouseUp}
+    ref={inputRef}
+  />;
 };
 
 I18nCurrencyInput.defaultProps = {
@@ -31,7 +80,7 @@ I18nCurrencyInput.defaultProps = {
   currencyDisplay: 'symbol',
   useGrouping: true,
   type: 'text',
-  onChange: (maskedValue: string, value: number, valueInCents:number) => { /** no-op */ },
+  onChange: () => { /** no-op */ },
   onBlur: () => { /** no-op */}
 
 }

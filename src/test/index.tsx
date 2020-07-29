@@ -5,7 +5,12 @@ import { render, cleanup, fireEvent, RenderResult } from '@testing-library/react
 import '@testing-library/jest-dom/extend-expect';
 const nbsp = " ";
 
-export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>, createValueProps:(input:any) => any) {
+export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
+
+  function createValueProps(input:any) {
+    return {value:input};
+  }
+
   function expectValues(beforeAction: () => RenderResult, values: string[][]) {
     it.each(values)('%s should be "%s', (id, output, type) => {
       const { getByTestId } = beforeAction();

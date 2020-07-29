@@ -27,7 +27,7 @@ function UpdateWrapper(props: Omit<Types.UseI18nCurrencyInputProps, 'inputRef'>)
 
 describe('useI18nCurrencyInput', () => {
   afterEach(cleanup);
-  CurrencyInputTests(UpdateWrapper, (input) => ({value: input}));
+  CurrencyInputTests(UpdateWrapper);
 });
 
 

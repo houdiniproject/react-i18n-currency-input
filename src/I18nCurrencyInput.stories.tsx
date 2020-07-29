@@ -47,6 +47,12 @@ export function passAutofocusProperly() {
   </div>
 }
 
+export function selectAllOnFocus() {
+  return <div>
+    <p><I18nCurrencyInput {...defaultParams()} selectAllOnFocus={true}/></p>
+  </div>
+}
+
 export function passInputRefProperly() {
   const inputRef = useRef(null);
 
