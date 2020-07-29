@@ -4,7 +4,6 @@ import 'jest';
 import * as React from 'react'
 import I18nCurrencyInput, { Types } from './index';
 import { useCallback, useState } from 'react';
-import { waitFor } from '@testing-library/dom'
 import { cleanup, fireEvent, render} from '@testing-library/react';
 import { CurrencyInputTests } from './test';
 

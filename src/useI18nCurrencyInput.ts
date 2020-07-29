@@ -1,9 +1,9 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/index.js
-import { useState, useRef, useCallback, useEffect, ChangeEvent } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { usePrevious } from 'react-use';
-import { MoneyFormatHelper, MoneyFormatHelperOptions, MaskedAndRawValues } from './money_format_helper';
-import { UseI18nCurrencyInputProps } from './types';
+import { MoneyFormatHelper} from './money_format_helper';
+import { UseI18nCurrencyInputProps,  MaskedAndRawValues, UseI18nCurrencyInputResult } from './types';
 
 type CreateMoneyFormatHelperInput = Pick<UseI18nCurrencyInputProps, 'locale'| 'currency'| 'currencyDisplay' | 'useGrouping' | 'requireSign'>;
 
@@ -50,7 +50,7 @@ const defaultProps:Partial<UseI18nCurrencyInputProps> = {  value: 0,
  * @param {UseI18nCurrencyInputProps} props
  * @returns
  */
-export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) {
+export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) : UseI18nCurrencyInputResult {
     props = {...defaultProps,...props}
     const initialValues = prepareProps(props)
     const inputSelectionStart = useRef<number | null>(1);
@@ -59,23 +59,20 @@ export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) {
     const prevValues = usePrevious(values);
     const prevProps = usePrevious(props);
 
-    const onSelect = useCallback(event => {
-        const element = event.target;
+    const onSelect = useCallback((event:React.SyntheticEvent<HTMLInputElement, Event>) => {
+        const element = event.target as HTMLInputElement;
         inputSelectionStart.current = element.selectionStart;
         inputSelectionEnd.current = element.selectionEnd;
     }, []);
-    
-    
 
-    const onChange = useCallback((event: any) => {
+    const onChange = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
         event.preventDefault();
         let values = createMoneyFormatHelper(props).mask(event.target.value)
         event.persist()
         setValues(values)
     }, [props])
 
-
-    const onFocus = useCallback((event: any) => {
+    const focusOrMouseUp = useCallback((event:{target: HTMLInputElement}) => {
         const inputElement = props.inputRef.current
         const formatHelper = createMoneyFormatHelper(props)
         const prefix = formatHelper.getPrefix()
@@ -84,12 +81,19 @@ export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) {
         let selectionEnd = inputElement.value.length - suffix.length;
         let isNegative = (inputElement.value.match(/-/g) || []).length % 2 === 1;
         let selectionStart = prefix.length + (isNegative ? 1 : 0);
-        props.selectAllOnFocus && (event.target as any).setSelectionRange(selectionStart, selectionEnd);
+        props.selectAllOnFocus && event.target.setSelectionRange(selectionStart, selectionEnd);
         inputSelectionStart.current = selectionStart;
         inputSelectionEnd.current = selectionEnd;
-    }, [props]);
+    }, [props])
 
-    const onMouseUp = onFocus
+    const onFocus = useCallback((event: React.FocusEvent<HTMLInputElement>) => {
+        focusOrMouseUp(event);
+    }, [focusOrMouseUp]);
+
+    const onMouseUp = useCallback((event: React.MouseEvent<HTMLInputElement, MouseEvent>) => {
+        // I don't know why typescript is complaining here when it's not any
+        focusOrMouseUp(event as any);
+    }, [focusOrMouseUp])
 
     useEffect(() => {
         const inputElement = props.inputRef.current
@@ -135,5 +139,5 @@ export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) {
         }
     }, [values, prevValues, props, prevProps]);
 
-    return {...values, onChange, onFocus,  onMouseUp, onSelect};
+    return {...values, onChange, onFocus, onMouseUp, onSelect};
 }

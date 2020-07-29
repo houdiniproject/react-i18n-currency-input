@@ -1,28 +1,7 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
 import isInteger from "lodash/isInteger";
-
-export interface MaskedAndRawValues {
-  /**
-   * The numerical value we've created after masking
-   * @type number
-   * @memberof MaskedAndRawValues
-   */
-  value: number,
-  /**
-   * The masked string value
-   * @type string
-   * @memberof MaskedAndRawValues
-   */
-  maskedValue: string
-
-  /**
-   * The value in the lowest currency value. In the cases of USD, this is in cents, i.e: for $4.00 is 400. For JPY, this is simply in yen.
-   * @type number
-   * @memberof MaskedAndRawValues
-   */
-  valueInCents:number
-};
+import {MaskedAndRawValues} from './types';
 
 export interface MoneyFormatHelperOptions {
   //Do we want to require positive numbers? If so, we strip negative sign

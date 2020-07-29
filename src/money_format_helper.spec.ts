@@ -353,7 +353,7 @@ describe('mask', function () {
     });
 
     it('should change "-123456789" to "-₹12,34,567.89""', function () {
-      const { maskedValue, value, valueInCents } =  enIN.mask("-123456789");
+      const { maskedValue, valueInCents } =  enIN.mask("-123456789");
       expect(maskedValue).toBe(`-₹12,34,567.89`);
       expect(valueInCents).toBe(-123456789);
     });
@@ -495,7 +495,7 @@ describe('mask', function () {
     })
 
     it('should change "-123456789" to "-1.234.567,89 €"', function () {
-      const { maskedValue, value, valueInCents } =  deDE.mask("-123456789");
+      const { maskedValue, value } =  deDE.mask("-123456789");
       expect(maskedValue).toBe(`-1.234.567,89${nbsp}€`);
       expect(value).toBe(-1234567.89);
     });

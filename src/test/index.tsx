@@ -2,7 +2,7 @@
 import 'jest';
 import * as React from 'react'
 
-import { render, cleanup, fireEvent, RenderResult } from '@testing-library/react';
+import { render, fireEvent, RenderResult } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 const nbsp = " ";
 
@@ -37,7 +37,7 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
       const result = render(<WrapperClass />)
       getByTestId = result.getByTestId
       const input = getByTestId('input')
-      fireEvent.change(getByTestId('input'), { target: { value: '$0.001' } })
+      fireEvent.change(input, { target: { value: '$0.001' } })
       return result;
     }, [
       ['value', '0.01', 'text'],

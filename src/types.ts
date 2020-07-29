@@ -139,13 +139,6 @@ export type I18nCurrencyInputProps = I18nCurrencyInputPropsCommon & Partial<Mone
   onChange?: (maskedValue: string, value: number, valueInCents: number) => void
 
   /**
-   * A callback on the blur event
-   * @default (no-op function)
-   * @memberof I18nCurrencyInputProps
-   */
-  onBlur?: () => void
-
-  /**
   * A ref to the field which will contain a monetary value.
   * You might need this for certain form libraries. If you don't pass anything,
   * I18nCurrencyInput will work just fine.
@@ -166,5 +159,54 @@ export type UseI18nCurrencyInputProps = I18nCurrencyInputPropsCommon & Partial<M
    * @type {React.MutableRefObject<HTMLInputElement>}
    */
   inputRef: React.MutableRefObject<HTMLInputElement>
+}
+
+export interface MaskedAndRawValues {
+  /**
+   * The numerical value we've created after masking
+   * @type number
+   * @memberof MaskedAndRawValues
+   */
+  value: number,
+  /**
+   * The masked string value
+   * @type string
+   * @memberof MaskedAndRawValues
+   */
+  maskedValue: string
+
+  /**
+   * The value in the lowest currency value. In the cases of USD, this is in cents, i.e: for $4.00 is 400. For JPY, this is simply in yen.
+   * @type number
+   * @memberof MaskedAndRawValues
+   */
+  valueInCents:number
+};
+
+
+export type UseI18nCurrencyInputResult = MaskedAndRawValues & {
+  /**
+   * Handler to receive change events from your associated input
+   *
+   */
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+
+  /**
+   * Handler to receive focus events from your associated input
+   *
+   */
+  onFocus: (event: React.FocusEvent<HTMLInputElement>) => void;
+
+  /**
+   * Handler to receive mouse up events from your associated input
+   */
+  onMouseUp: (event: React.MouseEvent<HTMLInputElement, MouseEvent>) => void;
+
+  /**
+   * Handle to receive text selection events from your associated input
+   *
+   */
+  onSelect: (event:React.SyntheticEvent<HTMLInputElement, Event>) => void;
+  
 }
 

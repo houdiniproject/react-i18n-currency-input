@@ -43,9 +43,6 @@ function I18nCurrencyInput(props:I18nCurrencyInputProps) {
      onChange(maskedValue, value, valueInCents);
   }, [value, valueInCents, maskedValue, onChange])
 
-  const onBlur = useCallback(() => {
-    _onBlur()
-  }, [_onBlur, value, valueInCents, maskedValue]);
 
   const onFocus = useCallback((event:React.FocusEvent<HTMLInputElement>) => {
     _innerOnFocus(event);
@@ -53,7 +50,7 @@ function I18nCurrencyInput(props:I18nCurrencyInputProps) {
   }, [_innerOnFocus, _onFocus] );
 
   const onMouseUp = useCallback((event:React.MouseEvent<HTMLInputElement, MouseEvent>) => {
-    _innerOnMouseUp(event)
+    _innerOnMouseUp(event as any)
     _onMouseUp && _onMouseUp(event)
   }, [_innerOnMouseUp, _onMouseUp])
 
@@ -66,7 +63,6 @@ function I18nCurrencyInput(props:I18nCurrencyInputProps) {
     onSelect={onSelect} 
     value={currencyInput.maskedValue}
     onChange={currencyInput.onChange}
-    onBlur={onBlur}
     onFocus={onFocus}
     onMouseUp={onMouseUp}
     ref={inputRef}
