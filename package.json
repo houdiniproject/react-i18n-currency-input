@@ -8,10 +8,7 @@
   },
   "scripts": {
     "build": "rimraf dist && yarn webpack",
-    "prepublish": "yarn build",
-    "build-example": "webpack",
     "test": "yarn build && yarn jest",
-    "travis-test": "yarn build && yarn jest",
     "jest": "jest",
     "webpack": "webpack",
     "storybook": "start-storybook -p 6006",
