@@ -14,3 +14,4 @@ dist/examples
 dist/src/*.spec.*
 dist/src/*.stories.*
 .github
+*.tgz
