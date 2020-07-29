@@ -1,3 +1,4 @@
+// License: LGPL-3.0-or-later
 import { MoneyFormatHelperOptions } from "./money_format_helper";
 
 interface I18nCurrencyInputPropsCommon extends MoneyFormatHelperOptions {

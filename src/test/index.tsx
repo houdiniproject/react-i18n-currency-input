@@ -1,3 +1,4 @@
+// License: LGPL-3.0-or-later
 import 'jest';
 import * as React from 'react'
 
@@ -74,8 +75,8 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
 
   describe('rounding', () => {
     it.each([
-      ['Rounds down properly when an number with extra decimals is passed in', 1234567.89123, '$12,345.68', 'USD'],
-      ['Rounds up properly when an number with extra decimals is passed in', 1234567.89999, '$1,234,567.90', 'USD'],
+      ['Rounds down properly when an number with extra decimals is passed in', 1234567.4123, '$12,345.67', 'USD'],
+      ['Rounds up properly when an number with extra decimals is passed in', 1234567.89999, '$12,345.68', 'USD'],
       ['Rounds up the whole number when an number with extra decimals is passed in', 1234567.999, '¥1,234,568', 'JPY'],
     ])("%s", (_name, input, output, currency) => {
       const { getByTestId } = render(<WrapperClass
