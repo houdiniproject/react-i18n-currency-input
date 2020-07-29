@@ -9,8 +9,8 @@ examples/
 .travis.yml
 jest.config.js
 setupTests.ts
-webpack.config.js
 src/*.spec.ts*
 dist/examples
 dist/src/*.spec.*
 dist/src/*.stories.*
+.github
