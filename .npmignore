@@ -10,8 +10,9 @@ examples/
 jest.config.js
 setupTests.ts
 src/*.spec.ts*
-dist/examples
-dist/src/*.spec.*
-dist/src/*.stories.*
+src/*.stories.ts*
+dist/test
+dist/*.spec.*
+dist/*.stories.*
 .github
 *.tgz
