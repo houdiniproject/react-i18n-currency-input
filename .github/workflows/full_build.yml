@@ -26,3 +26,8 @@ jobs:
         run: yarn jest
       - name: Webpack compile everything
         run: yarn webpack
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist
