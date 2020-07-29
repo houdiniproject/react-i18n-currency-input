@@ -1,6 +1,6 @@
 {
   "name": "@houdiniproject/react-i18n-currency-input",
-  "version": "1.0.1",
+  "version": "2.0.0-pre1",
   "description": "Typescript React component for currency using the ECMAScript Internationalization API",
   "main": "./dist/react-i18n-currency-input.js",
   "bugs": {
@@ -14,7 +14,6 @@
     "travis-test": "yarn build && yarn jest",
     "jest": "jest",
     "webpack": "webpack",
-    "webpack-dev": "webpack-dev-server --host 0.0.0.0",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
