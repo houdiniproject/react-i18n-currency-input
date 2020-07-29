@@ -1,0 +1,61 @@
+name: react-i18n-currency-input build
+on: [push, pull_request]
+jobs:
+  install_yarn:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14.6.0]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v1.4.2
+      - uses: actions/cache@v1
+        name: Use Node package cache
+        with:
+          path: node_modules
+          key: bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-
+      - name: install node packages
+        run: yarn install --frozen-lockfile
+  jest:
+    needs:  ['install_yarn']
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14.6.0]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v1.4.2
+    - uses: actions/cache@v1
+      name: Use Node package cache
+      with:
+        path: node_modules
+        key: bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-
+    - name: run jest
+      run: yarn jest
+  webpack:
+    needs: ['install_yarn']
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14.6.0]
+    steps:
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v1.4.2
+    - uses: actions/cache@v1
+      name: Use Node package cache
+      with:
+        path: node_modules
+        key: bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-
+    - name: Webpack compile everything
+      run: yarn webpack
