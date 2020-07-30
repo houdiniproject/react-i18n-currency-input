@@ -20,3 +20,4 @@ tsconfig.json
 webpack.config.js
 .storybook
 .node-version
+*.log
