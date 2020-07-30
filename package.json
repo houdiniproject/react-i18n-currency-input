@@ -1,6 +1,6 @@
 {
   "name": "@houdiniproject/react-i18n-currency-input",
-  "version": "2.0.0-pre2",
+  "version": "2.0.0-pre3",
   "description": "Typescript React component for currency using the ECMAScript Internationalization API",
   "main": "./dist/react-i18n-currency-input.js",
   "bugs": {
