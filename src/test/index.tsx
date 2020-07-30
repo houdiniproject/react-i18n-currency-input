@@ -141,4 +141,40 @@ export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
     })
   });
 
+  describe('require negative', () => {
+    it.each([
+      ['-1,000.01',  undefined, undefined, "-$1,000.01"],
+      ['--$10.01',  null, null, "-$10.01"],
+      ['- 10.01 EUR', "de-de", 'EUR', `-10,01${nbsp}€` ],
+      ["--123.456.789,12", "de-de", undefined, `-123.456.789,12${nbsp}$` ],
+      [- 10.01,  "de-de", 'EUR', `-0,10${nbsp}€`, ],
+    ])("Passing %s with locale: %s, currency: %s", (value, locale, currency, output) => {
+      let args:any = {}
+      if (locale)
+        args['locale'] = locale
+      if (currency)
+        args['currency'] = currency
+      const { getByTestId } = render(<WrapperClass {...args} {...createValueProps(value)} requireSign={'negative'}/>)
+      expect(getByTestId('input')).toHaveValue(output)
+    })
+  })
+
+  describe('require positive', () => {
+    it.each([
+      ['-1,000.01',  undefined, undefined, "$1,000.01"],
+      ['--$10.01',  null, null, "$10.01"],
+      ['- 10.01 EUR', "de-de", 'EUR', `10,01${nbsp}€` ],
+      ["--123.456.789,12", "de-de", undefined, `123.456.789,12${nbsp}$` ],
+      [- 10.01,  "de-de", 'EUR', `0,10${nbsp}€`, ],
+    ])("Passing %s with locale: %s, currency: %s", (value, locale, currency, output) => {
+      let args:any = {}
+      if (locale)
+        args['locale'] = locale
+      if (currency)
+        args['currency'] = currency
+      const { getByTestId } = render(<WrapperClass {...args} {...createValueProps(value)} requireSign={'positive'}/>)
+      expect(getByTestId('input')).toHaveValue(output)
+    })
+  })
+
 };
