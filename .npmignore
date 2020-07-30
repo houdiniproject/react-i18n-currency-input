@@ -9,10 +9,14 @@ examples/
 .travis.yml
 jest.config.js
 setupTests.ts
-src/*.spec.ts*
-src/*.stories.ts*
+src
 dist/test
 dist/*.spec.*
 dist/*.stories.*
 .github
 *.tgz
+tsconfig.json
+*.log
+webpack.config.js
+.storybook
+.node-version
