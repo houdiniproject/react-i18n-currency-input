@@ -106,7 +106,8 @@ describe('I18nCurrencyInput', function () {
     'maximumFractionDigits',
     'minimumSignificantDigits',
     'maximumSignificantDigits',
-    'allowEmpty'
+    'allowEmpty',
+    'requireSign'
   ].map((i) => [i]))('%s is not passed through to the input element', (propname) => {
     const result = render(<UpdateWrapper value={3333} 
       useGrouping={true} locale={'en'} currency={'USD'} 
@@ -118,6 +119,7 @@ describe('I18nCurrencyInput', function () {
       minimumSignificantDigits={4}
       maximumSignificantDigits={3}
       allowEmpty={true}
+      requireSign={'negative'}
     />)
     const elem = result.getByTestId('input') as HTMLInputElement
     expect(elem.getAttribute(propname)).toEqual(null)
