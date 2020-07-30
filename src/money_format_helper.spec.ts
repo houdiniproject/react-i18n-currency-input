@@ -12,9 +12,9 @@ const enIN = MoneyFormatHelper.initializeFromProps('en-IN', { currency: 'INR' })
 
 const deDE = MoneyFormatHelper.initializeFromProps('de-DE', { currency: 'EUR' })
 
-const enUSNoNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requirePositive:true})
+const enUSNoNegative = MoneyFormatHelper.initializeFromProps('en-us', { style: 'currency', currency: 'USD'  }, {requireSign:'positive'})
 
-const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { currency: 'USD'  }, {requireNegative:true})
+const enUSRequireNegative = MoneyFormatHelper.initializeFromProps('en-us', { currency: 'USD'  }, {requireSign:'negative'})
 
 describe('mask', function () {
   
@@ -304,7 +304,7 @@ describe('mask', function () {
   
     it('should change "0" to "₹0.00"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("0");
-      expect(maskedValue).toBe(`₹${nbsp}0.00`);
+      expect(maskedValue).toBe(`₹0.00`);
       expect(value).toBe(0);
       expect(valueInCents).toBe(0);
     });
@@ -312,75 +312,75 @@ describe('mask', function () {
     it('should change "00" to "₹0.00"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("00");
   
-      expect(maskedValue).toBe(`₹${nbsp}0.00`);
+      expect(maskedValue).toBe(`₹0.00`);
       expect(value).toBe(0);
       expect(valueInCents).toBe(0);
     });
   
     it('should change "000" to "₹0.00"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("000");
-      expect(maskedValue).toBe(`₹${nbsp}0.00`);
+      expect(maskedValue).toBe(`₹0.00`);
       expect(value).toBe(0);
       expect(valueInCents).toBe(0);
     });
   
     it('should change "0000" to "₹0.00"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("0000");
-      expect(maskedValue).toBe(`₹${nbsp}0.00`);
+      expect(maskedValue).toBe(`₹0.00`);
       expect(value).toBe(0);
       expect(valueInCents).toBe(0);
     });
   
     it('should change "0001" to "₹0.00"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("0001");
-      expect(maskedValue).toBe(`₹${nbsp}0.01`);
+      expect(maskedValue).toBe(`₹0.01`);
       expect(value).toBe(0.01);
       expect(valueInCents).toBe(1);
     });
   
     it('should change "1001" to "₹10.00', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("1001");
-      expect(maskedValue).toBe(`₹${nbsp}10.01`);
+      expect(maskedValue).toBe(`₹10.01`);
       expect(value).toBe(10.01);
       expect(valueInCents).toBe(1001);
     });
   
     it('should change "123456789" to "₹12,34,567.89"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("123456789");
-      expect(maskedValue).toBe(`₹${nbsp}12,34,567.89`);
+      expect(maskedValue).toBe(`₹12,34,567.89`);
       expect(value).toBe(1234567.89);
       expect(valueInCents).toBe(123456789);
     });
 
     it('should change "-123456789" to "-₹12,34,567.89""', function () {
-      const { maskedValue, value, valueInCents } =  enIN.mask("-123456789");
-      expect(maskedValue).toBe(`-₹${nbsp}12,34,567.89`);
+      const { maskedValue, valueInCents } =  enIN.mask("-123456789");
+      expect(maskedValue).toBe(`-₹12,34,567.89`);
       expect(valueInCents).toBe(-123456789);
     });
 
     it('should change "₹12,34,567.89" to "₹12,34,567.89"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("₹12,34,567.89");
-      expect(maskedValue).toBe(`₹${nbsp}12,34,567.89`);
+      expect(maskedValue).toBe(`₹12,34,567.89`);
       expect(value).toBe(1234567.89);
       expect(valueInCents).toBe(123456789);
     });
 
     it('should change "₹12,34,56,,7.8.9" to "₹12,34,567.89"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("￥123,456,789");
-      expect(maskedValue).toBe(`₹${nbsp}12,34,567.89`);
+      expect(maskedValue).toBe(`₹12,34,567.89`);
       expect(value).toBe(1234567.89);
       expect(valueInCents).toBe(123456789);
     });
   
     it('should change "100." to "₹1.00"', function () {
       const { maskedValue, value, valueInCents } =  enIN.mask("100.");
-      expect(maskedValue).toBe(`₹${nbsp}1.00`);
+      expect(maskedValue).toBe(`₹1.00`);
       expect(value).toBe(1);
       expect(valueInCents).toBe(100);
     });
 
-    it('should have a prefix of ₹${nbsp}', () => {
-      expect(enIN.getPrefix()).toBe(`₹${nbsp}`)
+    it('should have a prefix of ₹', () => {
+      expect(enIN.getPrefix()).toBe(`₹`)
     })
   
     it('should have a suffix of ""', () => {
@@ -495,7 +495,7 @@ describe('mask', function () {
     })
 
     it('should change "-123456789" to "-1.234.567,89 €"', function () {
-      const { maskedValue, value, valueInCents } =  deDE.mask("-123456789");
+      const { maskedValue, value } =  deDE.mask("-123456789");
       expect(maskedValue).toBe(`-1.234.567,89${nbsp}€`);
       expect(value).toBe(-1234567.89);
     });
@@ -592,7 +592,13 @@ describe('mask', function () {
     })
 
     it('should convert -122222 to $1222.22', () => {
-       const { maskedValue, value, valueInCents } = enUSNoNegative.mask(-122222)
+      const { maskedValue, value, valueInCents } = enUSNoNegative.mask(-122222)
+     expect(maskedValue).toBe("$1,222.22")
+     expect(value).toBe(1222.22)
+     expect(valueInCents).toBe(122222)
+   })
+    it('should convert -122222 to $1222.22 and not passed as cents', () => {
+       const { maskedValue, value, valueInCents } = enUSNoNegative.mask({value:-122222, notInCents:true})
       expect(maskedValue).toBe("$122,222.00")
       expect(value).toBe(122222)
       expect(valueInCents).toBe(12222200)
@@ -608,12 +614,21 @@ describe('mask', function () {
     })
 
 
-    it('should keep negative numbers passed as number as-is', () => {
-       const { maskedValue, value, valueInCents } = enUSRequireNegative.mask(-1234567.89)
+    it('should keep negative numbers passed as number as-is and not as cents', () => {
+       const { maskedValue, value, valueInCents } = enUSRequireNegative.mask({value:-1234567.89, notInCents:true})
       expect(maskedValue).toBe("-$1,234,567.89")
       expect(value).toBe(-1234567.89)
       expect(valueInCents).toBe(-123456789)
     })
+
+    it('should keep negative numbers passed as number as-is', () => {
+      const { maskedValue, value, valueInCents } = enUSRequireNegative.mask(-1234567.89)
+     expect(maskedValue).toBe("-$12,345.68")
+     expect(valueInCents).toBe(-1234568)
+     expect(value).toBe(-12345.68)
+     
+   })
+    
 
     it('should convert 0 to $0.00', () => {
        const { maskedValue, value, valueInCents } = enUSRequireNegative.mask("0")
@@ -652,9 +667,16 @@ describe('mask', function () {
 
     it('should convert 122222 as number to -$122,222.00', () => {
        const { maskedValue, value, valueInCents } = enUSRequireNegative.mask(122222)
-      expect(maskedValue).toBe("-$122,222.00")
-      expect(value).toBe(-122222)
-      expect(valueInCents).toBe(-12222200)
+      expect(maskedValue).toBe("-$1,222.22")
+      expect(value).toBe(-1222.22)
+      expect(valueInCents).toBe(-122222)
     })
+
+    it('should convert 122222 as number to -$122,222.00 and notInCents', () => {
+      const { maskedValue, value, valueInCents } = enUSRequireNegative.mask({value:122222, notInCents: true})
+     expect(maskedValue).toBe("-$122,222.00")
+     expect(value).toBe(-122222)
+     expect(valueInCents).toBe(-12222200)
+   })
   })
 });

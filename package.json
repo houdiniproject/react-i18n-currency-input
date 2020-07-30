@@ -1,45 +1,53 @@
 {
   "name": "@houdiniproject/react-i18n-currency-input",
-  "version": "1.0.1",
+  "version": "2.0.0-pre1",
   "description": "Typescript React component for currency using the ECMAScript Internationalization API",
-  "main": "./dist/index.js",
+  "main": "./dist/react-i18n-currency-input.js",
   "bugs": {
     "url": "https://github.com/houdiniproject/react-i18n-currency-input/issues"
   },
   "scripts": {
-    "build:tsc": "tsc -p tsconfig.build.json",
-    "build": "rimraf dist && npm run build:tsc",
-    "prepublish": "npm run build",
-    "build-example": "webpack",
-    "test": "npm run build && npm run jest",
-    "travis-test": "npm run build && NODE_ICU_DATA=$(npx node-full-icu-path) npm run jest",
+    "build": "rimraf dist && yarn webpack",
+    "test": "yarn build && yarn jest",
     "jest": "jest",
     "webpack": "webpack",
-    "webpack-dev": "webpack-dev-server --host 0.0.0.0"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Houdini Project contributors, react-currency-input contributors and Cedric Dugas",
   "license": "LGPL-3.0+",
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "lodash": ">=4.17",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-use": ">=15.3.0"
   },
-  "dependencies": {
-    "lodash": ">=4.17.13"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@testing-library/dom": "^7",
+    "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^8.0.1",
-    "@types/autobind-decorator": "^2.1.0",
     "@types/jest": "^24.0.13",
     "@types/jsdom": "^12.2.3",
     "@types/lodash": "^4.14.133",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
-    "autobind-decorator": "^2.4.0",
+    "babel-loader": "^8.1.0",
     "jest": "^24.8.0",
+    "jest-environment-jsdom-fifteen": "^1.0.2",
     "jsdom": "^15.1.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "lodash": ">=4.17",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-use": ">=15.3.0",
     "rimraf": "^2.6.3",
+    "storybook": "^5.3.19",
+    "terser-webpack-plugin": "^3.0.8",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.2",
     "typescript": "^3.5.1",
@@ -48,5 +56,6 @@
     "webpack-dev-server": "^3.5.1"
   },
   "repository": "github:houdiniproject/react-i18n-currency-input",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "sideEffects": false
 }

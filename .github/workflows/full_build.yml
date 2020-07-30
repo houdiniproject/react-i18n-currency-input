@@ -1,0 +1,42 @@
+name: react-i18n-currency-input build
+on: [push, pull_request]
+jobs:
+  test_and_compile:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14.6.0]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v1.4.2
+        with:
+          node-version: ${{ matrix.node }}
+      - uses: actions/cache@v1
+        name: Use Node package cache
+        with:
+          path: node_modules
+          key: bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            bundle-use-node-js-${{ matrix.os }}-${{ matrix.node }}-
+      - name: install node packages
+        run: yarn install --frozen-lockfile
+      - name: verify NOTICE
+        run: npx @houdiniproject/noticeme
+      - name: run jest
+        run: npm run jest
+      - name: Webpack compile everything
+        run: webpack
+      - name: build package locally
+        run: yarn pack
+      - name: Archive the output of yarn pack
+        uses: actions/upload-artifact@v2
+        with: 
+          name: npm_package
+          path: '*.tgz'
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist

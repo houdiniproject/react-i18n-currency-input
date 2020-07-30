@@ -1,44 +1,12 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
-import { boundMethod } from "autobind-decorator";
-import get = require("lodash/get");
-import isInteger  = require("lodash/isInteger");
+import isInteger from "lodash/isInteger";
+import {MaskedAndRawValues} from './types';
 
-interface MaskedAndRawValues {
-  /**
-   * The numerical value we've created after masking
-   * @type number
-   * @memberof MaskedAndRawValues
-   */
-  value: number,
-  /**
-   * The masked string value
-   * @type string
-   * @memberof MaskedAndRawValues
-   */
-  maskedValue: string
-
-  /**
-   * The value in the lowest currency value. In the cases of USD, this is in cents, i.e: for $4.00 is 400. For JPY, this is simply in yen.
-   * @type number
-   * @memberof MaskedAndRawValues
-   */
-  valueInCents:number
-};
-
-export type MoneyFormatHelperOptions = {
-  /**
-   * Do we want to require positive numbers? If true, we strip negative signs.
-   * @type boolean
-   */
-  requirePositive?: boolean
-} |
-{
-  /**
-   * Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
-   * @type boolean
-   */
-  requireNegative?: boolean
+export interface MoneyFormatHelperOptions {
+  //Do we want to require positive numbers? If so, we strip negative sign
+  //Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
+  requireSign?: 'positive'|'negative'
 }
 
 /**
@@ -56,7 +24,18 @@ export class MoneyFormatHelper {
   constructor(
     readonly numberFormat: Intl.NumberFormat,
     readonly options: MoneyFormatHelperOptions = {}
-  ) { }
+  ) {
+      [
+        this.mask,
+        this.maskFromCents, 
+        this.getDecimalSeparator, 
+        this.getGroupSeparator, 
+        this.getPrefix,
+        this.getSuffix,
+        this.formatToParts
+      ].forEach((func) => func.bind(this))
+    
+   }
 
   /**
    * A convenience factory method for creating a new `MoneyFormatHelper` using the inputoptions for `Intl.NumberFormat`. This allows you to create the `Intl.NumberFormat` and  `MoneyFormatHelper` in a single line of code
@@ -85,12 +64,13 @@ export class MoneyFormatHelper {
    * @return MaskedAndRawValues 
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
-  mask(value?: number | string | null): MaskedAndRawValues {
-    const requirePositive = get(this.options, 'requirePositive')
-    const requireNegative = get(this.options, 'requireNegative')
+  mask(value?: number | string | null| {value?: number | string |null, notInCents?:boolean}): MaskedAndRawValues {
+    
+    let notInCents = false;
+    const requirePositive = this.options && this.options.requireSign === 'positive'
+    const requireNegative = this.options && this.options.requireSign === 'negative'
 
-    if (value === null || value === undefined) {
+    if (value === null || value === undefined || (typeof value === 'object' && !value.value)) {
       return {
         value: 0,
         maskedValue: '',
@@ -98,6 +78,10 @@ export class MoneyFormatHelper {
       };
     }
 
+    if (typeof value === 'object') {
+      notInCents = value.notInCents;
+      value = value.value;
+    }
     const forceToNegative = requireNegative
     const forceToPositive = !forceToNegative && requirePositive
 
@@ -109,12 +93,23 @@ export class MoneyFormatHelper {
       if (value === -0) {
         value = 0
       }
-      const valueInCents = Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits))
-
-      return {
-        value,
-        maskedValue: this.numberFormat.format(value),
-        valueInCents
+      if (notInCents) {
+        
+        return {
+          value,
+          maskedValue: this.numberFormat.format(value),
+          valueInCents: Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits))
+        }
+      }
+      else {
+        const valueInCents = Math.round(value)
+        value = valueInCents * Math.pow(10, -1 * this.numberFormat.resolvedOptions().minimumFractionDigits)
+        
+        return {
+          value,
+          valueInCents,
+          maskedValue: this.numberFormat.format(value),
+        }
       }
     }
     else {
@@ -192,7 +187,6 @@ export class MoneyFormatHelper {
    * @return string the decimal separator for the `Intl.NumberFormat`. If there's no decimal separator in that locale and currency, such as for Japanese Yen, you'll receive an empty string
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getDecimalSeparator() {
     // a number with a decimal
     let number = 11456456.0222,
@@ -216,7 +210,6 @@ export class MoneyFormatHelper {
    * @return string the group separator for the `Intl.NumberFormat`. If there's no group separator in that locale and currency, you'll receive an empty string.
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getGroupSeparator(): string {
     // a number with a decimal
     let number = 11456456.0222,
@@ -242,7 +235,6 @@ export class MoneyFormatHelper {
    * @return string the prefix for currency values. If no prefix is used, the empty string is returned.
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getPrefix(): string {
     const parts = this.formatToParts();
 
@@ -268,7 +260,6 @@ export class MoneyFormatHelper {
    * @return string the prefix for currency values. If no suffix is used, the empty string is returned.
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
   getSuffix(): string {
     const parts = this.formatToParts();
     let startedNan = false
@@ -291,10 +282,9 @@ export class MoneyFormatHelper {
    * @return Array<{type:string, value:string}> 
    * @memberof MoneyFormatHelper
    */
-  @boundMethod
-  private formatToParts(number?: Number): Array<{ type: string, value: string }> {
+  private formatToParts(number?: number): Array<{ type: string, value: string }> {
     // a number with a decimal
-    let fmt_local: any = this.numberFormat
+    let fmt_local = this.numberFormat
 
     return fmt_local.formatToParts(number)
   }
