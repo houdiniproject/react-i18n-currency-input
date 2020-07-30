@@ -25,7 +25,8 @@ function I18nCurrencyInput(props:I18nCurrencyInputProps) {
     maximumFractionDigits,
     minimumSignificantDigits,
     maximumSignificantDigits,
-    allowEmpty, 
+    allowEmpty,
+    requireSign,
     ...passThruProps
   } = props;
 
