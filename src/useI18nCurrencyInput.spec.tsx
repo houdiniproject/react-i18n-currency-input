@@ -5,9 +5,12 @@ import * as React from 'react'
 import {useI18nCurrencyInput, Types} from './index'
 
 import { useRef } from 'react';
-import {  cleanup } from '@testing-library/react';
+
+import {renderHook, RenderResult} from '@testing-library/react-hooks';
 import '@testing-library/jest-dom/extend-expect';
 import { CurrencyInputTests } from './test';
+import _ from 'lodash';
+
 
 function UpdateWrapper(props: Omit<Types.UseI18nCurrencyInputProps, 'inputRef'>) {
   const inputRef = useRef<HTMLInputElement>()
@@ -26,8 +29,82 @@ function UpdateWrapper(props: Omit<Types.UseI18nCurrencyInputProps, 'inputRef'>)
 }
 
 describe('useI18nCurrencyInput', () => {
-  afterEach(cleanup);
   CurrencyInputTests(UpdateWrapper);
+
+  describe('properly handles an update of the value from 800 to 8000', () => {
+
+    function getHelper(): RenderResult<Types.UseI18nCurrencyInputResult> {
+      const {result:refResult} = renderHook(() => useRef<HTMLInputElement>());
+      const initialProps: any = {value: 800, updatePropsAfterInit: true}
+      const { result, rerender} = renderHook((props: Types.UseI18nCurrencyInputProps) => useI18nCurrencyInput({
+          ...props,
+        inputRef:refResult.current
+        }), {initialProps});
+      
+        expect(result.current.valueInCents).toBe(800);
+        expect(result.current.maskedValue).toBe("$8.00");
+        expect(result.current.value).toBe(8);
+        rerender({value: 8000, updatePropsAfterInit: true, inputRef:refResult.current});
+        return result;
+    }
+
+    it("has updated to 8000 for the valueInCents", () => {
+      const wrapper = getHelper();
+      expect(wrapper.current.valueInCents).toBe(8000);
+    });
+
+    it("has updated to $80.00 for the maskedValue", async () => {
+      const wrapper = getHelper();
+      expect(wrapper.current.maskedValue).toBe("$80.00");
+    });
+
+    it("has updated to $80.00 for the maskedValue", async () => {
+      const wrapper = getHelper();
+      expect(wrapper.current.value).toBe(80);
+    });
+  })
+
+  describe('properly handles an update of the value from 800 to $80.00', () => {
+      
+    // async function getWrapper(): Promise<RenderResult> {
+    //   const result = render(<UpdateWrapper value={800} />)
+    //   expect(await result.findByTestId('valueInCents')).toHaveTextContent("800")
+    //   expect(await result.findByTestId('maskedValue')).toHaveTextContent("$8.00")
+    //   expect(await result.findByTestId('input')).toHaveValue("$8.00");
+    //   result.rerender(<UpdateWrapper value={"$80.00"}/>)
+    //   return result;
+    // }
+
+    async function getHelper(): Promise<RenderResult<Types.UseI18nCurrencyInputResult>> {
+      const {result:refResult} = renderHook(() => useRef<HTMLInputElement>());
+      const initialProps: any = {value: 800, updatePropsAfterInit: true}
+      const { result, rerender} = renderHook((props: Types.UseI18nCurrencyInputProps) => useI18nCurrencyInput({
+          ...props,
+        inputRef:refResult.current
+        }), {initialProps});
+      
+        expect(result.current.valueInCents).toBe(800);
+        expect(result.current.maskedValue).toBe("$8.00");
+        expect(result.current.value).toBe(8);
+        rerender({value: "$80.00", updatePropsAfterInit: true, inputRef:refResult.current});
+        return result;
+    }
+
+    it("has updated to 8000 for the valueInCents", async () => {
+      const wrapper = await getHelper();
+      expect(wrapper.current.valueInCents).toBe(8000);
+    });
+
+    // it("has updated to $80.00 for the maskedValue", async () => {
+    //   const wrapper = getHelper();
+    //   expect(wrapper.current.maskedValue).toBe("$80.00");
+    // });
+
+    // it("has updated to $80.00 for the maskedValue", async () => {
+    //   const wrapper = getHelper();
+    //   expect(wrapper.current.value).toBe(80);
+    // });
+  })
 });
 
 
