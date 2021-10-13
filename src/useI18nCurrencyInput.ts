@@ -139,5 +139,12 @@ export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) :
         }
     }, [values, prevValues, props, prevProps]);
 
+    useEffect(() => {
+        if (props.updatePropsAfterInit) {
+            setValues(prepareProps(props));
+        }
+       
+    }, [props.updatePropsAfterInit, props.value])
+
     return {...values, onChange, onFocus, onMouseUp, onSelect};
 }
