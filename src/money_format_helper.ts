@@ -79,7 +79,7 @@ export class MoneyFormatHelper {
     }
 
     if (typeof value === 'object') {
-      notInCents = value.notInCents;
+      notInCents = !!value.notInCents;
       value = value.value;
     }
     const forceToNegative = requireNegative
@@ -113,7 +113,7 @@ export class MoneyFormatHelper {
       }
     }
     else {
-      if (value === '') {
+      if (value === '' || !value) {
         return {
           value: 0,
           maskedValue: '',

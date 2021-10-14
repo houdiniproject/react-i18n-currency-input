@@ -54,9 +54,9 @@ export function selectAllOnFocus() {
 }
 
 export function passInputRefProperly() {
-  const inputRef = useRef(null);
+  const inputRef = useRef<HTMLInputElement|null>(null);
 
-  const [input, setInput] = useState(null)
+  const [input, setInput] = useState<String|null>(null)
   const onClick = useCallback(() => {
     if (inputRef.current)
       setInput(inputRef.current.value)
