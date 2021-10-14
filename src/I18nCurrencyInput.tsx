@@ -6,7 +6,7 @@ import useI18nCurrencyInput from './useI18nCurrencyInput';
 import { I18nCurrencyInputProps } from './types';
 
 function I18nCurrencyInput(props:I18nCurrencyInputProps) {
-  const internalRef = useRef();
+  const internalRef = useRef<HTMLInputElement|null>(null);
   const inputRef = props.inputRef || internalRef;
   
   const {onChange, 

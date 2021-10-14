@@ -14,7 +14,7 @@ interface WrapperValue{
 }
 
 function UpdateWrapper(props: Omit<Types.I18nCurrencyInputProps, 'onChange'>) {
-  const [values, setValues] = useState<WrapperValue>(null)
+  const [values, setValues] = useState<WrapperValue|null>(null)
   const onChange = useCallback((maskedValue:string, value:number, valueInCents: number) => {
     setValues({maskedValue, value, valueInCents})
   }, [setValues]);

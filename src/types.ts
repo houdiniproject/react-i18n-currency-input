@@ -136,7 +136,7 @@ export type I18nCurrencyInputProps = I18nCurrencyInputPropsCommon & Partial<Mone
    * @default (no-op function)
    * @memberof I18nCurrencyInputProps
    */
-  onChange?: (maskedValue: string, value: number, valueInCents: number) => void
+  onChange: (maskedValue: string, value: number, valueInCents: number) => void
 
   /**
   * A ref to the field which will contain a monetary value.
@@ -145,7 +145,7 @@ export type I18nCurrencyInputProps = I18nCurrencyInputPropsCommon & Partial<Mone
   *
   * @type {React.MutableRefObject<HTMLInputElement>}
   */
-  inputRef?: React.MutableRefObject<HTMLInputElement>
+  inputRef?: React.MutableRefObject<HTMLInputElement|null>
 };
 
 
@@ -156,9 +156,9 @@ export type UseI18nCurrencyInputProps = I18nCurrencyInputPropsCommon & Partial<M
   /**
    * A reference to the field which will contain a monetary value.
    *
-   * @type {React.MutableRefObject<HTMLInputElement>}
+   * @type {React.MutableRefObject<HTMLInputElement|null>}
    */
-  inputRef: React.MutableRefObject<HTMLInputElement>
+  inputRef: React.MutableRefObject<HTMLInputElement|null>
 }
 
 export interface MaskedAndRawValues {
