@@ -19,7 +19,7 @@ function UpdateWrapper(props: Omit<Types.I18nCurrencyInputProps, 'onChange'>) {
     setValues({maskedValue, value, valueInCents})
   }, [setValues]);
 
-  const value = values === null ? props.value : values.value
+  const value = values === null ? props.value : values.valueInCents
   return <div>
     <p data-testid="value">{values && values.value}</p>
     <p data-testid="valueInCents">{values && values.valueInCents}</p>

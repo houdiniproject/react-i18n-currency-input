@@ -159,8 +159,6 @@ export type UseI18nCurrencyInputProps = I18nCurrencyInputPropsCommon & Partial<M
    * @type {React.MutableRefObject<HTMLInputElement>}
    */
   inputRef: React.MutableRefObject<HTMLInputElement>
-
-  updatePropsAfterInit?: boolean
 }
 
 export interface MaskedAndRawValues {

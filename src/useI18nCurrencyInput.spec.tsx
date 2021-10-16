@@ -42,7 +42,7 @@ describe('useI18nCurrencyInput', () => {
         expect(result.current.valueInCents).toBe(800);
         expect(result.current.maskedValue).toBe("$8.00");
         expect(result.current.value).toBe(8);
-        rerender({value: 8000, updatePropsAfterInit: true, inputRef:refResult.current});
+        rerender({value: 8000, inputRef:refResult.current});
         return result;
     }
 
@@ -75,7 +75,7 @@ describe('useI18nCurrencyInput', () => {
         expect(result.current.valueInCents).toBe(800);
         expect(result.current.maskedValue).toBe("$8.00");
         expect(result.current.value).toBe(8);
-        rerender({value: "$80.00", updatePropsAfterInit: true, inputRef:refResult.current});
+        rerender({value: "$80.00", inputRef:refResult.current});
         return result;
     }
 
