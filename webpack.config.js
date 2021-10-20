@@ -35,18 +35,11 @@ module.exports = {
     extensions: [".js", ".json", ".jsx", ".ts", ".tsx",],
   },
   externals: {
-    'lodash': {
-      commonjs: "lodash",
-      commonjs2: "lodash",
-      amd: "lodash",
-      root: "_"
-    },
     'lodash/isInteger': {
       commonjs: "lodash/isInteger",
       commonjs2: "lodash/isInteger",
       amd: "lodash/isInteger",
     },
-
     "react": {
       commonjs: "react",
       commonjs2: "react",
