@@ -21,8 +21,7 @@
   "peerDependencies": {
     "lodash": ">=4.17",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0",
-    "react-use": ">=15.3.0"
+    "react-dom": ">=16.8.0"
   },
   "dependencies": {},
   "devDependencies": {

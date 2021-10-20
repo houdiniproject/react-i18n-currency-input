@@ -53,11 +53,5 @@ module.exports = {
       amd: "react",
       root: "React"
     },
-
-    "react-use": {
-      commonjs: "react-use",
-      commonjs2: "react-use",
-      amd: "react",
-    }
   }
 };
