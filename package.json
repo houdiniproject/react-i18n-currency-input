@@ -13,8 +13,8 @@
     "webpack": "webpack",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "notice": "npx @houdiniproject/noticeme@^1.1.0-pre1 -f NOTICE-js -i included.json -s 250",
-    "notice_update": "npx @houdiniproject/noticeme@^1.1.0-pre1 -f NOTICE-js -i included.json -s 250 -u"
+    "notice": "npx @houdiniproject/noticeme@^1.1.0-pre1 -f NOTICE-js -i included.json",
+    "notice_update": "npx @houdiniproject/noticeme@^1.1.0-pre1 -f NOTICE-js -i included.json -u"
   },
   "author": "Houdini Project contributors, react-currency-input contributors and Cedric Dugas",
   "license": "LGPL-3.0+",
