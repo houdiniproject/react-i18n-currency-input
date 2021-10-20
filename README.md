@@ -5,6 +5,16 @@ The package also includes a corresponding hook (`useI18nCurrencyInput`) if you'd
 
 ## Changes
 
+### v2.0.0
+
+* `useI18nCurrencyInput` now will recognize when the value passed in via args is updated.
+* `react-use` is no longer a peer dependency (`usePrevious` is embedded in the build becuase it's small)
+* Strict mode on for Typescript
+
+### v2.0.0-pre3
+
+* `requireSign` is no longer passed through to the Input element, as-is it shouldn't be
+
 ### v2.0.0-pre1
 
 * Move to React hook-based components
