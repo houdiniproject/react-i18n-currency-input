@@ -17718,7 +17718,7 @@ SOFTWARE.
 
 ------
 
-** async; version 2.6.3 -- https://caolan.github.io/async/
+** async; version 2.6.4 -- https://caolan.github.io/async/
 Copyright (c) 2010-2018 Caolan McMahon
 
 Copyright (c) 2010-2018 Caolan McMahon
@@ -19473,9 +19473,9 @@ SOFTWARE.
 
 ------
 
-** eventsource; version 1.0.7 -- http://github.com/EventSource/eventsource
+** eventsource; version 1.1.2 -- http://github.com/EventSource/eventsource
 Copyright (c) EventSource GitHub
-Copyright Joyent, Inc. and other Node contributors.
+Copyright Joyent, Inc. and other Node contributors
 
 The MIT License
 
@@ -19579,8 +19579,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** original; version 1.0.2 -- https://github.com/unshiftio/original#readme
-Copyright (c) 2015 Unshift.io, Arnout Kazemier
 ** querystringify; version 2.1.1 -- https://github.com/unshiftio/querystringify
 Copyright (c) 2015 Unshift.io, Arnout Kazemier
 ** requires-port; version 1.0.0 -- https://github.com/unshiftio/requires-port
@@ -19987,7 +19985,7 @@ SOFTWARE.
 ** concat-map; version 0.0.1 -- https://github.com/substack/node-concat-map
 ** fastest-stable-stringify; version 1.0.1 -- https://github.com/streamich/fastest-stable-stringify
 ** is-typedarray; version 1.0.0 -- https://github.com/hughsk/is-typedarray
-** minimist; version 1.2.5 -- https://github.com/substack/minimist
+** minimist; version 1.2.6 -- https://github.com/substack/minimist
 ** path-browserify; version 0.0.1 -- https://github.com/substack/path-browserify
 Copyright Joyent, Inc. and other Node contributors
 ** safe-regex; version 1.1.0 -- https://github.com/substack/safe-regex
