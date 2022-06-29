@@ -41,7 +41,6 @@
     "babel-loader": "^8.1.0",
     "jest": "^27",
     "jest-environment-jsdom": "^27",
-    "jsdom": "^16.5.0",
     "lodash": ">=4.17",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
