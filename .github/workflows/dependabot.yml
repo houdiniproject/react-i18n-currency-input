@@ -56,7 +56,7 @@ jobs:
       - run: yarn dedupe
 
       - name: Update NOTICE-js
-        run: yarn update_notice
+        run: yarn notice_update
 
       - name: Commit yarn.lock and NOTICE-js
         run: |
