@@ -1,4 +1,7 @@
 module.exports = {
+  features: {
+    postcss: false,
+  },
   stories: ['../src/**/*.stories.[tj]s?(x)'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
   webpackFinal: async config => {
