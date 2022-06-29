@@ -23,7 +23,6 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@storybook/addon-actions": "^6.5.9",
