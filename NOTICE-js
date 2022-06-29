@@ -9513,7 +9513,8 @@ SOFTWARE.
 
 ------
 
-** dom-accessibility-api; version 0.5.8 -- https://github.com/eps1lon/dom-accessibility-api#readme
+** dom-accessibility-api; version 0.5.14 -- https://github.com/eps1lon/dom-accessibility-api#readme
+Copyright (c) 2020 Sebastian Silbermann
 
 MIT License
 
@@ -14097,10 +14098,8 @@ THE SOFTWARE.
 
 ------
 
-** @testing-library/dom; version 7.31.2 -- https://github.com/testing-library/dom-testing-library#readme
-(c) 2021 Denis Pushkarev
+** @testing-library/dom; version 8.14.0 -- https://github.com/testing-library/dom-testing-library#readme
 Copyright (c) 2017 Kent C. Dodds
-copyright (c) 2021 Denis Pushkarev
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
