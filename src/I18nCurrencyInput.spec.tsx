@@ -38,8 +38,8 @@ describe('I18nCurrencyInput', function () {
         const elem = result.getByTestId('input') as HTMLInputElement
         elem.focus();
         expect(elem).toHaveFocus();
-        expect(elem.selectionStart).toBe(0)
-        expect(elem.selectionEnd).toBe(0)
+        expect(elem.selectionStart).toBe(5)
+        expect(elem.selectionEnd).toBe(5)
     })
 
     it('selects all on Focus Event when true', () => {
