@@ -53,6 +53,12 @@ export function selectAllOnFocus() {
   </div>
 }
 
+export function selectAllOnFocusAsFalse() {
+  return <div>
+    <p><I18nCurrencyInput {...defaultParams()} selectAllOnFocus={false}/></p>
+  </div>
+}
+
 export function passInputRefProperly() {
   const inputRef = useRef<HTMLInputElement|null>(null);
 
