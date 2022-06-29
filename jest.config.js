@@ -2,5 +2,5 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/setup.js
 module.exports = {
   preset: 'ts-jest',
-  "testEnvironment": "jest-environment-jsdom-fifteen"
+
 };
