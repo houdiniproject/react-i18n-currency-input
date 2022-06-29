@@ -2503,7 +2503,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ------
 
-** escodegen; version 1.14.3 -- http://github.com/estools/escodegen
+** escodegen; version 2.0.0 -- http://github.com/estools/escodegen
 Copyright (c) 2014 Ivan Nikulin <ifaaan@gmail.com>
 Copyright (c) 2012 Kris Kowal <kris.kowal@cixar.com>
 Copyright (c) 2012 John Freeman <jfreeman08@gmail.com>
@@ -3950,6 +3950,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ** boolbase; version 1.0.0 -- https://github.com/fb55/boolbase
 ** capture-exit; version 2.0.0 -- https://github.com/stefanpenner/capture-exit#readme
 ** run-queue; version 1.0.3 -- https://npmjs.com/package/run-queue
+** saxes; version 5.0.1 -- https://github.com/lddubeau/saxes#readme
 
 ISC License
 
@@ -4814,78 +4815,6 @@ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
 OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
 OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE
 USE OR PERFORMANCE OF THIS SOFTWARE.
-
-
-------
-
-** saxes; version 3.1.11 -- https://github.com/lddubeau/saxes#readme
-Copyright (c) Isaac Z. Schlueter and Contributors
-Copyright Mathias Bynens <https://mathiasbynens.be/>
-
-The ISC License
-
-Copyright (c) Contributors
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-====
-
-The following license is the one that governed sax, from which saxes
-was forked. Isaac Schlueter is not *directly* involved with saxes so
-don't go bugging him for saxes issues.
-
-The ISC License
-
-Copyright (c) Isaac Z. Schlueter and Contributors
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-====
-
-`String.fromCodePoint` by Mathias Bynens is no longer used, but it can
-still be found in old commits. It was once used according to terms of
-MIT License, as follows:
-
-    Copyright Mathias Bynens <https://mathiasbynens.be/>
-
-    Permission is hereby granted, free of charge, to any person obtaining
-    a copy of this software and associated documentation files (the
-    "Software"), to deal in the Software without restriction, including
-    without limitation the rights to use, copy, modify, merge, publish,
-    distribute, sublicense, and/or sell copies of the Software, and to
-    permit persons to whom the Software is furnished to do so, subject to
-    the following conditions:
-
-    The above copyright notice and this permission notice shall be
-    included in all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ------
@@ -8885,7 +8814,7 @@ THE SOFTWARE.
 
 ------
 
-** cssstyle; version 2.3.0 -- https://github.com/jsdom/cssstyle
+** cssstyle; version 1.4.0 -- https://github.com/jsakas/CSSStyleDeclaration
 Copyright (c) Chad Walker
 
 Copyright (c) Chad Walker
@@ -10428,34 +10357,6 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-
-------
-
-** jest-environment-jsdom-fifteen; version 1.0.2 -- https://github.com/ianschmitz/jest-environment-jsdom-fifteen#readme
-Copyright (c) 2019 Ian Schmitz
-
-MIT License
-
-Copyright (c) 2019 Ian Schmitz
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 
 ------
@@ -15344,7 +15245,6 @@ Copyright (c) 2018 Angry Bytes and contributors
 Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>
 ** ts-pnp; version 1.2.0 -- https://github.com/arcanis/ts-pnp
 Copyright (c) 2016 Mael Nison
-** w3c-xmlserializer; version 1.1.2 -- https://github.com/jsdom/w3c-xmlserializer#readme
 ** watchpack-chokidar2; version 2.0.0 -- https://github.com/webpack/watchpack
 ** wbuf; version 1.7.3 -- https://github.com/indutny/wbuf
 Copyright Fedor Indutny, 2014
@@ -15865,7 +15765,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** ws; version 7.5.8 -- https://github.com/websockets/ws
+** ws; version 6.2.2 -- https://github.com/websockets/ws
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
 
 The MIT License (MIT)
@@ -16990,7 +16890,7 @@ THE SOFTWARE.
 
 ------
 
-** whatwg-url; version 7.1.0 -- https://github.com/jsdom/whatwg-url#readme
+** whatwg-url; version 8.7.0 -- https://github.com/jsdom/whatwg-url#readme
 (c) extraPathPercentEncodeSet.has
 Copyright (c) 2015-2016 Sebastian Mayr
 
@@ -17789,6 +17689,38 @@ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
 ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+------
+
+** w3c-xmlserializer; version 2.0.0 -- https://github.com/jsdom/w3c-xmlserializer#readme
+Copyright (c) 2016 Sebastian Mayr
+
+The MIT License (MIT)
+=====================
+
+Copyright © 2016 Sebastian Mayr
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the “Software”), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 
 
 ------
