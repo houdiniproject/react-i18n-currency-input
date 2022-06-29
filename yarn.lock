@@ -1614,7 +1614,7 @@ __metadata:
     "@testing-library/react": ^10.4.7
     "@testing-library/react-hooks": ^7.0.2
     "@types/jest": ^27
-    "@types/jsdom": ^12.2.3
+    "@types/jsdom": ^16
     "@types/lodash": ^4.14.133
     "@types/react": ^16.8.19
     "@types/react-dom": ^16.8.4
@@ -3279,14 +3279,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsdom@npm:^12.2.3":
-  version: 12.2.4
-  resolution: "@types/jsdom@npm:12.2.4"
+"@types/jsdom@npm:^16":
+  version: 16.2.14
+  resolution: "@types/jsdom@npm:16.2.14"
   dependencies:
     "@types/node": "*"
+    "@types/parse5": "*"
     "@types/tough-cookie": "*"
-    parse5: ^4.0.0
-  checksum: e1db482cdb9da77187a1f426fbd76d8693dae0cf74c8fa571344575d694159204b9f6fe8ebca3077a1cdb65806a530139dc872ddaa1045b133cf8e97b1f248eb
+  checksum: 12bb926fa74ea07c0ba0bfd5bf185ac0fd771b28666a5e8784b9af4bb96bb0c51fc5f494eff7da1d3cd804e4757f640a23c344c1cd5d188f95ab0ab51770d88b
   languageName: node
   linkType: hard
 
@@ -3371,6 +3371,13 @@ __metadata:
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
   checksum: fd6bce2b674b6efc3db4c7c3d336bd70c90838e8439de639b909ce22f3720d21344f52427f1d9e57b265fcb7f6c018699b99e5e0c208a1a4823014269a6bf35b
+  languageName: node
+  linkType: hard
+
+"@types/parse5@npm:*":
+  version: 6.0.3
+  resolution: "@types/parse5@npm:6.0.3"
+  checksum: ddb59ee4144af5dfcc508a8dcf32f37879d11e12559561e65788756b95b33e6f03ea027d88e1f5408f9b7bfb656bf630ace31a2169edf44151daaf8dd58df1b7
   languageName: node
   linkType: hard
 
@@ -11598,13 +11605,6 @@ __metadata:
   version: 6.0.1
   resolution: "parse5@npm:6.0.1"
   checksum: 7d569a176c5460897f7c8f3377eff640d54132b9be51ae8a8fa4979af940830b2b0c296ce75e5bd8f4041520aadde13170dbdec44889975f906098ea0002f4bd
-  languageName: node
-  linkType: hard
-
-"parse5@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "parse5@npm:4.0.0"
-  checksum: 2123cec690689fed44e6c76aa8a08215d2dadece7eff7b35156dda7485e6a232c9b737313688ee715eb0678b6a87a31026927dd74690154f8a0811059845ba46
   languageName: node
   linkType: hard
 
