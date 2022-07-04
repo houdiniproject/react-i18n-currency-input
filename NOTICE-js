@@ -4172,7 +4172,7 @@ Copyright (c) Isaac Z. Schlueter and Contributors
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** fs-write-stream-atomic; version 1.0.10 -- https://github.com/npm/fs-write-stream-atomic
 Copyright (c) Isaac Z. Schlueter and Contributors
-** ini; version 1.3.5 -- https://github.com/isaacs/ini#readme
+** ini; version 2.0.0 -- https://github.com/isaacs/ini#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** isexe; version 2.0.0 -- https://github.com/isaacs/isexe#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -4202,7 +4202,7 @@ Copyright Isaac Z. Schlueter
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** tar; version 6.1.11 -- https://github.com/npm/node-tar#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
-** which; version 1.3.1 -- https://github.com/isaacs/node-which#readme
+** which; version 2.0.2 -- https://github.com/isaacs/node-which#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** wrappy; version 1.0.2 -- https://github.com/npm/wrappy
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -4368,13 +4368,9 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ** ansi-align; version 3.0.0 -- https://github.com/nexdrew/ansi-align#readme
 Copyright (c) 2016
-** require-main-filename; version 2.0.0 -- https://github.com/yargs/require-main-filename#readme
-Copyright (c) 2016, Contributors
 ** set-blocking; version 2.0.0 -- https://github.com/yargs/set-blocking#readme
 Copyright (c) 2016, Contributors
 ** test-exclude; version 6.0.0 -- https://istanbul.js.org/
-Copyright (c) 2016, Contributors
-** which-module; version 2.0.0 -- https://github.com/nexdrew/which-module#readme
 Copyright (c) 2016, Contributors
 ** yargs-parser; version 21.0.1 -- https://github.com/yargs/yargs-parser#readme
 Copyright (c) 2016, Contributors
@@ -6081,6 +6077,8 @@ SOFTWARE.
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** boxen; version 5.1.2 -- https://github.com/sindresorhus/boxen#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** camelcase; version 6.3.0 -- https://github.com/sindresorhus/camelcase#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** cli-boxes; version 2.2.1 -- https://github.com/sindresorhus/cli-boxes#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** emittery; version 0.10.2 -- https://github.com/sindresorhus/emittery#readme
@@ -6256,6 +6254,33 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+------
+
+** fastest-levenshtein; version 1.0.12 -- https://github.com/ka-weihe/fastest-levenshtein#README
+Copyright (c) 2020 Kasper Unn Weihe
+
+MIT License
+
+Copyright (c) 2020 Kasper Unn Weihe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ------
 
@@ -6812,34 +6837,6 @@ Copyright (c) 2013 Colingo.
 Copyright (c) 2013 Colingo
 
 Copyright (c) 2013 Colingo.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-------
-
-** nice-try; version 1.0.5 -- https://github.com/electerious/nice-try
-Copyright (c) 2018 Tobias Reich
-
-The MIT License (MIT)
-
-Copyright (c) 2018 Tobias Reich
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -7986,14 +7983,6 @@ Copyright (c) 2017, Jon Schlinkert (https://github.com/jonschlinkert)
 ** extglob; version 2.0.4 -- https://github.com/micromatch/extglob
 Copyright (c) 2015-2017, Jon Schlinkert
 Copyright (c) 2017, Jon Schlinkert (https://github.com/jonschlinkert)
-** global-modules; version 1.0.0 -- https://github.com/jonschlinkert/global-modules
-Copyright (c) 2015-2017 Jon Schlinkert.
-Copyright (c) 2015-2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert (https://github.com/jonschlinkert).
-** global-prefix; version 1.0.2 -- https://github.com/jonschlinkert/global-prefix
-Copyright (c) 2015-2017 Jon Schlinkert.
-Copyright (c) 2015-2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert (https://github.com/jonschlinkert).
 ** is-accessor-descriptor; version 1.0.0 -- https://github.com/jonschlinkert/is-accessor-descriptor
 Copyright (c) 2015-2017, Jon Schlinkert
 Copyright (c) 2017, Jon Schlinkert (https://github.com/jonschlinkert)
@@ -8531,38 +8520,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** homedir-polyfill; version 1.0.3 -- https://github.com/doowb/homedir-polyfill
-Copyright (c) 2016 Brian Woodward
-Copyright (c) 2016 - 2019, Brian Woodward (https://github.com/doowb).
-** parse-passwd; version 1.0.0 -- https://github.com/doowb/parse-passwd
-Copyright (c) 2016 Brian Woodward
-Copyright (c) 2016, Brian Woodward (https://github.com/doowb).
-
-The MIT License (MIT)
-
-Copyright (c) 2016 Brian Woodward
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
 ** crypto-browserify; version 3.12.0 -- https://github.com/crypto-browserify/crypto-browserify
 Copyright (c) 2013 Dominic Tarr
 Copyright Paul Johnston 2000 - 2002. Other contributors Greg Holt, Andrew Kepert, Ydnar, Lostinet
@@ -8908,10 +8865,6 @@ Copyright (c) 2015-2016, Jon Schlinkert
 ** expand-brackets; version 2.1.4 -- https://github.com/jonschlinkert/expand-brackets
 Copyright (c) 2015-2016, Jon Schlinkert
 Copyright (c) 2016, Jon Schlinkert (https://github.com/jonschlinkert)
-** expand-tilde; version 2.0.2 -- https://github.com/jonschlinkert/expand-tilde
-Copyright (c) 2015 Jon Schlinkert.
-Copyright (c) 2015-2016, Jon Schlinkert.
-Copyright (c) 2016, Jon Schlinkert (https://github.com/jonschlinkert).
 ** has-glob; version 1.0.0 -- https://github.com/jonschlinkert/has-glob
 Copyright (c) 2015, Jon Schlinkert.
 Copyright (c) 2015-2016, Jon Schlinkert
@@ -8920,10 +8873,6 @@ Copyright (c) 2016, Jon Schlinkert (https://github.com/jonschlinkert).
 Copyright (c) 2015, Jon Schlinkert
 Copyright (c) 2015-2016, Jon Schlinkert
 Copyright (c) 2016, Jon Schlinkert (https://github.com/jonschlinkert)
-** resolve-dir; version 1.0.1 -- https://github.com/jonschlinkert/resolve-dir
-Copyright (c) 2015, Jon Schlinkert.
-Copyright (c) 2015-2016, Jon Schlinkert
-Copyright (c) 2016, Jon Schlinkert (https://github.com/jonschlinkert).
 ** snapdragon; version 0.8.2 -- https://github.com/jonschlinkert/snapdragon
 Copyright (c) 2015-2016, Jon Schlinkert
 Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>
@@ -9528,34 +9477,6 @@ Copyright (c) 2020 Sebastian Silbermann
 MIT License
 
 Copyright (c) 2020 Sebastian Silbermann
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
-** v8-compile-cache; version 2.1.1 -- https://github.com/zertosh/v8-compile-cache#readme
-Copyright (c) 2019 Andres Suarez
-
-The MIT License (MIT)
-
-Copyright (c) 2019 Andres Suarez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11219,6 +11140,12 @@ SOFTWARE.
 
 ------
 
+** @webpack-cli/configtest; version 1.2.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/configtest
+Copyright JS Foundation and other contributors
+** @webpack-cli/info; version 1.5.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/info
+Copyright JS Foundation and other contributors
+** @webpack-cli/serve; version 1.7.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/serve
+Copyright JS Foundation and other contributors
 ** css-loader; version 3.6.0 -- https://github.com/webpack-contrib/css-loader
 Copyright JS Foundation and other contributors
 ** enhanced-resolve; version 4.5.0 -- http://github.com/webpack/enhanced-resolve
@@ -11246,7 +11173,7 @@ Copyright JS Foundation and other contributors
 Copyright JS Foundation and other contributors
 ** webpack; version 4.46.0 -- https://github.com/webpack/webpack
 Copyright JS Foundation and other contributors
-** webpack-cli; version 3.3.12 -- https://github.com/webpack/webpack-cli#readme
+** webpack-cli; version 4.10.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/webpack-cli
 Copyright JS Foundation and other contributors
 ** webpack-dev-middleware; version 3.7.3 -- https://github.com/webpack/webpack-dev-middleware
 Copyright JS Foundation and other contributors
@@ -11274,7 +11201,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 
 ------
 
@@ -13370,6 +13296,20 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
+** colorette; version 2.0.19 -- https://github.com/jorgebucaran/colorette#readme
+Copyright (c) Jorge Bucaran <https://jorgebucaran.com>
+
+Copyright © Jorge Bucaran <<https://jorgebucaran.com>>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
 ** js-yaml; version 3.14.1 -- https://github.com/nodeca/js-yaml
 Copyright (c) 2011-2015 by Vitaly Puzrin
 
@@ -13394,6 +13334,33 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+------
+
+** webpack-merge; version 5.8.0 -- https://github.com/survivejs/webpack-merge
+Copyright (c) 2015 Juho Vepsalainen
+
+Copyright (c) 2015 Juho Vepsalainen
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ------
@@ -14446,6 +14413,8 @@ Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>
 ** ts-pnp; version 1.2.0 -- https://github.com/arcanis/ts-pnp
 Copyright (c) 2016 Mael Nison
 ** watchpack-chokidar2; version 2.0.0 -- https://github.com/webpack/watchpack
+** wildcard; version 2.0.0 -- https://github.com/DamonOehlman/wildcard#readme
+Copyright (c) 2017 Damon Oehlman <damon.oehlman@gmail.com>
 
 MIT License
 
@@ -15585,7 +15554,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** interpret; version 1.4.0 -- https://github.com/gulpjs/interpret#readme
+** interpret; version 2.2.0 -- https://github.com/gulpjs/interpret#readme
 Copyright (c) 2014-2018 Tyler Kellen <tyler@sleekcode.net> , Blaine Bublitz <blaine.bublitz@gmail.com> , and Eric Schoffstall <yo@contra.io>
 
 Copyright (c) 2014-2018 Tyler Kellen <tyler@sleekcode.net>, Blaine Bublitz <blaine.bublitz@gmail.com>, and Eric Schoffstall <yo@contra.io>
@@ -16294,34 +16263,6 @@ THE SOFTWARE.
 
 ------
 
-** findup-sync; version 3.0.0 -- https://github.com/gulpjs/findup-sync#readme
-Copyright (c) 2013-2018 Ben Alman <cowboy@rj3.net> , Blaine Bublitz <blaine.bublitz@gmail.com> , and Eric Schoffstall <yo@contra.io>
-
-The MIT License (MIT)
-
-Copyright (c) 2013-2018 Ben Alman <cowboy@rj3.net>, Blaine Bublitz <blaine.bublitz@gmail.com>, and Eric Schoffstall <yo@contra.io>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
 ** node-libs-browser; version 2.2.1 -- http://github.com/webpack/node-libs-browser
 Copyright (c) 2012 Tobias Koppers
 
@@ -16656,34 +16597,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-------
-
-** detect-file; version 1.0.0 -- https://github.com/doowb/detect-file
-Copyright (c) 2016-2017, Brian Woodward.
-Copyright (c) 2017, Brian Woodward (https://github.com/doowb).
-
-The MIT License (MIT)
-
-Copyright (c) 2016-2017, Brian Woodward.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 
 ------
 
@@ -17490,9 +17403,6 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** callsites; version 3.1.0 -- https://github.com/sindresorhus/callsites#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** camelcase; version 5.3.1 -- https://github.com/sindresorhus/camelcase#readme
-(c) Sindre Sorhus (https://sindresorhus.com)
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** chalk; version 4.1.2 -- https://github.com/chalk/chalk#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** clean-stack; version 2.2.0 -- https://github.com/sindresorhus/clean-stack#readme
@@ -17615,7 +17525,7 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** pify; version 4.0.1 -- https://github.com/sindresorhus/pify#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** pkg-dir; version 3.0.0 -- https://github.com/sindresorhus/pkg-dir#readme
+** pkg-dir; version 4.2.0 -- https://github.com/sindresorhus/pkg-dir#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** prepend-http; version 2.0.0 -- https://github.com/sindresorhus/prepend-http#readme
