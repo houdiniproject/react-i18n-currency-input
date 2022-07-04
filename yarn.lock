@@ -1629,7 +1629,7 @@ __metadata:
     storybook: ^6.5.9
     terser-webpack-plugin: ^4.2.3
     ts-jest: ^27
-    ts-loader: ^6.0.2
+    ts-loader: ^8
     typescript: ^4.7.4
     webpack: ^4.0.0
     webpack-cli: ^3.3.2
@@ -5330,7 +5330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0, chalk@npm:^2.3.0, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
+"chalk@npm:^2.0.0, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -10164,7 +10164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^1.0.2, loader-utils@npm:^1.2.3, loader-utils@npm:^1.4.0":
+"loader-utils@npm:^1.2.3, loader-utils@npm:^1.4.0":
   version: 1.4.0
   resolution: "loader-utils@npm:1.4.0"
   dependencies:
@@ -14533,18 +14533,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:^6.0.2":
-  version: 6.2.2
-  resolution: "ts-loader@npm:6.2.2"
+"ts-loader@npm:^8":
+  version: 8.4.0
+  resolution: "ts-loader@npm:8.4.0"
   dependencies:
-    chalk: ^2.3.0
+    chalk: ^4.1.0
     enhanced-resolve: ^4.0.0
-    loader-utils: ^1.0.2
+    loader-utils: ^2.0.0
     micromatch: ^4.0.0
-    semver: ^6.0.0
+    semver: ^7.3.4
   peerDependencies:
     typescript: "*"
-  checksum: b984b911848f5397e1cddf8b046a693caaf5556ff1ccc91611b40a20824b20232a3d1d28da326e4cf9bb20c23dce2886b1a5a5868634b44384a528bf462c81f4
+    webpack: "*"
+  checksum: 79da0f364c013231bff28baede3f4f4081b1cca30b24df2d9f31a0517e0524eca2c8e4d438b853b1566a3a8eb9ff51ab0b36743346f0b3d5daa7001c98e5c738
   languageName: node
   linkType: hard
 
