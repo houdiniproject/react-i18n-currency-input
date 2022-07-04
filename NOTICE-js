@@ -732,9 +732,9 @@ Copyright 2019 ehmicky <ehmicky@gmail.com>
 
 ------
 
-** aria-query; version 4.2.2 -- https://github.com/A11yance/aria-query#readme
+** aria-query; version 5.0.0 -- https://github.com/A11yance/aria-query#readme
 Copyright 2020 A11yance
-Copyright (c) 2020 A11yance
+Copyright (c) 2021 A11yance
 Copyright year (2020) for A11yance
 
 Apache License
@@ -12785,9 +12785,9 @@ Copyright (c) Facebook, Inc. and its affiliates
 ** jest-cli; version 28.1.2 -- https://jestjs.io/
 ** jest-config; version 28.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-diff; version 25.5.0 -- https://github.com/facebook/jest#readme
-Copyright 2018
-Copyright (c) Facebook, Inc. and its affiliates.
+** jest-diff; version 28.1.1 -- https://github.com/facebook/jest#readme
+Copyright 2018 The diff-match-patch
+Copyright (c) Facebook, Inc. and its affiliates
 ** jest-docblock; version 28.1.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-each; version 28.1.1 -- https://github.com/facebook/jest#readme
@@ -14106,7 +14106,7 @@ Copyright (c) 2017 Kent C. Dodds
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
-** @testing-library/jest-dom; version 5.11.1 -- https://github.com/testing-library/jest-dom#readme
+** @testing-library/jest-dom; version 5.16.4 -- https://github.com/testing-library/jest-dom#readme
 Copyright (c) 2017 Kent C. Dodds
 ** @testing-library/react; version 10.4.9 -- https://github.com/testing-library/react-testing-library#readme
 ** rtl-css-js; version 1.14.0 -- https://github.com/kentcdodds/rtl-css-js#readme
@@ -14332,8 +14332,8 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Microsoft Corporation
 ** @types/webpack-sources; version 1.4.2 -- 
 Copyright (c) Microsoft Corporation.
-** @types/yargs; version 15.0.5 -- 
-Copyright (c) Microsoft Corporation.
+** @types/yargs; version 17.0.10 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/yargs
+Copyright (c) Microsoft Corporation
 ** @types/yargs-parser; version 15.0.0 -- 
 Copyright (c) Microsoft Corporation.
 ** agent-base; version 6.0.2 -- https://github.com/TooTallNate/node-agent-base#readme
