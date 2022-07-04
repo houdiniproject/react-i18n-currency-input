@@ -9414,7 +9414,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ------
 
-** ts-loader; version 8.4.0 -- https://github.com/TypeStrong/ts-loader
+** ts-loader; version 9.3.1 -- https://github.com/TypeStrong/ts-loader
 Copyright (c) 2015 TypeStrong
 
 The MIT License (MIT)
@@ -11148,9 +11148,9 @@ Copyright JS Foundation and other contributors
 Copyright JS Foundation and other contributors
 ** css-loader; version 3.6.0 -- https://github.com/webpack-contrib/css-loader
 Copyright JS Foundation and other contributors
-** enhanced-resolve; version 4.5.0 -- http://github.com/webpack/enhanced-resolve
-Copyright (c) 2012-2016 Tobias Koppers
+** enhanced-resolve; version 5.10.0 -- http://github.com/webpack/enhanced-resolve
 Copyright JS Foundation and other contributors
+Copyright (c) 2012-2019 JS Foundation and other contributors
 ** file-loader; version 6.2.0 -- https://github.com/webpack-contrib/file-loader
 Copyright JS Foundation and other contributors
 ** html-webpack-plugin; version 4.5.2 -- https://github.com/jantimon/html-webpack-plugin
