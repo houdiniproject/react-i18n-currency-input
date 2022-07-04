@@ -13100,8 +13100,6 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/runtime; version 7.18.6 -- https://babel.dev/docs/en/next/babel-runtime
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/runtime-corejs3; version 7.10.5 -- https://github.com/babel/babel#readme
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/template; version 7.18.6 -- https://babel.dev/docs/en/next/babel-template
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/traverse; version 7.18.6 -- https://babel.dev/docs/en/next/babel-traverse
@@ -14108,7 +14106,11 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/jest-dom; version 5.16.4 -- https://github.com/testing-library/jest-dom#readme
 Copyright (c) 2017 Kent C. Dodds
-** @testing-library/react; version 10.4.9 -- https://github.com/testing-library/react-testing-library#readme
+** @testing-library/react; version 12.1.5 -- https://github.com/testing-library/react-testing-library#readme
+Copyright (c) 2017 Kent C. Dodds
+Copyright (c) 2014-present, Facebook, Inc.
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** rtl-css-js; version 1.14.0 -- https://github.com/kentcdodds/rtl-css-js#readme
 Copyright (c) 2017 Kent C. Dodds
 
@@ -14305,8 +14307,6 @@ Copyright (c) Microsoft Corporation
 ** @types/react-dom; version 16.9.8 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/react-syntax-highlighter; version 11.0.5 -- 
-Copyright (c) Microsoft Corporation.
-** @types/react-test-renderer; version 17.0.1 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/responselike; version 1.0.0 -- 
 Copyright (c) Microsoft Corporation.
@@ -17631,7 +17631,7 @@ SOFTWARE.
 
 ------
 
-** @testing-library/react-hooks; version 7.0.2 -- https://github.com/testing-library/react-hooks-testing-library#readme
+** @testing-library/react-hooks; version 8.0.1 -- https://github.com/testing-library/react-hooks-testing-library#readme
 Copyright (c) 2019 Michael Peyper
 
 The MIT License (MIT) Copyright (c) 2019 Michael Peyper
