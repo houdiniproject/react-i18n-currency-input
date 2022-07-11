@@ -58,12 +58,19 @@ jobs:
       - name: Update NOTICE-js
         run: yarn notice_update
 
-      - name: Commit yarn.lock and NOTICE-js
+
+      - name: Commit yarn.lock 
         run: |
           git config user.name "dependabot-fix"
           git config user.email "dependabot-fix@example.com"
           git add yarn.lock
           git commit -m '[dependabot skip] Fix yarn.lock'
-          git add NOTICE-js
-          git commit -m '[dependabot skip] Update NOTICE-js'
-          git push
+      - name: commit NOTICE-js if needed
+        run: |
+          if ! git diff --exit-code NOTICE-js; then
+            git add NOTICE-js
+            git commit -m '[dependabot skip] Update NOTICE'
+          fi
+      - name: push changes back to repo
+        run: git push
+
