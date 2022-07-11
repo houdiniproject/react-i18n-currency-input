@@ -7004,6 +7004,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ------
 
 ** browserslist; version 4.21.1 -- https://github.com/browserslist/browserslist#readme
+Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors
 
 The MIT License (MIT)
 
@@ -12834,7 +12835,7 @@ Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 16.13.1 -- https://reactjs.org/
 (c) Sindre Sorhus
 Copyright (c) 2013-present, Facebook, Inc.
-Copyright (c) Facebook, Inc. and its affiliates.
+Copyright (c) Facebook, Inc. and its affiliates
 ** react-docgen; version 5.3.0 -- https://github.com/reactjs/react-docgen#readme
 Copyright (c) Facebook, Inc. and its affiliates.
 ** react-dom; version 16.13.1 -- https://reactjs.org/
