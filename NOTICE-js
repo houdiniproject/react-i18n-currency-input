@@ -2370,7 +2370,7 @@ Copyright (c) Felix Bohm
 (c) 2007-2020 Steven Levithan
 ** css-what; version 6.1.0 -- https://github.com/fb55/css-what#readme
 Copyright (c) Felix Bohm
-** domelementtype; version 1.3.1 -- https://github.com/fb55/domelementtype#readme
+** domelementtype; version 2.3.0 -- https://github.com/fb55/domelementtype#readme
 Copyright (c) Felix Bohm
 ** domhandler; version 4.3.1 -- https://github.com/fb55/domhandler#readme
 Copyright (c) Felix Bohm
@@ -5931,8 +5931,6 @@ THE SOFTWARE.
 
 ------
 
-** indexes-of; version 1.0.1 -- https://github.com/dominictarr/indexes-of
-Copyright (c) 2013 Dominic Tarr
 ** json-buffer; version 3.0.0 -- https://github.com/dominictarr/json-buffer
 Copyright (c) 2013 Dominic Tarr
 
@@ -10499,36 +10497,6 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-------
-
-** uniq; version 1.0.1 -- https://github.com/mikolalysenko/uniq
-(c) 2013 Mikola Lysenko
-Copyright (c) 2013 Mikola Lysenko
-
-
-The MIT License (MIT)
-
-Copyright (c) 2013 Mikola Lysenko
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 
 
 ------
@@ -18488,7 +18456,7 @@ THE SOFTWARE.
 
 ------
 
-** postcss-selector-parser; version 6.0.2 -- https://github.com/postcss/postcss-selector-parser
+** postcss-selector-parser; version 6.0.10 -- https://github.com/postcss/postcss-selector-parser
 Copyright (c) Ben Briggs <beneb.info@gmail.com> (http://beneb.info)
 
 Copyright (c) Ben Briggs <beneb.info@gmail.com> (http://beneb.info)
