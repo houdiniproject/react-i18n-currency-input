@@ -5544,34 +5544,6 @@ SOFTWARE.
 
 ------
 
-** fork-ts-checker-webpack-plugin; version 6.5.2 -- https://github.com/TypeStrong/fork-ts-checker-webpack-plugin#readme
-Copyright (c) 2020 TypeStrong
-
-MIT License
-
-Copyright (c) 2020 TypeStrong
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
 ** html-minifier-terser; version 5.1.1 -- https://danielruf.github.io/html-minifier-terser/
 Copyright (c) 2014-2016 Zoltan Frombach
 Copyright (c) 2010-2019 Juriy kangax Zaytsev
@@ -9982,6 +9954,33 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
+** @pmmmwh/react-refresh-webpack-plugin; version 0.5.7 -- https://github.com/pmmmwh/react-refresh-webpack-plugin#readme
+
+MIT License
+
+Copyright (c) 2019 Michael Mok
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+------
+
 ** x-default-browser; version 0.4.0 -- https://github.com/jakub-g/x-default-browser
 Copyright (c) 2014 Jakub Gieryluk
 (c) Jakub Gieryluk (http://jakub-g.github.io)
@@ -11173,36 +11172,20 @@ Copyright JS Foundation and other contributors
 Copyright JS Foundation and other contributors
 ** @webpack-cli/serve; version 1.7.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/serve
 Copyright JS Foundation and other contributors
-** css-loader; version 3.6.0 -- https://github.com/webpack-contrib/css-loader
-Copyright JS Foundation and other contributors
 ** enhanced-resolve; version 4.5.0 -- http://github.com/webpack/enhanced-resolve
 Copyright (c) 2012-2016 Tobias Koppers
 Copyright JS Foundation and other contributors
-** file-loader; version 6.2.0 -- https://github.com/webpack-contrib/file-loader
-Copyright JS Foundation and other contributors
-** html-webpack-plugin; version 4.5.2 -- https://github.com/jantimon/html-webpack-plugin
-Copyright JS Foundation and other contributors
 ** loader-utils; version 2.0.0 -- https://github.com/webpack/loader-utils#readme
-Copyright JS Foundation and other contributors
-** postcss-loader; version 4.3.0 -- https://github.com/webpack-contrib/postcss-loader
-Copyright JS Foundation and other contributors
-** raw-loader; version 4.0.2 -- https://github.com/webpack-contrib/raw-loader
 Copyright JS Foundation and other contributors
 ** schema-utils; version 3.1.1 -- https://github.com/webpack/schema-utils
 Copyright JS Foundation and other contributors
-** style-loader; version 1.3.0 -- https://github.com/webpack-contrib/style-loader
-Copyright JS Foundation and other contributors
 ** terser-webpack-plugin; version 4.2.3 -- https://github.com/webpack-contrib/terser-webpack-plugin
-Copyright JS Foundation and other contributors
-** url-loader; version 4.1.1 -- https://github.com/webpack-contrib/url-loader
 Copyright JS Foundation and other contributors
 ** watchpack; version 2.4.0 -- https://github.com/webpack/watchpack
 Copyright JS Foundation and other contributors
-** webpack; version 4.46.0 -- https://github.com/webpack/webpack
+** webpack; version 5.73.0 -- https://github.com/webpack/webpack
 Copyright JS Foundation and other contributors
 ** webpack-cli; version 4.10.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/webpack-cli
-Copyright JS Foundation and other contributors
-** webpack-dev-middleware; version 3.7.3 -- https://github.com/webpack/webpack-dev-middleware
 Copyright JS Foundation and other contributors
 ** webpack-hot-middleware; version 2.25.1 -- https://github.com/webpack-contrib/webpack-hot-middleware#readme
 copyright Tobias Koppers
@@ -12077,34 +12060,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-------
-
-** webpack-filter-warnings-plugin; version 1.2.1 -- https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme
-Copyright (c) 2017 Matt Lewis
-
-MIT License
-
-Copyright (c) 2017 Matt Lewis
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 
 ------
@@ -13650,6 +13605,8 @@ Copyright (c) Microsoft Corporation
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright KingSora Rene Haas. https://github.com/KingSora
+** @storybook/core; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/core-client; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/core-common; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
@@ -14363,6 +14320,7 @@ Copyright (c) Microsoft Corporation.
 Copyright (c) Microsoft Corporation
 ** @types/yargs-parser; version 15.0.0 -- 
 Copyright (c) Microsoft Corporation.
+** acorn-import-assertions; version 1.8.0 -- https://github.com/xtuc/acorn-import-assertions#readme
 ** agent-base; version 6.0.2 -- https://github.com/TooTallNate/node-agent-base#readme
 Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 ** asn1.js; version 4.10.1 -- https://github.com/indutny/asn1.js
@@ -16898,6 +16856,22 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------
+
+** @storybook/react-docgen-typescript-plugin; version 1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0 -- https://github.com/storybookjs/react-docgen-typescript-plugin#readme
+Copyright (c) Andrew Lisowski <lisowski54@gmail.com>
+
+MIT License
+
+Copyright (c) Andrew Lisowski <lisowski54@gmail.com> 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ------
 
