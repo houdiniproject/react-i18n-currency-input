@@ -4320,7 +4320,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 ------
 
-** hosted-git-info; version 2.8.8 -- https://github.com/npm/hosted-git-info
+** hosted-git-info; version 2.8.9 -- https://github.com/npm/hosted-git-info
 Copyright (c) 2015, Rebecca Turner
 ** write-file-atomic; version 2.4.3 -- https://github.com/iarna/write-file-atomic
 Copyright (c) 2015, Rebecca Turner
@@ -10821,6 +10821,32 @@ THE SOFTWARE.
 
 ------
 
+** bn.js; version 4.12.0 -- https://github.com/indutny/bn.js
+Copyright Fedor Indutny, 2015
+
+Copyright Fedor Indutny, 2015.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+------
+
 ** source-map-support; version 0.5.21 -- https://github.com/evanw/node-source-map-support#readme
 Copyright (c) 2014 Evan Wallace
 
@@ -14345,8 +14371,6 @@ Copyright Fedor Indutny, 2013.
 Copyright (c) 2016 Paul Miller (paulmillr.com) (http://paulmillr.com)
 ** babel-core; version 7.0.0-bridge.0 -- 
 ** babel-plugin-add-react-displayname; version 0.0.5 -- https://github.com/opbeat/babel-plugin-add-react-displayname#readme
-** bn.js; version 4.11.9 -- https://github.com/indutny/bn.js
-Copyright Fedor Indutny, 2015.
 ** bplist-parser; version 0.1.1 -- https://github.com/nearinfinity/node-bplist-parser#readme
 Copyright 2007 Apple Inc.
 Copyright (c) 2012 Near Infinity Corporation
@@ -14359,7 +14383,7 @@ Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 Copyright (c) 2012 LearnBoost <tj@learnboost.com>
 ** des.js; version 1.0.1 -- https://github.com/indutny/des.js#readme
 Copyright Fedor Indutny, 2015
-** elliptic; version 6.5.3 -- https://github.com/indutny/elliptic
+** elliptic; version 6.5.4 -- https://github.com/indutny/elliptic
 Copyright Fedor Indutny, 2014.
 ** endent; version 2.1.0 -- https://github.com/ZhouHansen/endent#readme
 ** err-code; version 2.0.3 -- https://github.com/IndigoUnited/js-err-code#readme
