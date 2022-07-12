@@ -2032,6 +2032,43 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ------
 
+** terser; version 5.14.1 -- https://terser.org
+Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>
+Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
+
+Terser is released under the BSD license:
+
+Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+    * Redistributions of source code must retain the above
+      copyright notice, this list of conditions and the following
+      disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials
+      provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER “AS IS” AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+
+------
+
 ** uglify-js; version 3.16.1 -- https://github.com/mishoo/UglifyJS#readme
 Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>
 Copyright 2012-2019 (c) Mihai Bazon <mihai.bazon@gmail.com>
@@ -2157,43 +2194,6 @@ Redistribution and use in source and binary forms, with or without modification,
 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-------
-
-** terser; version 4.8.0 -- https://terser.org
-Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>
-Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
-
-UglifyJS is released under the BSD license:
-
-Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-    * Redistributions of source code must retain the above
-      copyright notice, this list of conditions and the following
-      disclaimer.
-
-    * Redistributions in binary form must reproduce the above
-      copyright notice, this list of conditions and the following
-      disclaimer in the documentation and/or other materials
-      provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER “AS IS” AND ANY
-EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
-PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
-THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE.
 
 
 ------
@@ -2365,20 +2365,20 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ------
 
-** css-select; version 1.2.0 -- https://github.com/fb55/css-select#readme
+** css-select; version 4.3.0 -- https://github.com/fb55/css-select#readme
 Copyright (c) Felix Bohm
-** css-what; version 2.1.3 -- https://github.com/fb55/css-what#readme
+(c) 2007-2020 Steven Levithan
+** css-what; version 6.1.0 -- https://github.com/fb55/css-what#readme
 Copyright (c) Felix Bohm
 ** domelementtype; version 1.3.1 -- https://github.com/fb55/domelementtype#readme
 Copyright (c) Felix Bohm
-** domhandler; version 2.4.2 -- https://github.com/fb55/DomHandler#readme
+** domhandler; version 4.3.1 -- https://github.com/fb55/domhandler#readme
 Copyright (c) Felix Bohm
-** domutils; version 1.5.1 -- https://github.com/FB55/domutils
+** domutils; version 2.8.0 -- https://github.com/fb55/domutils#readme
 Copyright (c) Felix Bohm
-** entities; version 1.1.2 -- https://github.com/fb55/entities#readme
+** entities; version 2.0.3 -- https://github.com/fb55/entities#readme
 Copyright (c) Felix Bohm
-(c) // http://mathiasbynens.be/notes/javascript-encoding
-** nth-check; version 1.0.2 -- https://github.com/fb55/nth-check
+** nth-check; version 2.1.1 -- https://github.com/fb55/nth-check
 Copyright (c) Felix Bohm
 
 Copyright (c) Felix Böhm
@@ -2683,6 +2683,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ------
 
 ** source-map; version 0.6.1 -- https://github.com/mozilla/source-map
+Copyright 2011 The Closure Compiler Authors
+Copyright 2011 Mozilla Foundation and contributors
+Copyright 2014 Mozilla Foundation and contributors
+Copyright 2009-2011 Mozilla Foundation and contributors
+Copyright (c) 2009-2011, Mozilla Foundation and contributors
+** source-map-js; version 1.0.2 -- https://github.com/7rulnik/source-map-js
 Copyright 2011 The Closure Compiler Authors
 Copyright 2011 Mozilla Foundation and contributors
 Copyright 2014 Mozilla Foundation and contributors
@@ -4086,7 +4092,7 @@ ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** postcss-modules-extract-imports; version 2.0.0 -- https://github.com/css-modules/postcss-modules-extract-imports
+** postcss-modules-extract-imports; version 3.0.0 -- https://github.com/css-modules/postcss-modules-extract-imports
 Copyright 2015 Glen Maddern
 
 Copyright 2015 Glen Maddern
@@ -4145,9 +4151,9 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** postcss-modules-scope; version 2.2.0 -- https://github.com/css-modules/postcss-modules-scope
+** postcss-modules-scope; version 3.0.0 -- https://github.com/css-modules/postcss-modules-scope
 Copyright (c) 2015, Glen Maddern
-** postcss-modules-values; version 3.0.0 -- https://github.com/css-modules/postcss-modules-values#readme
+** postcss-modules-values; version 4.0.0 -- https://github.com/css-modules/postcss-modules-values#readme
 Copyright (c) 2015, Glen Maddern
 
 ISC License (ISC)
@@ -4307,7 +4313,7 @@ THIS SOFTWARE.
 
 ------
 
-** icss-utils; version 4.1.1 -- https://github.com/css-modules/icss-utils#readme
+** icss-utils; version 5.1.0 -- https://github.com/css-modules/icss-utils#readme
 Copyright 2018 Glen Maddern
 
 ISC License (ISC)
@@ -4617,7 +4623,8 @@ USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** picocolors; version 0.2.1 -- https://github.com/alexeyraspopov/picocolors#readme
+** picocolors; version 1.0.0 -- https://github.com/alexeyraspopov/picocolors#readme
+Copyright (c) 2021 Alexey Raspopov, Kostiantyn Denysov, Anton Verinov
 
 ISC License
 
@@ -5544,7 +5551,35 @@ SOFTWARE.
 
 ------
 
-** html-minifier-terser; version 5.1.1 -- https://danielruf.github.io/html-minifier-terser/
+** fork-ts-checker-webpack-plugin; version 6.5.2 -- https://github.com/TypeStrong/fork-ts-checker-webpack-plugin#readme
+Copyright (c) 2020 TypeStrong
+
+MIT License
+
+Copyright (c) 2020 TypeStrong
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+------
+
+** html-minifier-terser; version 6.1.0 -- https://terser.org/html-minifier-terser/
 Copyright (c) 2014-2016 Zoltan Frombach
 Copyright (c) 2010-2019 Juriy kangax Zaytsev
 
@@ -6077,6 +6112,8 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** is-stream; version 2.0.1 -- https://github.com/sindresorhus/is-stream#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** mem; version 8.1.1 -- https://github.com/sindresorhus/mem#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** onetime; version 5.1.2 -- https://github.com/sindresorhus/onetime#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** open; version 7.4.2 -- https://github.com/sindresorhus/open#readme
@@ -6258,7 +6295,7 @@ SOFTWARE.
 
 ** autoprefixer; version 9.8.8 -- https://github.com/postcss/autoprefixer#readme
 Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
-** postcss; version 7.0.39 -- https://postcss.org/
+** postcss; version 8.4.14 -- https://postcss.org/
 Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
 
 The MIT License (MIT)
@@ -7086,7 +7123,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** htmlparser2; version 3.10.1 -- https://github.com/fb55/htmlparser2#readme
+** htmlparser2; version 6.1.0 -- https://github.com/fb55/htmlparser2#readme
 Copyright 2010, 2011, Chris Winberry <chris@winberry.net>
 
 Copyright 2010, 2011, Chris Winberry <chris@winberry.net>. All rights reserved.
@@ -8670,6 +8707,23 @@ SOFTWARE.
 
 ------
 
+** map-age-cleaner; version 0.1.3 -- https://github.com/SamVerschueren/map-age-cleaner#readme
+(c) Sam Verschueren (https://github.com/SamVerschueren)
+Copyright (c) Sam Verschueren <sam.verschueren@gmail.com>
+
+MIT License
+
+Copyright (c) Sam Verschueren <sam.verschueren@gmail.com> (github.com/SamVerschueren)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
 ** url; version 0.11.0 -- https://github.com/defunctzombie/node-url#readme
 Copyright Joyent, Inc. and other Node contributors
 Copyright (c) 2002-2008 Kris Kowal <http://cixar.com/~kris.kowal>
@@ -8980,17 +9034,17 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ** array-flatten; version 1.1.1 -- https://github.com/blakeembrey/array-flatten
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
-** camel-case; version 4.1.1 -- https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme
+** camel-case; version 4.1.2 -- https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
-** dot-case; version 3.0.3 -- https://github.com/blakeembrey/change-case/tree/master/packages/dot-case#readme
+** dot-case; version 3.0.4 -- https://github.com/blakeembrey/change-case/tree/master/packages/dot-case#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
-** lower-case; version 2.0.1 -- https://github.com/blakeembrey/change-case/tree/master/packages/lower-case#readme
+** lower-case; version 2.0.2 -- https://github.com/blakeembrey/change-case/tree/master/packages/lower-case#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
-** no-case; version 3.0.3 -- https://github.com/blakeembrey/change-case/tree/master/packages/no-case#readme
+** no-case; version 3.0.4 -- https://github.com/blakeembrey/change-case/tree/master/packages/no-case#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
-** param-case; version 3.0.3 -- https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme
+** param-case; version 3.0.4 -- https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
-** pascal-case; version 3.1.1 -- https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme
+** pascal-case; version 3.1.2 -- https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
 ** path-to-regexp; version 0.1.7 -- https://github.com/component/path-to-regexp#readme
 Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
@@ -10365,7 +10419,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ------
 
-** postcss-modules-local-by-default; version 3.0.3 -- https://github.com/css-modules/postcss-modules-local-by-default#readme
+** postcss-modules-local-by-default; version 4.0.0 -- https://github.com/css-modules/postcss-modules-local-by-default#readme
 Copyright 2015 Mark Dalgleish <mark.john.dalgleish@gmail.com>
 
 The MIT License (MIT)
@@ -11172,12 +11226,18 @@ Copyright JS Foundation and other contributors
 Copyright JS Foundation and other contributors
 ** @webpack-cli/serve; version 1.7.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/serve
 Copyright JS Foundation and other contributors
+** css-loader; version 5.2.7 -- https://github.com/webpack-contrib/css-loader
+Copyright JS Foundation and other contributors
 ** enhanced-resolve; version 4.5.0 -- http://github.com/webpack/enhanced-resolve
 Copyright (c) 2012-2016 Tobias Koppers
+Copyright JS Foundation and other contributors
+** html-webpack-plugin; version 5.5.0 -- https://github.com/jantimon/html-webpack-plugin
 Copyright JS Foundation and other contributors
 ** loader-utils; version 2.0.0 -- https://github.com/webpack/loader-utils#readme
 Copyright JS Foundation and other contributors
 ** schema-utils; version 3.1.1 -- https://github.com/webpack/schema-utils
+Copyright JS Foundation and other contributors
+** style-loader; version 2.0.0 -- https://github.com/webpack-contrib/style-loader
 Copyright JS Foundation and other contributors
 ** terser-webpack-plugin; version 4.2.3 -- https://github.com/webpack-contrib/terser-webpack-plugin
 Copyright JS Foundation and other contributors
@@ -11186,6 +11246,8 @@ Copyright JS Foundation and other contributors
 ** webpack; version 5.73.0 -- https://github.com/webpack/webpack
 Copyright JS Foundation and other contributors
 ** webpack-cli; version 4.10.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/webpack-cli
+Copyright JS Foundation and other contributors
+** webpack-dev-middleware; version 4.3.0 -- https://github.com/webpack/webpack-dev-middleware
 Copyright JS Foundation and other contributors
 ** webpack-hot-middleware; version 2.25.1 -- https://github.com/webpack-contrib/webpack-hot-middleware#readme
 copyright Tobias Koppers
@@ -12494,7 +12556,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ** dom-converter; version 0.2.0 -- https://github.com/AriaMinaei/dom-converter#readme
 Copyright (c) 2013 Aria Minaei
-** pretty-error; version 2.1.1 -- https://github.com/AriaMinaei/pretty-error#readme
+** pretty-error; version 4.0.0 -- https://github.com/AriaMinaei/pretty-error#readme
 Copyright (c) 2013 Aria Minaei
 
 The MIT License (MIT)
@@ -12691,7 +12753,7 @@ SOFTWARE.
 
 ------
 
-** webpack-virtual-modules; version 0.2.2 -- https://github.com/sysgears/webpack-virtual-modules#readme
+** webpack-virtual-modules; version 0.4.4 -- https://github.com/sysgears/webpack-virtual-modules#readme
 Copyright (c) 2017 SysGears
 Copyright (c) 2017 SysGears INC
 
@@ -13276,7 +13338,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** colorette; version 2.0.19 -- https://github.com/jorgebucaran/colorette#readme
+** colorette; version 1.4.0 -- https://github.com/jorgebucaran/colorette#readme
 Copyright (c) Jorge Bucaran <https://jorgebucaran.com>
 
 Copyright © Jorge Bucaran <<https://jorgebucaran.com>>
@@ -13584,6 +13646,8 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/builder-webpack4; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/builder-webpack5; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/channel-postmessage; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-postmessage
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/channel-websocket; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
@@ -13620,6 +13684,21 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/docs-tools; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/docs-tools
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/manager-webpack4; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+(c) Sindre Sorhus
+Copyright 2009-2020
+Copyright Google Inc.
+(c) 2014-2022 Denis Pushkarev
+Copyright (c) 2021 Nathan Bubna
+Copyright (c) Remix Software Inc.
+Copyright (c) Microsoft Corporation
+(c) ,null c&&pb(c.type),b b.value,null
+Copyright (c) 2014-2017, Jon Schlinkert
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+Copyright KingSora Rene Haas. https://github.com/KingSora
+Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
+** @storybook/manager-webpack5; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 (c) Sindre Sorhus
 Copyright 2009-2020
 Copyright Google Inc.
@@ -14231,7 +14310,7 @@ Copyright (c) Microsoft Corporation.
 Copyright (c) Microsoft Corporation
 ** @types/eslint-scope; version 3.7.3 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/eslint-scope
 Copyright (c) Microsoft Corporation
-** @types/estree; version 0.0.51 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree
+** @types/estree; version 0.0.52 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree
 Copyright (c) Microsoft Corporation
 ** @types/glob; version 7.2.0 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/glob
 Copyright (c) Microsoft Corporation
@@ -14239,8 +14318,8 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Microsoft Corporation
 ** @types/hast; version 2.3.1 -- 
 Copyright (c) Microsoft Corporation.
-** @types/html-minifier-terser; version 5.1.0 -- 
-Copyright (c) Microsoft Corporation.
+** @types/html-minifier-terser; version 6.1.0 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/html-minifier-terser
+Copyright (c) Microsoft Corporation
 ** @types/is-function; version 1.0.0 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/istanbul-lib-coverage; version 2.0.4 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/istanbul-lib-coverage
@@ -14624,6 +14703,33 @@ THE SOFTWARE.
 
 ------
 
+** browser-assert; version 1.2.1 -- https://github.com/socialally/browser-assert#readme
+Copyright (c) 2015 Social Ally
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Social Ally
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
 ** js-string-escape; version 1.0.1 -- https://github.com/joliss/js-string-escape#readme
 Copyright (c) 2013 Jo Liss
 
@@ -14916,6 +15022,9 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** os-homedir; version 1.0.2 -- https://github.com/sindresorhus/os-homedir#readme
+(c) Sindre Sorhus (https://sindresorhus.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+** p-defer; version 1.0.0 -- https://github.com/sindresorhus/p-defer#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** p-finally; version 1.0.0 -- https://github.com/sindresorhus/p-finally#readme
@@ -15868,6 +15977,34 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
+** babel-plugin-named-exports-order; version 0.0.2 -- 
+Copyright (c) 2022 Michael Shilman
+
+MIT License
+
+Copyright (c) 2022 Michael Shilman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 ------
@@ -17898,7 +18035,7 @@ SOFTWARE.
 
 ------
 
-** clean-css; version 4.2.3 -- https://github.com/jakubpawlowicz/clean-css
+** clean-css; version 5.3.0 -- https://github.com/clean-css/clean-css
 Copyright (c) 2017 JakubPawlowicz.com
 
 Copyright (C) 2017 JakubPawlowicz.com
@@ -17924,7 +18061,7 @@ DEALINGS IN THE SOFTWARE.
 
 ------
 
-** renderkid; version 2.0.3 -- https://github.com/AriaMinaei/RenderKid#readme
+** renderkid; version 3.0.0 -- https://github.com/AriaMinaei/RenderKid#readme
 Copyright (c) 2015 Aria Minaei
 
 The MIT License (MIT)
