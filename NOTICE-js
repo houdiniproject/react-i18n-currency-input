@@ -2941,65 +2941,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ------
 
-** highlight.js; version 10.7.3 -- https://highlightjs.org/
-Copyright 2015
-(c) Visoft, Inc.
-(c) Carl Baxter <carl@cbax.tech>
-(c) Mike Bostock <mike@ocks.org>
-Copyright (c) 2018 Sarah Drasner
-Copyright (c) 2006, Ivan Sagalaev
-(c) Zaripov Yura <yur4ik7@ukr.net>
-(c) 2020 Jim Mason <jmason@ibinx.com>
-(c) Jeremy Hull <sourdrums@gmail.com>
-(c) Samia Ali <samiaab1990@gmail.com>
-(c) Aahan Krish <geekpanth3r@gmail.com>
-(c) Dmitriy Tarasov <dimatar@gmail.com>
-(c) Gustavo Costa <gusbemacbe@gmail.com>
-(c) Vasily Polovnyov <vast@whiteants.net>
-(c) Vladimir Epifanov <voldmar@voldmar.ru>
-(c) Angel Garcia <angelgarcia.mail@gmail.com>
-(c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
-(c) Ivan Sagalaev <maniac@softwaremaniacs.org>
-(c) Tristian Kelly <tristian.kelly560@gmail.com>
-(c) Vasily Mikhailitchenko <vaskas@programica.ru>
-Copyright (c) 2017-present Sven Greb <development@svengreb.de>
-(c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
-Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-(c) Ahmad Awais <https://twitter.com/mrahmadawais/> link GitHub Repo - https://github.com/ahmadawais/Shades-of-Purple-HighlightJS
-
-BSD 3-Clause License
-
-Copyright (c) 2006, Ivan Sagalaev.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-------
-
 ** abab; version 2.0.6 -- https://github.com/jsdom/abab#readme
 Copyright (c) 2019 W3C and Jeff Carpenter jeffcarp@chromium.org
 
@@ -6731,9 +6672,6 @@ Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>
 ** detab; version 2.0.4 -- https://github.com/wooorm/detab#readme
 (c) Titus Wormer
 Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>
-** fault; version 1.0.4 -- https://github.com/wooorm/fault#readme
-(c) Titus Wormer
-Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>
 ** unherit; version 1.1.3 -- https://github.com/wooorm/unherit#readme
 (c) Titus Wormer
 Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>
@@ -6844,35 +6782,6 @@ Copyright (c) 2013 Colingo.
 Copyright (c) 2013 Colingo
 
 Copyright (c) 2013 Colingo.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-------
-
-** prismjs; version 1.28.0 -- https://github.com/PrismJS/prism#readme
-Copyright (c) 2012 Lea Verou
-copyright year 69cbf7a (https://github.com/PrismJS/prism/commit/69cbf7a)
-
-MIT LICENSE
-
-Copyright (c) 2012 Lea Verou
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9841,9 +9750,6 @@ SOFTWARE.
 
 ------
 
-** refractor; version 3.6.0 -- https://github.com/wooorm/refractor#readme
-(c) Titus Wormer
-Copyright (c) 2017 Titus Wormer <tituswormer@gmail.com>
 ** vfile-message; version 2.0.4 -- https://github.com/vfile/vfile-message#readme
 (c) Titus Wormer
 Copyright (c) 2017 Titus Wormer <tituswormer@gmail.com>
@@ -13604,54 +13510,53 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** @storybook/addon-actions; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/addons/actions
+** @storybook/addon-actions; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/addons/actions
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/addon-links; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/addons/links
+** @storybook/addon-links; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/addons/links
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/addons; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
+** @storybook/addons; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/api; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/api
+** @storybook/api; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/api
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/builder-webpack4; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/builder-webpack4; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/builder-webpack5; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/builder-webpack5; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/channel-postmessage; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-postmessage
+** @storybook/channel-postmessage; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-postmessage
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/channel-websocket; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
+** @storybook/channel-websocket; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/channels; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/channels
+** @storybook/channels; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/channels
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/cli; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
+** @storybook/cli; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
+** @storybook/client-api; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/client-api
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/client-api; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/client-api
+** @storybook/client-logger; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/client-logger
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/client-logger; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/client-logger
+** @storybook/codemod; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/codemod
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/codemod; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/codemod
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/components; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/components
+** @storybook/components; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/components
 Copyright Google Inc.
 Copyright (c) 2001 Robert Penner
 Copyright (c) Microsoft Corporation
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright KingSora Rene Haas. https://github.com/KingSora
-** @storybook/core; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/core; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-client; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/core-client; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-common; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/core-common; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-events; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core-events
+** @storybook/core-events; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core-events
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-server; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/core-server; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/csf-tools; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/csf-tools
+** @storybook/csf-tools; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/csf-tools
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/docs-tools; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/docs-tools
+** @storybook/docs-tools; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/docs-tools
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/manager-webpack4; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/manager-webpack4; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 (c) Sindre Sorhus
 Copyright 2009-2020
 Copyright Google Inc.
@@ -13666,7 +13571,7 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
 Copyright KingSora Rene Haas. https://github.com/KingSora
 Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
-** @storybook/manager-webpack5; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/manager-webpack5; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 (c) Sindre Sorhus
 Copyright 2009-2020
 Copyright Google Inc.
@@ -13681,26 +13586,26 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
 Copyright KingSora Rene Haas. https://github.com/KingSora
 Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
-** @storybook/node-logger; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/node-logger
+** @storybook/node-logger; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/node-logger
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/preview-web; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/preview-web
+** @storybook/preview-web; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/preview-web
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/react; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/app/react
+** @storybook/react; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/app/react
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/router; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/router
+** @storybook/router; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/router
 Copyright (c) Remix Software Inc.
 Copyright (c) Microsoft Corporation
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/store; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/store
+** @storybook/store; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/store
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/telemetry; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/telemetry
+** @storybook/telemetry; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/telemetry
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/theming; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/theming
+** @storybook/theming; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/theming
 Copyright 2015, Yahoo! Inc.
 Copyright (c) Microsoft Corporation
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/ui; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/ui
+** @storybook/ui; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/ui
 (c) Sindre Sorhus
 Copyright (c) 2021 Nathan Bubna
 Copyright (c) Microsoft Corporation
@@ -13708,8 +13613,6 @@ Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
-** storybook; version 6.5.9 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 
 The MIT License (MIT)
 
@@ -14337,8 +14240,6 @@ Copyright (c) Microsoft Corporation
 ** @types/react; version 16.9.43 -- 
 ** @types/react-dom; version 16.9.8 -- 
 Copyright (c) Microsoft Corporation.
-** @types/react-syntax-highlighter; version 11.0.5 -- 
-Copyright (c) Microsoft Corporation.
 ** @types/responselike; version 1.0.0 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/scheduler; version 0.16.2 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/scheduler
@@ -14395,9 +14296,6 @@ Copyright Fedor Indutny, 2014.
 ** errno; version 0.1.7 -- https://github.com/rvagg/node-errno#readme
 Copyright (c) 2012-2015 Rod Vagg (https://github.com/rvagg) ( rvagg (https://twitter.com/rvagg))
 ** flow-parser; version 0.130.0 -- https://flow.org
-** format; version 0.2.2 -- http://samhuri.net/proj/format
-Copyright 2010 - 2014 Sami Samhuri sami@samhuri.net
-Copyright 2010 - 2013 Sami Samhuri <sami@samhuri.net>
 ** get-stdin; version 4.0.1 -- https://github.com/sindresorhus/get-stdin
 (c) Sindre Sorhus (http://sindresorhus.com)
 ** hash.js; version 1.1.7 -- https://github.com/indutny/hash.js
@@ -15079,9 +14977,6 @@ Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
 (c) Titus Wormer
 Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
 ** is-word-character; version 1.0.4 -- https://github.com/wooorm/is-word-character#readme
-(c) Titus Wormer
-Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
-** lowlight; version 1.20.0 -- https://github.com/wooorm/lowlight#readme
 (c) Titus Wormer
 Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
 ** markdown-escapes; version 1.0.4 -- https://github.com/wooorm/markdown-escapes#readme
@@ -18125,34 +18020,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-------
-
-** react-syntax-highlighter; version 15.5.0 -- https://github.com/react-syntax-highlighter/react-syntax-highlighter#readme
-Copyright (c) 2019 Conor Hastings
-
-MIT License
-
-Copyright (c) 2019 Conor Hastings
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 
 ------
