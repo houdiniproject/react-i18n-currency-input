@@ -12881,6 +12881,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-class-properties; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-class-properties
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-class-static-block; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-class-static-block
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-decorators; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-decorators
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-dynamic-import; version 7.18.6 -- 
@@ -12890,16 +12891,20 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-export-namespace-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-export-namespace-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-json-strings; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-json-strings
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-logical-assignment-operators; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-logical-assignment-operators
 ** @babel/plugin-proposal-nullish-coalescing-operator; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-nullish-coalescing-operator
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-numeric-separator; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-numeric-separator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-object-rest-spread; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-object-rest-spread
 ** @babel/plugin-proposal-optional-catch-binding; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-optional-catch-binding
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-optional-chaining; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-optional-chaining
 ** @babel/plugin-proposal-private-methods; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-private-methods
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-private-property-in-object; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-private-property-in-object
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-unicode-property-regex; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-unicode-property-regex
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-async-generators; version 7.8.4 -- 
@@ -12946,6 +12951,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-typescript
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-arrow-functions; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-arrow-functions
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-async-to-generator; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-async-to-generator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-block-scoped-functions; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-block-scoped-functions
@@ -12972,7 +12978,9 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-member-expression-literals; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-member-expression-literals
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-amd; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-amd
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-commonjs; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-commonjs
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-systemjs; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-systemjs
 ** @babel/plugin-transform-modules-umd; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-umd
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12985,6 +12993,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-parameters; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-parameters
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-property-literals; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-property-literals
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-react-display-name; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-react-display-name
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-react-jsx; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx
@@ -13008,6 +13017,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-escapes; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-escapes
 ** @babel/plugin-transform-unicode-regex; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-regex
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-env; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-env
 ** @babel/preset-flow; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -13459,6 +13469,7 @@ THE SOFTWARE.
 ** @jridgewell/gen-mapping; version 0.3.2 -- https://github.com/jridgewell/gen-mapping#readme
 Copyright 2022 Justin Ridgewell <jridgewell@google.com>
 ** @jridgewell/set-array; version 1.1.2 -- https://github.com/jridgewell/set-array#readme
+Copyright 2022 Justin Ridgewell <jridgewell@google.com>
 
 Copyright 2022 Justin Ridgewell <jridgewell@google.com>
 
@@ -13613,6 +13624,8 @@ Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+** storybook; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 
 The MIT License (MIT)
 
@@ -14241,7 +14254,7 @@ Copyright (c) Microsoft Corporation
 ** @types/react-dom; version 16.9.8 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/responselike; version 1.0.0 -- 
-Copyright (c) Microsoft Corporation.
+Copyright (c) Microsoft Corporation
 ** @types/scheduler; version 0.16.2 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/scheduler
 Copyright (c) Microsoft Corporation
 ** @types/source-list-map; version 0.1.2 -- 
@@ -16836,6 +16849,7 @@ SOFTWARE.
 ** @jridgewell/resolve-uri; version 3.0.8 -- https://github.com/jridgewell/resolve-uri#readme
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
 ** @jridgewell/source-map; version 0.3.2 -- https://github.com/jridgewell/source-map#readme
+Copyright 2019 Justin Ridgewell <jridgewell@google.com>
 
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
 
