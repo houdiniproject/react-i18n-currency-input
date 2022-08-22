@@ -1,5 +1,5 @@
 name: react-i18n-currency-input build
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   test_and_compile:
     runs-on: ${{ matrix.os }}
