@@ -42,7 +42,7 @@
     "@types/react-dom": "^16.8.4",
     "babel-loader": "^8.2.5",
     "jest": "^28",
-    "jest-environment-jsdom": "^28",
+    "jest-environment-jsdom": "^29",
     "lodash": ">=4.17",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
