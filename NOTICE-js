@@ -2493,6 +2493,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ------
 
 ** @base2/pretty-print-object; version 1.0.1 -- https://github.com/Chris-Baker/pretty-print-object#readme
+Copyright (c) 2015, Yeoman team
 
 Copyright (c) 2015, Yeoman team
 All rights reserved.
@@ -9520,6 +9521,7 @@ SOFTWARE.
 
 ** remark-footnotes; version 2.0.0 -- https://github.com/remarkjs/remark-footnotes#readme
 (c) Titus Wormer
+Copyright (c) 2020 Titus Wormer <tituswormer@gmail.com>
 
 (The MIT License)
 
@@ -14238,7 +14240,7 @@ Copyright (c) Microsoft Corporation
 ** @types/js-cookie; version 2.2.6 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/jsdom; version 16.2.14 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jsdom
-Copyright (c) Microsoft Corporation.
+Copyright (c) Microsoft Corporation
 ** @types/json-schema; version 7.0.11 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema
 Copyright (c) Microsoft Corporation
 ** @types/keyv; version 3.1.4 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/keyv
@@ -14262,7 +14264,7 @@ Copyright (c) Microsoft Corporation.
 ** @types/parse-json; version 4.0.0 -- 
 Copyright (c) Microsoft Corporation
 ** @types/parse5; version 6.0.3 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/parse5
-Copyright (c) Microsoft Corporation.
+Copyright (c) Microsoft Corporation
 ** @types/prettier; version 2.6.3 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/prettier
 Copyright (c) Microsoft Corporation
 ** @types/pretty-hrtime; version 1.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pretty-hrtime
@@ -17863,7 +17865,9 @@ SOFTWARE.
 ** data-urls; version 3.0.2 -- https://github.com/jsdom/data-urls#readme
 Copyright (c) Domenic Denicola <d@domenic.me>
 ** html-encoding-sniffer; version 3.0.0 -- https://github.com/jsdom/html-encoding-sniffer#readme
+Copyright (c) Domenic Denicola <d@domenic.me>
 ** whatwg-encoding; version 2.0.0 -- https://github.com/jsdom/whatwg-encoding#readme
+Copyright (c) Domenic Denicola <d@domenic.me>
 ** whatwg-mimetype; version 3.0.0 -- https://github.com/jsdom/whatwg-mimetype#readme
 Copyright (c) Domenic Denicola <d@domenic.me>
 
