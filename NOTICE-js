@@ -6068,6 +6068,8 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** parse-json; version 5.2.0 -- https://github.com/sindresorhus/parse-json#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** pkg-dir; version 5.0.0 -- https://github.com/sindresorhus/pkg-dir#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** string-length; version 4.0.2 -- https://github.com/sindresorhus/string-length#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** strip-json-comments; version 3.1.1 -- https://github.com/sindresorhus/strip-json-comments#readme
@@ -13548,8 +13550,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/addon-links; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/addons/links
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/addons; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/addons; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
 ** @storybook/api; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/api
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/builder-webpack4; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
@@ -13558,7 +13559,7 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/channel-postmessage; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-postmessage
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/channel-websocket; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
+** @storybook/channel-websocket; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/channels; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/channels
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
@@ -13605,7 +13606,7 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
 Copyright KingSora Rene Haas. https://github.com/KingSora
 Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
-** @storybook/manager-webpack5; version 6.5.10 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+** @storybook/manager-webpack5; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 (c) Sindre Sorhus
 Copyright 2009-2020
 Copyright Google Inc.
@@ -15640,7 +15641,7 @@ THE SOFTWARE.
 Copyright (c) 2014-present Nicolo Ribaudo and other contributors
 ** babel-plugin-polyfill-corejs2; version 0.3.1 -- https://github.com/babel/babel-polyfills#readme
 Copyright (c) 2014-present Nicolo Ribaudo and other contributors
-** babel-plugin-polyfill-corejs3; version 0.5.2 -- https://github.com/babel/babel-polyfills#readme
+** babel-plugin-polyfill-corejs3; version 0.1.7 -- https://github.com/babel/babel-polyfills#readme
 Copyright (c) 2014-present Nicolo Ribaudo and other contributors
 ** babel-plugin-polyfill-regenerator; version 0.3.1 -- https://github.com/babel/babel-polyfills#readme
 Copyright (c) 2014-present Nicolo Ribaudo and other contributors
@@ -17559,9 +17560,6 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** pify; version 4.0.1 -- https://github.com/sindresorhus/pify#readme
-(c) Sindre Sorhus (https://sindresorhus.com)
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** pkg-dir; version 4.2.0 -- https://github.com/sindresorhus/pkg-dir#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** prepend-http; version 2.0.0 -- https://github.com/sindresorhus/prepend-http#readme
