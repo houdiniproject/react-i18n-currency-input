@@ -7,6 +7,7 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         node: [14.x]
+        react: [16, 17]
     steps:
       - uses: actions/checkout@v3.0.2
       - name: Setup Node.js environment
@@ -18,7 +19,7 @@ jobs:
       - name: verify NOTICE
         run: npm run notice
       - name: run jest
-        run: npm run jest
+        run: USE_REACT_${{ matrix.react }}=true npm run jest
       - name: Webpack compile everything
         run: webpack
       - name: Build storybook
