@@ -14070,9 +14070,8 @@ THE SOFTWARE.
 
 ------
 
-** @testing-library/dom; version 8.14.0 -- https://github.com/testing-library/dom-testing-library#readme
+** @testing-library/dom; version 8.18.1 -- https://github.com/testing-library/dom-testing-library#readme
 Copyright (c) 2017 Kent C. Dodds
-Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/jest-dom; version 5.16.4 -- https://github.com/testing-library/jest-dom#readme
