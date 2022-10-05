@@ -2283,22 +2283,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ------
 
-** browser-process-hrtime; version 1.0.0 -- https://github.com/kumavis/browser-process-hrtime#readme
-Copyright 2014 kumavis
-
-Copyright 2014 kumavis
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-------
-
 ** configstore; version 5.0.1 -- https://github.com/yeoman/configstore#readme
 Copyright (c) Google
 
@@ -2764,9 +2748,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ------
 
-** tough-cookie; version 4.0.0 -- https://github.com/salesforce/tough-cookie
+** tough-cookie; version 4.1.2 -- https://github.com/salesforce/tough-cookie
 Copyright (c) 2015, Salesforce.com, Inc.
 Copyright (c) 2018, Salesforce.com, Inc.
+Copyright (c) 2015-2020, Salesforce.com, Inc.
+Copyright (c) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Phil Booth
 
 Copyright (c) 2015, Salesforce.com, Inc.
 All rights reserved.
@@ -4778,7 +4764,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** jsdom; version 20.0.0 -- https://github.com/jsdom/jsdom#readme
+** jsdom; version 20.0.1 -- https://github.com/jsdom/jsdom#readme
 Copyright (c) 2010 Elijah Insua
 Copyright (c) 2000 Lars Knoll (knoll@kde.org)
 Copyright (c) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Apple Inc.
@@ -4805,6 +4791,34 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
+** acorn-walk; version 8.2.0 -- https://github.com/acornjs/acorn
+Copyright (c) 2012-2020 by various contributors
+
+MIT License
+
+Copyright (C) 2012-2020 by various contributors (see AUTHORS)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 
 ------
@@ -5609,7 +5623,7 @@ SOFTWARE.
 
 ------
 
-** ws; version 8.8.1 -- https://github.com/websockets/ws
+** ws; version 8.9.0 -- https://github.com/websockets/ws
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
 
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
@@ -6064,6 +6078,8 @@ Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org>
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** p-event; version 4.2.0 -- https://github.com/sindresorhus/p-event#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** p-limit; version 3.1.0 -- https://github.com/sindresorhus/p-limit#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** p-map; version 4.0.0 -- https://github.com/sindresorhus/p-map#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** parse-json; version 5.2.0 -- https://github.com/sindresorhus/parse-json#readme
@@ -6075,6 +6091,8 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** strip-json-comments; version 3.1.1 -- https://github.com/sindresorhus/strip-json-comments#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** wrap-ansi; version 7.0.0 -- https://github.com/chalk/wrap-ansi#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** yocto-queue; version 0.1.0 -- https://github.com/sindresorhus/yocto-queue#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 
 MIT License
@@ -6309,7 +6327,7 @@ SOFTWARE.
 
 ------
 
-** ts-jest; version 28.0.5 -- https://kulshekhar.github.io/ts-jest
+** ts-jest; version 29.0.3 -- https://kulshekhar.github.io/ts-jest
 Copyright (c) 2016-2018 Permission
 
 MIT License
@@ -7758,8 +7776,7 @@ SOFTWARE.
 
 ------
 
-** parse5; version 7.0.0 -- https://github.com/inikulin/parse5
-Copyright (c) 2013-2019 Ivan Nikulin (ifaaan@gmail.com, https://github.com/inikulin)
+** parse5; version 7.1.1 -- https://github.com/inikulin/parse5
 
 Copyright (c) 2013-2019 Ivan Nikulin (ifaaan@gmail.com, https://github.com/inikulin)
 
@@ -8212,8 +8229,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** acorn-globals; version 6.0.0 -- 
-Copyright (c) 2014 Forbes Lindesay
+** acorn-globals; version 7.0.1 -- https://github.com/ForbesLindesay/acorn-globals#readme
 
 Copyright (c) 2014 Forbes Lindesay
 
@@ -10557,32 +10573,6 @@ THE SOFTWARE.
 
 ------
 
-** acorn-walk; version 7.2.0 -- https://github.com/acornjs/acorn
-Copyright (c) 2012-2018 by various contributors
-
-Copyright (C) 2012-2018 by various contributors (see AUTHORS)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-------
-
 ** bowser; version 1.9.4 -- https://github.com/lancedikson/bowser
 (c) Dustin Diaz 2015
 Copyright 2015, Dustin Diaz
@@ -12574,34 +12564,6 @@ SOFTWARE.
 
 ------
 
-** w3c-hr-time; version 1.0.2 -- 
-Copyright (c) 2017 Tiancheng Timothy Gu and other contributors
-
-# The MIT License (MIT)
-
-Copyright (c) 2017 Tiancheng "Timothy" Gu and other contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
 ** uuid; version 3.4.0 -- https://github.com/uuidjs/uuid#readme
 Copyright 2011, Sebastian Tschan https://blueimp.net
 Copyright (c) 2010-2016 Robert Kieffer and other contributors
@@ -12661,101 +12623,100 @@ SOFTWARE.
 
 ------
 
-** @jest/console; version 28.1.1 -- https://github.com/facebook/jest#readme
+** @jest/console; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/core; version 28.1.2 -- https://jestjs.io/
+** @jest/core; version 29.1.2 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/environment; version 28.1.2 -- https://github.com/facebook/jest#readme
+** @jest/environment; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/expect; version 28.1.2 -- https://github.com/facebook/jest#readme
+** @jest/expect; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/expect-utils; version 28.1.1 -- https://github.com/facebook/jest#readme
+** @jest/expect-utils; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) 2008-2016 Pivotal Labs
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/fake-timers; version 28.1.2 -- https://github.com/facebook/jest#readme
+** @jest/fake-timers; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/globals; version 28.1.2 -- https://github.com/facebook/jest#readme
+** @jest/globals; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/reporters; version 28.1.2 -- https://jestjs.io/
+** @jest/reporters; version 29.1.2 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/schemas; version 28.0.2 -- https://github.com/facebook/jest#readme
+** @jest/schemas; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/source-map; version 28.1.2 -- https://github.com/facebook/jest#readme
+** @jest/source-map; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/test-result; version 28.1.1 -- https://github.com/facebook/jest#readme
+** @jest/test-result; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/test-sequencer; version 28.1.1 -- https://github.com/facebook/jest#readme
+** @jest/test-sequencer; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/transform; version 28.1.2 -- https://github.com/facebook/jest#readme
+** @jest/transform; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/types; version 28.1.1 -- https://github.com/facebook/jest#readme
+** @jest/types; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** babel-jest; version 28.1.2 -- https://github.com/facebook/jest#readme
+** babel-jest; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** babel-plugin-jest-hoist; version 28.1.1 -- https://github.com/facebook/jest#readme
+** babel-plugin-jest-hoist; version 29.0.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** babel-preset-jest; version 28.1.1 -- https://github.com/facebook/jest#readme
+** babel-preset-jest; version 29.0.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** diff-sequences; version 28.1.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** expect; version 28.1.1 -- https://github.com/facebook/jest#readme
+** expect; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest; version 28.1.2 -- https://jestjs.io/
+** jest; version 29.1.2 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-changed-files; version 28.0.2 -- https://github.com/facebook/jest#readme
+** jest-changed-files; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-circus; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-circus; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-cli; version 28.1.2 -- https://jestjs.io/
+** jest-cli; version 29.1.2 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-config; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-config; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-diff; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-diff; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright 2018 The diff-match-patch
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-docblock; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-docblock; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-each; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-each; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-environment-jsdom; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-environment-node; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-environment-node; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-get-type; version 28.0.2 -- https://github.com/facebook/jest#readme
+** jest-get-type; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-haste-map; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-haste-map; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-leak-detector; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-leak-detector; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-matcher-utils; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-matcher-utils; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-message-util; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-message-util; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-mock; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-mock; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-regex-util; version 28.0.2 -- https://github.com/facebook/jest#readme
+** jest-regex-util; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-resolve; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-resolve; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-resolve-dependencies; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-resolve-dependencies; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-runner; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-runner; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-runtime; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-runtime; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-snapshot; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-snapshot; version 28.1.2 -- https://github.com/facebook/jest#readme
+** jest-util; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-util; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-validate; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-validate; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-watcher; version 29.1.2 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-watcher; version 28.1.1 -- https://jestjs.io/
-Copyright (c) Facebook, Inc. and its affiliates
-** jest-worker; version 28.1.1 -- https://github.com/facebook/jest#readme
+** jest-worker; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jscodeshift; version 0.13.1 -- https://github.com/facebook/jscodeshift#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** pretty-format; version 28.1.1 -- https://github.com/facebook/jest#readme
+** pretty-format; version 29.1.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
@@ -13996,37 +13957,6 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** decimal.js; version 10.3.1 -- https://github.com/MikeMcl/decimal.js#readme
-Copyright (c) 2021 Michael Mclaughlin
-Copyright (c) 2021 Michael Mclaughlin <M8ch88l@gmail.com>
-
-The MIT Licence.
-
-Copyright (c) 2021 Michael Mclaughlin
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-------
-
 ** browserify-rsa; version 4.0.1 -- https://github.com/crypto-browserify/browserify-rsa#readme
 Copyright (c) 2014-2015 Calvin Metcalf & contributors
 
@@ -14257,7 +14187,7 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Microsoft Corporation
 ** @types/istanbul-reports; version 3.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/istanbul-reports
 Copyright (c) Microsoft Corporation
-** @types/jest; version 28.1.4 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest
+** @types/jest; version 29.1.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest
 Copyright (c) Microsoft Corporation
 ** @types/js-cookie; version 2.2.6 -- 
 Copyright (c) Microsoft Corporation.
@@ -15202,31 +15132,6 @@ THE SOFTWARE.
 
 ------
 
-** throat; version 6.0.1 -- https://github.com/ForbesLindesay/throat#readme
-Copyright (c) 2013 Forbes Lindesay
-
-Copyright (c) 2013 Forbes Lindesay
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-------
-
 ** address; version 1.1.2 -- https://github.com/node-modules/address#readme
 Copyright (c) 2013 - 2014
 Copyright (c) 2015 - 2016
@@ -15871,7 +15776,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ------
 
-** nwsapi; version 2.2.0 -- http://javascript.nwbox.com/nwsapi/
+** nwsapi; version 2.2.2 -- http://javascript.nwbox.com/nwsapi/
 Copyright (c) 2007-2017 Diego Perini
 Copyright (c) 2007-2019 Diego Perini
 Copyright (c) 2007-2019 Diego Perini (http://www.iport.it/)
@@ -16981,6 +16886,39 @@ THE SOFTWARE.
 
 ------
 
+** querystringify; version 2.2.0 -- https://github.com/unshiftio/querystringify
+Copyright (c) 2015 Unshift.io, Arnout Kazemier
+** requires-port; version 1.0.0 -- https://github.com/unshiftio/requires-port
+Copyright (c) 2015 Unshift.io, Arnout Kazemier
+** url-parse; version 1.5.10 -- https://github.com/unshiftio/url-parse#readme
+Copyright (c) 2015 Unshift.io, Arnout Kazemier
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Unshift.io, Arnout Kazemier,  the Contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+------
+
 ** bluebird; version 3.7.2 -- https://github.com/petkaantonov/bluebird
 Copyright (c) 2013-2018 Petka Antonov
 Copyright (c) 2013-2019 Petka Antonov
@@ -17113,6 +17051,37 @@ SOFTWARE.
 
 ------
 
+** decimal.js; version 10.4.1 -- https://github.com/MikeMcl/decimal.js#readme
+Copyright (c) 2022 Michael Mclaughlin
+Copyright (c) 2022 Michael Mclaughlin <M8ch88l@gmail.com>
+
+The MIT Licence.
+
+Copyright (c) 2022 Michael Mclaughlin
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+------
+
 ** acorn; version 8.8.0 -- https://github.com/acornjs/acorn
 Copyright (c) 2012-2022 by various contributors
 
@@ -17200,7 +17169,7 @@ THE SOFTWARE.
 
 ------
 
-** psl; version 1.8.0 -- https://github.com/lupomontero/psl#readme
+** psl; version 1.9.0 -- https://github.com/lupomontero/psl#readme
 Copyright (c) 2017 Lupo Montero lupomontero@gmail.com
 Copyright (c) 2017 Lupo Montero <lupomontero@gmail.com>
 
@@ -17556,8 +17525,6 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** p-filter; version 2.1.0 -- https://github.com/sindresorhus/p-filter#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** p-limit; version 2.3.0 -- https://github.com/sindresorhus/p-limit#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** p-locate; version 3.0.0 -- https://github.com/sindresorhus/p-locate#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
