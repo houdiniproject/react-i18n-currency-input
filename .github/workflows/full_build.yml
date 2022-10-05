@@ -17,7 +17,7 @@ jobs:
       - name: verify NOTICE
         run: yarn notice
 
-  test_and_compile:
+  test:
     needs: verify_notice
     runs-on: ${{ matrix.os }}
     strategy:
@@ -35,6 +35,18 @@ jobs:
       - run: yarn install --immutable
       - name: run jest
         run: yarn jest-on-react-${{ matrix.react }}
+
+  build_package:
+      needs: test
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v3.0.2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.5.0
+        with:
+          node-version: 14.x
+          cache: 'yarn'
+      - run: yarn install --immutable
       - name: Webpack compile everything
         run: webpack
       - name: Build storybook
