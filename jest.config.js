@@ -32,3 +32,5 @@ switch(process.env.USE_REACT_VERSION) {
       '^@testing-library/react-hooks((\\/.*)?)$': '@testing-library/react$1',
     }
 }
+
+module.exports.reporters = ['default', 'github-actions'];
