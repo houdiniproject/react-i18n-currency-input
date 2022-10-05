@@ -12757,24 +12757,30 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** pretty-format; version 28.1.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** react; version 17.0.2 -- https://reactjs.org/
+** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 16.14.0 -- https://reactjs.org/
 (c) Sindre Sorhus
 Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates.
+** react; version 17.0.2 -- https://reactjs.org/
+Copyright (c) Facebook, Inc. and its affiliates
 ** react-docgen; version 5.3.0 -- https://github.com/reactjs/react-docgen#readme
 Copyright (c) Facebook, Inc. and its affiliates.
+** react-dom; version 18.2.0 -- https://reactjs.org/
+(c) Ka (c)
+(c) http://www.w3.org/1999/xhtml
+Copyright (c) Facebook, Inc. and its affiliates
+** react-dom; version 16.14.0 -- https://reactjs.org/
+(c) Db (c)
+Copyright (c) 2013-present, Facebook, Inc.
+Copyright (c) Facebook, Inc. and its affiliates
 ** react-dom; version 17.0.2 -- https://reactjs.org/
 (c) Jb (c)
 (c) La (c)
 (c) Ma (c)
 (c) Pb (c)
 (c) http://www.w3.org/1999/xhtml
-Copyright (c) Facebook, Inc. and its affiliates
-** react-dom; version 16.14.0 -- https://reactjs.org/
-(c) Db (c)
-Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-is; version 17.0.2 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
@@ -14088,6 +14094,10 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/jest-dom; version 5.16.4 -- https://github.com/testing-library/jest-dom#readme
 Copyright (c) 2017 Kent C. Dodds
+** @testing-library/react; version 13.4.0 -- https://github.com/testing-library/react-testing-library#readme
+Copyright (c) 2017 Kent C. Dodds
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/react; version 12.1.5 -- https://github.com/testing-library/react-testing-library#readme
 Copyright (c) 2017 Kent C. Dodds
 Copyright (c) 2014-present, Facebook, Inc.
