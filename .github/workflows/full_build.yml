@@ -1,7 +1,21 @@
 name: react-i18n-currency-input build
 on: [pull_request]
 jobs:
+  verify_notice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.0.2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.5.0
+        with:
+          node-version: 14.x
+          cache: 'yarn'
+      - run: yarn install --immutable
+      - name: verify NOTICE
+        run: yarn notice
+
   test_and_compile:
+    needs: verify_notice
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -16,8 +30,6 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: 'yarn'
       - run: yarn install --immutable
-      - name: verify NOTICE
-        run: yarn notice
       - name: run jest
         run: yarn jest-on-react-${{ matrix.react }}
       - name: Webpack compile everything
