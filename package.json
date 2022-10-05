@@ -9,7 +9,9 @@
   "scripts": {
     "build": "rimraf dist && yarn webpack",
     "test": "yarn build && yarn jest",
-    "jest": "jest",
+    "jest": "yarn jest-on-react-17",
+    "jest-on-react-16": "USE_REACT_VERSION=16 jest",
+    "jest-on-react-17": "USE_REACT_VERSION=17 jest",
     "webpack": "webpack",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

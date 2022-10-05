@@ -15,11 +15,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: 'yarn'
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
       - name: verify NOTICE
-        run: npm run notice
+        run: yarn notice
       - name: run jest
-        run: USE_REACT_${{ matrix.react }}=true npm run jest
+        run: yarn jest-on-react-${{ matrix.react }}
       - name: Webpack compile everything
         run: webpack
       - name: Build storybook
