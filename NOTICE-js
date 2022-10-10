@@ -11107,7 +11107,7 @@ Copyright JS Foundation and other contributors
 Copyright JS Foundation and other contributors
 ** style-loader; version 2.0.0 -- https://github.com/webpack-contrib/style-loader
 Copyright JS Foundation and other contributors
-** terser-webpack-plugin; version 5.3.3 -- https://github.com/webpack-contrib/terser-webpack-plugin
+** terser-webpack-plugin; version 5.3.6 -- https://github.com/webpack-contrib/terser-webpack-plugin
 Copyright JS Foundation and other contributors
 ** watchpack; version 2.4.0 -- https://github.com/webpack/watchpack
 Copyright JS Foundation and other contributors
@@ -16806,7 +16806,7 @@ SOFTWARE.
 
 ------
 
-** @jridgewell/resolve-uri; version 3.0.8 -- https://github.com/jridgewell/resolve-uri#readme
+** @jridgewell/resolve-uri; version 3.1.0 -- https://github.com/jridgewell/resolve-uri#readme
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
 ** @jridgewell/source-map; version 0.3.2 -- https://github.com/jridgewell/source-map#readme
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
@@ -18062,7 +18062,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** @jridgewell/trace-mapping; version 0.3.15 -- https://github.com/jridgewell/trace-mapping#readme
+** @jridgewell/trace-mapping; version 0.3.16 -- https://github.com/jridgewell/trace-mapping#readme
 Copyright 2022 Justin Ridgewell <justin@ridgewell.name>
 
 Copyright 2022 Justin Ridgewell <justin@ridgewell.name>
