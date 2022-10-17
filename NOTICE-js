@@ -3152,7 +3152,7 @@ Creative Commons may be contacted at http://creativecommons.org/.
 
 ------
 
-** caniuse-lite; version 1.0.30001359 -- https://github.com/browserslist/caniuse-lite#readme
+** caniuse-lite; version 1.0.30001420 -- https://github.com/browserslist/caniuse-lite#readme
 
 Attribution 4.0 International
 
@@ -4637,18 +4637,6 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-
-
-------
-
-** electron-to-chromium; version 1.4.172 -- https://github.com/kilian/electron-to-chromium#readme
-Copyright 2018 Kilian Valkhof
-
-Copyright 2018 Kilian Valkhof
-
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
 ------
@@ -6880,7 +6868,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** browserslist; version 4.21.1 -- https://github.com/browserslist/browserslist#readme
+** browserslist; version 4.21.4 -- https://github.com/browserslist/browserslist#readme
 Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors
 
 The MIT License (MIT)
@@ -11769,7 +11757,7 @@ SOFTWARE.
 
 ------
 
-** update-browserslist-db; version 1.0.4 -- https://github.com/browserslist/update-db#readme
+** update-browserslist-db; version 1.0.10 -- https://github.com/browserslist/update-db#readme
 Copyright 2022 Andrey Sitnik <andrey@sitnik.ru> and other contributors
 
 The MIT License (MIT)
@@ -12805,27 +12793,28 @@ SOFTWARE.
 
 ** @babel/code-frame; version 7.18.6 -- https://babel.dev/docs/en/next/babel-code-frame
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/compat-data; version 7.18.6 -- 
+** @babel/compat-data; version 7.19.4 -- 
+** @babel/core; version 7.19.3 -- https://babel.dev/docs/en/next/babel-core
+Copyright (c) 2021 Titus Wormer
+Copyright Joyent, Inc. and other Node contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/core; version 7.18.6 -- https://babel.dev/docs/en/next/babel-core
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/generator; version 7.18.7 -- https://babel.dev/docs/en/next/babel-generator
+** @babel/generator; version 7.19.5 -- https://babel.dev/docs/en/next/babel-generator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-annotate-as-pure; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-annotate-as-pure
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-builder-binary-assignment-operator-visitor; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-builder-binary-assignment-operator-visitor
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-compilation-targets; version 7.18.6 -- 
+** @babel/helper-compilation-targets; version 7.19.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-create-class-features-plugin; version 7.18.6 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-create-regexp-features-plugin; version 7.18.6 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-environment-visitor; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-environment-visitor
+** @babel/helper-environment-visitor; version 7.18.9 -- https://babel.dev/docs/en/next/babel-helper-environment-visitor
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-explode-assignable-expression; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-explode-assignable-expression
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-function-name; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-function-name
+** @babel/helper-function-name; version 7.19.0 -- https://babel.dev/docs/en/next/babel-helper-function-name
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-hoist-variables; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-hoist-variables
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12833,7 +12822,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-module-imports; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-module-imports
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-module-transforms; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-module-transforms
+** @babel/helper-module-transforms; version 7.19.0 -- https://babel.dev/docs/en/next/babel-helper-module-transforms
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-optimise-call-expression; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-optimise-call-expression
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12849,13 +12838,15 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-split-export-declaration; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-split-export-declaration
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-validator-identifier; version 7.18.6 -- 
+** @babel/helper-string-parser; version 7.19.4 -- https://babel.dev/docs/en/next/babel-helper-string-parser
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/helper-validator-identifier; version 7.19.1 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-validator-option; version 7.18.6 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-wrap-function; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-wrap-function
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helpers; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helpers
+** @babel/helpers; version 7.19.4 -- https://babel.dev/docs/en/next/babel-helpers
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/highlight; version 7.18.6 -- https://babel.dev/docs/en/next/babel-highlight
@@ -13030,11 +13021,10 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/runtime; version 7.18.6 -- https://babel.dev/docs/en/next/babel-runtime
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/template; version 7.18.6 -- https://babel.dev/docs/en/next/babel-template
+** @babel/template; version 7.18.10 -- https://babel.dev/docs/en/next/babel-template
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/traverse; version 7.18.6 -- https://babel.dev/docs/en/next/babel-traverse
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/types; version 7.18.7 -- https://babel.dev/docs/en/next/babel-types
+** @babel/traverse; version 7.19.4 -- https://babel.dev/docs/en/next/babel-traverse
+** @babel/types; version 7.19.4 -- https://babel.dev/docs/en/next/babel-types
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 
 MIT License
@@ -16257,7 +16247,7 @@ SOFTWARE.
 
 ------
 
-** @babel/parser; version 7.18.6 -- https://babel.dev/docs/en/next/babel-parser
+** @babel/parser; version 7.19.4 -- https://babel.dev/docs/en/next/babel-parser
 Copyright (c) 2012-2014 by various contributors
 
 Copyright (C) 2012-2014 by various contributors (see AUTHORS)
@@ -16747,7 +16737,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** node-releases; version 2.0.5 -- https://github.com/chicoxyzzy/node-releases#readme
+** node-releases; version 2.0.6 -- https://github.com/chicoxyzzy/node-releases#readme
 Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy)
 
 The MIT License
