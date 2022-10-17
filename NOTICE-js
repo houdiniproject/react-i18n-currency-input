@@ -6210,23 +6210,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** supports-hyperlinks; version 2.2.0 -- https://github.com/jamestalmage/supports-hyperlinks#readme
-Copyright (c) James Talmage <james@talmage.io>
-(c) James Talmage (https://github.com/jamestalmage)
-
-MIT License
-
-Copyright (c) James Talmage <james@talmage.io> (github.com/jamestalmage)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-------
-
 ** get-package-type; version 0.1.0 -- https://github.com/cfware/get-package-type#readme
 Copyright (c) 2020 CFWare, LLC
 
@@ -12609,96 +12592,97 @@ SOFTWARE.
 
 ------
 
-** @jest/console; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/console; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/core; version 29.1.2 -- https://jestjs.io/
+** @jest/core; version 29.2.0 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/environment; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/expect; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/expect; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/expect-utils; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/expect-utils; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) 2008-2016 Pivotal Labs
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/fake-timers; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/globals; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/globals; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/reporters; version 29.1.2 -- https://jestjs.io/
+** @jest/reporters; version 29.2.0 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/schemas; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/source-map; version 29.0.0 -- https://github.com/facebook/jest#readme
+** @jest/source-map; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/test-result; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/test-result; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/test-sequencer; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/test-sequencer; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** @jest/transform; version 29.1.2 -- https://github.com/facebook/jest#readme
+** @jest/transform; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/types; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** babel-jest; version 29.1.2 -- https://github.com/facebook/jest#readme
+** babel-jest; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** babel-plugin-jest-hoist; version 29.0.2 -- https://github.com/facebook/jest#readme
+** babel-plugin-jest-hoist; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** babel-preset-jest; version 29.0.2 -- https://github.com/facebook/jest#readme
+** babel-preset-jest; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** diff-sequences; version 29.0.0 -- https://github.com/facebook/jest#readme
+** diff-sequences; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** expect; version 29.1.2 -- https://github.com/facebook/jest#readme
+** expect; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest; version 29.1.2 -- https://jestjs.io/
+** jest; version 29.2.0 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-changed-files; version 29.0.0 -- https://github.com/facebook/jest#readme
+** jest-changed-files; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-circus; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-circus; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-cli; version 29.1.2 -- https://jestjs.io/
+** jest-cli; version 29.2.0 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-config; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-config; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-diff; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-diff; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright 2018 The diff-match-patch
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-docblock; version 29.0.0 -- https://github.com/facebook/jest#readme
+** jest-docblock; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-each; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-each; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-environment-jsdom; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-environment-node; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-environment-node; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-get-type; version 29.0.0 -- https://github.com/facebook/jest#readme
+** jest-get-type; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-haste-map; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-haste-map; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-leak-detector; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-leak-detector; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-matcher-utils; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-matcher-utils; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-message-util; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-mock; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-regex-util; version 29.0.0 -- https://github.com/facebook/jest#readme
+** jest-regex-util; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-resolve; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-resolve; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-resolve-dependencies; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-resolve-dependencies; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-runner; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-runner; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-runtime; version 29.1.2 -- https://github.com/facebook/jest#readme
-** jest-snapshot; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-runtime; version 29.2.0 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** jest-snapshot; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-util; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-validate; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-validate; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-watcher; version 29.1.2 -- https://jestjs.io/
+** jest-watcher; version 29.2.0 -- https://jestjs.io/
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-worker; version 29.1.2 -- https://github.com/facebook/jest#readme
+** jest-worker; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jscodeshift; version 0.13.1 -- https://github.com/facebook/jscodeshift#readme
 Copyright (c) Facebook, Inc. and its affiliates
@@ -17594,8 +17578,6 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** supports-color; version 7.1.0 -- https://github.com/chalk/supports-color#readme
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** terminal-link; version 2.1.1 -- https://github.com/sindresorhus/terminal-link#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** to-readable-stream; version 1.0.0 -- https://github.com/sindresorhus/to-readable-stream#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
