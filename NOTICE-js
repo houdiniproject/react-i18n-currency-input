@@ -13419,53 +13419,11 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/addon-links; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/addons/links
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/addons; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
-** @storybook/api; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/api
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/builder-webpack4; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/channel-postmessage; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-postmessage
 ** @storybook/channel-websocket; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/channels; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/channels
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/cli; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
-** @storybook/client-api; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/client-api
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/client-logger; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/client-logger
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/codemod; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/codemod
-** @storybook/components; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/components
-Copyright Google Inc.
-Copyright (c) 2001 Robert Penner
-Copyright (c) Microsoft Corporation
-Copyright (c) 2014-present, Facebook, Inc.
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-Copyright KingSora Rene Haas. https://github.com/KingSora
-** @storybook/core; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
-** @storybook/core-client; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-common; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-events; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core-events
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/core-server; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 ** @storybook/csf-tools; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/csf-tools
-** @storybook/docs-tools; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/docs-tools
-** @storybook/manager-webpack4; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
-(c) Sindre Sorhus
-Copyright 2009-2020
-Copyright Google Inc.
-(c) 2014-2022 Denis Pushkarev
-Copyright (c) 2021 Nathan Bubna
-Copyright (c) Remix Software Inc.
-Copyright (c) Microsoft Corporation
-(c) ,null c&&pb(c.type),b b.value,null
-Copyright (c) 2014-2017, Jon Schlinkert
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
-Copyright KingSora Rene Haas. https://github.com/KingSora
-Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
 ** @storybook/manager-webpack5; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
 (c) Sindre Sorhus
 Copyright 2009-2020
@@ -13481,32 +13439,8 @@ Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
 Copyright KingSora Rene Haas. https://github.com/KingSora
 Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
-** @storybook/node-logger; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/node-logger
-** @storybook/preview-web; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/preview-web
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/react; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/app/react
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/router; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/router
-Copyright (c) Remix Software Inc.
-Copyright (c) Microsoft Corporation
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/store; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/store
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/telemetry; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/telemetry
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/theming; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/theming
-Copyright 2015, Yahoo! Inc.
-Copyright (c) Microsoft Corporation
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/ui; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/ui
-(c) Sindre Sorhus
-Copyright (c) 2021 Nathan Bubna
-Copyright (c) Microsoft Corporation
-Copyright (c) 2013-present, Facebook, Inc.
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
 ** storybook; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 
