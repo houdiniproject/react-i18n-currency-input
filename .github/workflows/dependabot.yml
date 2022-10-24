@@ -41,28 +41,11 @@ jobs:
         uses: actions/setup-node@v3.5.1
         with:
           node-version: 16.x
-      - name: Autofix lockfile
-        run: |
-          # restore yarn.lock from the previous commit
-          git checkout HEAD^ -- yarn.lock
-          # if package.json was not updated, upgrade the dependency
-          git diff --name-only HEAD^ HEAD | grep -q 'package.json' || yarn up --mode=update-lockfile `git log -1 --pretty=%s | awk '{ print $2 }'`
-          # restore package.json from the last commit
-          git checkout HEAD -- package.json
-          yarn install --no-immutable --mode=update-lockfile
-          # deduplicate lockfile
-          yarn dedupe --mode=update-lockfile
 
-      - name: configure git 
+      - name: configure git
         run: |
           git config user.name "dependabot-fix"
           git config user.email "dependabot-fix@example.com"
-
-      - name: Commit yarn.lock changes
-        run: |
-          cd .`git log -1 --pretty=%s | awk '{ print $8 }'`
-          git add yarn.lock
-          git commit -m '[dependabot skip] Fix yarn.lock'
 
       - name: Restore cache
         uses: actions/cache@v3.0.11
