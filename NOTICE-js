@@ -6026,8 +6026,6 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** parse-json; version 5.2.0 -- https://github.com/sindresorhus/parse-json#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-** pkg-dir; version 5.0.0 -- https://github.com/sindresorhus/pkg-dir#readme
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** string-length; version 4.0.2 -- https://github.com/sindresorhus/string-length#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** strip-json-comments; version 3.1.1 -- https://github.com/sindresorhus/strip-json-comments#readme
@@ -12612,9 +12610,9 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** babel-plugin-jest-hoist; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** diff-sequences; version 29.2.0 -- https://github.com/facebook/jest#readme
+** babel-preset-jest; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** expect; version 29.2.0 -- https://github.com/facebook/jest#readme
+** diff-sequences; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-changed-files; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
@@ -12718,8 +12716,6 @@ SOFTWARE.
 ** @babel/code-frame; version 7.18.6 -- https://babel.dev/docs/en/next/babel-code-frame
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/compat-data; version 7.19.4 -- 
-** @babel/generator; version 7.19.5 -- https://babel.dev/docs/en/next/babel-generator
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-annotate-as-pure; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-annotate-as-pure
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-builder-binary-assignment-operator-visitor; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-builder-binary-assignment-operator-visitor
@@ -12742,8 +12738,6 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-module-imports; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-module-imports
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-module-transforms; version 7.19.0 -- https://babel.dev/docs/en/next/babel-helper-module-transforms
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-optimise-call-expression; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-optimise-call-expression
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-plugin-utils; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-plugin-utils
@@ -12752,7 +12746,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-replace-supers; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-replace-supers
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-simple-access; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-simple-access
+** @babel/helper-simple-access; version 7.19.4 -- https://babel.dev/docs/en/next/babel-helper-simple-access
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-skip-transparent-expression-wrappers; version 7.18.6 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12781,7 +12775,11 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-class-static-block; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-class-static-block
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-proposal-decorators; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-decorators
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-dynamic-import; version 7.18.6 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-proposal-export-default-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-export-default-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-export-namespace-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-export-namespace-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12807,17 +12805,25 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-async-generators; version 7.8.4 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-bigint; version 7.8.3 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-class-properties; version 7.12.13 -- https://babel.dev/docs/en/next/babel-plugin-syntax-class-properties
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-class-static-block; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-class-static-block
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-decorators; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-decorators
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-dynamic-import; version 7.8.3 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-export-default-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-export-default-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-export-namespace-from; version 7.8.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-flow; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-import-assertions; version 7.18.6 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-import-meta; version 7.10.4 -- https://github.com/babel/babel#readme
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-json-strings; version 7.8.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12838,6 +12844,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-private-property-in-object; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-private-property-in-object
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-top-level-await; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-top-level-await
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-typescript
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-arrow-functions; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-arrow-functions
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12909,6 +12917,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-typeof-symbol; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-typeof-symbol
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-typescript
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-escapes; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-escapes
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-regex; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-regex
@@ -12919,12 +12929,14 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-react; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-react
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/preset-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-typescript
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/register; version 7.18.6 -- https://babel.dev/docs/en/next/babel-register
 ** @babel/runtime; version 7.18.6 -- https://babel.dev/docs/en/next/babel-runtime
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/template; version 7.18.10 -- https://babel.dev/docs/en/next/babel-template
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/traverse; version 7.19.4 -- https://babel.dev/docs/en/next/babel-traverse
 ** @babel/types; version 7.19.4 -- https://babel.dev/docs/en/next/babel-types
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 
@@ -13410,61 +13422,6 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-------
-
-** @storybook/addon-actions; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/addons/actions
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/addon-links; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/addons/links
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/addons; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
-** @storybook/channel-websocket; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/cli; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
-** @storybook/codemod; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/codemod
-** @storybook/csf-tools; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/csf-tools
-** @storybook/manager-webpack5; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/core
-(c) Sindre Sorhus
-Copyright 2009-2020
-Copyright Google Inc.
-(c) 2014-2022 Denis Pushkarev
-Copyright (c) 2021 Nathan Bubna
-Copyright (c) Remix Software Inc.
-Copyright (c) Microsoft Corporation
-(c) ,null c&&pb(c.type),b b.value,null
-Copyright (c) 2014-2017, Jon Schlinkert
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
-Copyright KingSora Rene Haas. https://github.com/KingSora
-Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
-** @storybook/telemetry; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/telemetry
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** storybook; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-
-The MIT License (MIT)
-
-Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 
 
 ------
@@ -14076,6 +14033,7 @@ Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 Copyright Fedor Indutny, 2013.
 ** async-each; version 1.0.3 -- https://github.com/paulmillr/async-each/
 Copyright (c) 2016 Paul Miller (paulmillr.com) (http://paulmillr.com)
+** babel-core; version 7.0.0-bridge.0 -- 
 ** babel-plugin-add-react-displayname; version 0.0.5 -- https://github.com/opbeat/babel-plugin-add-react-displayname#readme
 ** bplist-parser; version 0.1.1 -- https://github.com/nearinfinity/node-bplist-parser#readme
 Copyright 2007 Apple Inc.
@@ -16078,32 +16036,6 @@ SOFTWARE.
 
 ------
 
-** @babel/parser; version 7.19.4 -- https://babel.dev/docs/en/next/babel-parser
-Copyright (c) 2012-2014 by various contributors
-
-Copyright (C) 2012-2014 by various contributors (see AUTHORS)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-------
-
 ** gensync; version 1.0.0-beta.2 -- https://github.com/loganfsmyth/gensync
 Copyright 2018 Logan Smyth <loganfsmyth@gmail.com>
 
@@ -17044,6 +16976,35 @@ THE SOFTWARE.
 
 ------
 
+** babel-preset-current-node-syntax; version 1.0.1 -- 
+Copyright (c) 2020 Nicolo Ribaudo and other contributors
+
+MIT License
+
+Copyright (c) 2020 Nicolò Ribaudo and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
 ** browserify-aes; version 1.2.0 -- https://github.com/crypto-browserify/browserify-aes
 Copyright (c) 2014-2017 browserify-aes contributors
 
@@ -17348,6 +17309,9 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** pify; version 4.0.1 -- https://github.com/sindresorhus/pify#readme
+(c) Sindre Sorhus (https://sindresorhus.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+** pkg-dir; version 4.2.0 -- https://github.com/sindresorhus/pkg-dir#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** prepend-http; version 2.0.0 -- https://github.com/sindresorhus/prepend-http#readme
