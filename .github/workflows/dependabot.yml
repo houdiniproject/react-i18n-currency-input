@@ -41,18 +41,13 @@ jobs:
         uses: actions/setup-node@v3.5.1
         with:
           node-version: 16.x
+          cache: yarn
 
       - name: configure git
         run: |
           git config user.name "dependabot-fix"
           git config user.email "dependabot-fix@example.com"
 
-      - name: Restore cache
-        uses: actions/cache@v3.0.11
-        with:
-          path: .yarn/cache
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: ${{ runner.os }}-yarn-
       - name: install via yarn
         run: yarn --immutable
 
