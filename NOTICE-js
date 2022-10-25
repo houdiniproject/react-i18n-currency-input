@@ -13418,7 +13418,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/addon-links; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/addons/links
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
-** @storybook/addons; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
 ** @storybook/channel-websocket; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
 Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
 ** @storybook/cli; version 6.5.12 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
