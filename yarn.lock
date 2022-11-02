@@ -62,7 +62,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.10.5, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.7.5":
   version: 7.19.6
   resolution: "@babel/core@npm:7.19.6"
   dependencies:
@@ -1609,7 +1609,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@houdiniproject/react-i18n-currency-input@workspace:."
   dependencies:
-    "@babel/core": ^7.10.5
+    "@babel/core": ^7.12.0
     "@storybook/addon-actions": ^6.5.13
     "@storybook/addon-links": ^6.5.13
     "@storybook/addons": ^6.5.13
