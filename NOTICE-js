@@ -5988,7 +5988,7 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** execa; version 5.1.1 -- https://github.com/sindresorhus/execa#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-** find-cache-dir; version 3.3.1 -- https://github.com/avajs/find-cache-dir#readme
+** find-cache-dir; version 3.3.2 -- https://github.com/avajs/find-cache-dir#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** find-up; version 5.0.0 -- https://github.com/sindresorhus/find-up#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -12604,9 +12604,21 @@ SOFTWARE.
 
 ------
 
+** @jest/console; version 29.2.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/schemas; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/source-map; version 29.2.0 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** @jest/test-result; version 29.2.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** @jest/test-sequencer; version 29.2.2 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** @jest/transform; version 29.2.2 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** @jest/types; version 29.2.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** babel-jest; version 29.2.2 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** babel-plugin-jest-hoist; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
@@ -12627,11 +12639,18 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-haste-map; version 29.2.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
+** jest-leak-detector; version 29.2.1 -- https://github.com/facebook/jest#readme
+** jest-message-util; version 29.2.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
 ** jest-regex-util; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-util; version 29.2.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
 ** jest-worker; version 29.2.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
 ** jscodeshift; version 0.13.1 -- https://github.com/facebook/jscodeshift#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** pretty-format; version 29.2.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
