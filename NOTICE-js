@@ -12604,18 +12604,9 @@ SOFTWARE.
 
 ------
 
-** @jest/console; version 29.2.1 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** @jest/expect-utils; version 29.2.2 -- https://github.com/facebook/jest#readme
-Copyright (c) 2008-2016 Pivotal Labs
-Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/schemas; version 29.0.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/source-map; version 29.2.0 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** @jest/test-result; version 29.2.1 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** @jest/types; version 29.2.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** babel-plugin-jest-hoist; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
@@ -12625,32 +12616,13 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-changed-files; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-diff; version 29.2.1 -- https://github.com/facebook/jest#readme
-Copyright 2018 The diff-match-patch
-Copyright (c) Facebook, Inc. and its affiliates
 ** jest-docblock; version 29.2.0 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** jest-each; version 29.2.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-get-type; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-leak-detector; version 29.2.1 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** jest-matcher-utils; version 29.2.2 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** jest-message-util; version 29.2.1 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
 ** jest-regex-util; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-util; version 29.2.1 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** jest-validate; version 29.2.2 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** jest-watcher; version 29.2.2 -- https://jestjs.io/
-Copyright (c) Facebook, Inc. and its affiliates
 ** jscodeshift; version 0.13.1 -- https://github.com/facebook/jscodeshift#readme
-Copyright (c) Facebook, Inc. and its affiliates
-** pretty-format; version 29.2.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
@@ -13436,6 +13408,136 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
+** @storybook/addon-actions; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/addons/actions
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/addon-links; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/addons/links
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/addons; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/addons
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/api; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/api
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/builder-webpack4; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/builder-webpack5; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/channel-postmessage; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-postmessage
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/channel-websocket; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/channel-websocket
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/channels; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/channels
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/cli; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/client-api; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/client-api
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/client-logger; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/client-logger
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/codemod; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/codemod
+** @storybook/components; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/components
+Copyright Google Inc.
+Copyright (c) 2001 Robert Penner
+Copyright (c) Microsoft Corporation
+Copyright (c) 2014-present, Facebook, Inc.
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+Copyright KingSora Rene Haas. https://github.com/KingSora
+** @storybook/core; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/core-client; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/core-common; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/core-events; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core-events
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/core-server; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/csf-tools; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/csf-tools
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/docs-tools; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/docs-tools
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/manager-webpack4; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+(c) Sindre Sorhus
+Copyright 2009-2020
+Copyright Google Inc.
+(c) 2014-2022 Denis Pushkarev
+Copyright (c) 2021 Nathan Bubna
+Copyright (c) Remix Software Inc.
+Copyright (c) Microsoft Corporation
+(c) ,null c&&pb(c.type),b b.value,null
+Copyright (c) 2014-2017, Jon Schlinkert
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+Copyright KingSora Rene Haas. https://github.com/KingSora
+Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
+** @storybook/manager-webpack5; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/core
+(c) Sindre Sorhus
+Copyright 2009-2020
+Copyright Google Inc.
+(c) 2014-2022 Denis Pushkarev
+Copyright (c) 2021 Nathan Bubna
+Copyright (c) Remix Software Inc.
+Copyright (c) Microsoft Corporation
+(c) ,null c&&pb(c.type),b b.value,null
+Copyright (c) 2014-2017, Jon Schlinkert
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+Copyright KingSora Rene Haas. https://github.com/KingSora
+Copyright 2013-2016 by Paul Miller (http://paulmillr.com) and contributors
+** @storybook/node-logger; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/node-logger
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/preview-web; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/preview-web
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/react; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/app/react
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/router; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/router
+Copyright (c) Remix Software Inc.
+Copyright (c) Microsoft Corporation
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/store; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/store
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/telemetry; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/telemetry
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/theming; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/theming
+Copyright 2015, Yahoo! Inc.
+Copyright (c) Microsoft Corporation
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+** @storybook/ui; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/ui
+(c) Sindre Sorhus
+Copyright (c) 2021 Nathan Bubna
+Copyright (c) Microsoft Corporation
+Copyright (c) 2013-present, Facebook, Inc.
+Copyright (c) Facebook, Inc. and its affiliates
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+** storybook; version 6.5.13 -- https://github.com/storybookjs/storybook/tree/main/lib/cli
+
+The MIT License (MIT)
+
+Copyright (c) 2017 Kadira Inc. <hello@kadira.io>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 
 ------
