@@ -3776,12 +3776,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:^16.8.19":
-  version: 16.9.43
-  resolution: "@types/react@npm:16.9.43"
+  version: 16.14.34
+  resolution: "@types/react@npm:16.14.34"
   dependencies:
     "@types/prop-types": "*"
-    csstype: ^2.2.0
-  checksum: c3d83bbf57ba2b177cb231352a3f579556f3a360659e94f1d6b5268ad913e2ddb89e1f60bf493f3ad355d17835b23a985e0da8283f2e95784dcaa49b43b25a66
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: a1a105c131bd7fd5cae693c641b3a05eb03c079875fe8e780e616afc54d86e3fa1e8c6433e7a30d2a7f8a1a7681cf1a4f652e9eb48b6abe1f80f7cafe858ebf2
   languageName: node
   linkType: hard
 
@@ -6560,7 +6561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^2.2.0, csstype@npm:^2.5.5":
+"csstype@npm:^2.5.5":
   version: 2.6.11
   resolution: "csstype@npm:2.6.11"
   checksum: c361d952275a82404db2d3eb5beeaa477b0ea74b30631398bea08bbc608c453487156b7bcd71b1e2ff769172e734c4afc95bfa9d4bac6c1620456d7c0d2d70a2
