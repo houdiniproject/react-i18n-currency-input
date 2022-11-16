@@ -14038,7 +14038,8 @@ Copyright (c) Microsoft Corporation.
 Copyright (c) Microsoft Corporation.
 ** @types/qs; version 6.9.7 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/qs
 Copyright (c) Microsoft Corporation
-** @types/react; version 16.9.43 -- 
+** @types/react; version 16.14.34 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react
+Copyright (c) Microsoft Corporation
 ** @types/react-dom; version 18.0.6 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom
 Copyright (c) Microsoft Corporation
 ** @types/responselike; version 1.0.0 -- 
@@ -17581,7 +17582,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** csstype; version 2.6.11 -- https://github.com/frenic/csstype#readme
+** csstype; version 3.0.9 -- https://github.com/frenic/csstype#readme
 Copyright (c) 2017-2018 Fredrik Nicol
 
 Copyright (c) 2017-2018 Fredrik Nicol
