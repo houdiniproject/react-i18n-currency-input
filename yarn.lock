@@ -1858,18 +1858,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^29.3.0":
-  version: 29.3.0
-  resolution: "@jest/environment@npm:29.3.0"
-  dependencies:
-    "@jest/fake-timers": ^29.3.0
-    "@jest/types": ^29.2.1
-    "@types/node": "*"
-    jest-mock: ^29.3.0
-  checksum: 3f8a78391d4d807a002f4b38792ef2ec63694a6f25086d4a03264ca554927c5cd0d68278920c37cc25ab2e84f7ad07ed5821430e9754e09588d3a8fb576946fe
-  languageName: node
-  linkType: hard
-
 "@jest/environment@npm:^29.3.1":
   version: 29.3.1
   resolution: "@jest/environment@npm:29.3.1"
@@ -1907,20 +1895,6 @@ __metadata:
     expect: ^29.3.1
     jest-snapshot: ^29.3.1
   checksum: 1d7b5cc735c8a99bfbed884d80fdb43b23b3456f4ec88c50fd86404b097bb77fba84f44e707fc9b49f106ca1154ae03f7c54dc34754b03f8a54eeb420196e5bf
-  languageName: node
-  linkType: hard
-
-"@jest/fake-timers@npm:^29.3.0":
-  version: 29.3.0
-  resolution: "@jest/fake-timers@npm:29.3.0"
-  dependencies:
-    "@jest/types": ^29.2.1
-    "@sinonjs/fake-timers": ^9.1.2
-    "@types/node": "*"
-    jest-message-util: ^29.2.1
-    jest-mock: ^29.3.0
-    jest-util: ^29.2.1
-  checksum: 8050e212e74e95f1b6473b40ac652577ca4743f92713fadbc331661124e6a4ae1f0379a0072307b6cdecb4415502cebf36b25e28c4fbdc1e6c34f26199156220
   languageName: node
   linkType: hard
 
@@ -9840,23 +9814,23 @@ __metadata:
   linkType: hard
 
 "jest-environment-jsdom@npm:^29":
-  version: 29.3.0
-  resolution: "jest-environment-jsdom@npm:29.3.0"
+  version: 29.3.1
+  resolution: "jest-environment-jsdom@npm:29.3.1"
   dependencies:
-    "@jest/environment": ^29.3.0
-    "@jest/fake-timers": ^29.3.0
-    "@jest/types": ^29.2.1
+    "@jest/environment": ^29.3.1
+    "@jest/fake-timers": ^29.3.1
+    "@jest/types": ^29.3.1
     "@types/jsdom": ^20.0.0
     "@types/node": "*"
-    jest-mock: ^29.3.0
-    jest-util: ^29.2.1
+    jest-mock: ^29.3.1
+    jest-util: ^29.3.1
     jsdom: ^20.0.0
   peerDependencies:
     canvas: ^2.5.0
   peerDependenciesMeta:
     canvas:
       optional: true
-  checksum: 35f7d3ec4c32cd1e2ca7538e201aaf3335090ab987fe96b9ee4668b48625025b56d33be59ea3e6b1f805a3244c5d3a050b9bf8765fb72caad685e3e5af45c1c5
+  checksum: 91b04ed02b2275c3a47740e20c2691f67c4295e17174c8ccd3a71fe77707239e487506bd157279b4257ce1be0a8c2be377817ee85689966a9e604bb6ef1199f0
   languageName: node
   linkType: hard
 
@@ -9969,17 +9943,6 @@ __metadata:
     slash: ^3.0.0
     stack-utils: ^2.0.3
   checksum: 15d0a2fca3919eb4570bbf575734780c4b9e22de6aae903c4531b346699f7deba834c6c86fe6e9a83ad17fac0f7935511cf16dce4d71a93a71ebb25f18a6e07b
-  languageName: node
-  linkType: hard
-
-"jest-mock@npm:^29.3.0":
-  version: 29.3.0
-  resolution: "jest-mock@npm:29.3.0"
-  dependencies:
-    "@jest/types": ^29.2.1
-    "@types/node": "*"
-    jest-util: ^29.2.1
-  checksum: 940a84c91d371f0ba4b4bb824f5025485d09bdd84e2133b771c86496bf8731a16107a4a6d37b5701b5e7ca422875064f00580d2efc57e65d16483d95f81d4965
   languageName: node
   linkType: hard
 
