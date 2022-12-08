@@ -17,6 +17,12 @@ PERFORMANCE OF THIS SOFTWARE.
 ------
 
 ** typescript; version 4.9.3 -- https://www.typescriptlang.org/
+(c) by W3C
+Copyright (c) 2018 WHATWG
+Copyright (c) Microsoft Corporation
+Copyright (c) 1991-2017 Unicode, Inc.
+Copyright (c) 2018 The Khronos Group Inc.
+Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang). Disclaimers
 
 Apache License
 
@@ -10976,12 +10982,6 @@ SOFTWARE.
 
 ------
 
-** @webpack-cli/configtest; version 1.2.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/configtest
-Copyright JS Foundation and other contributors
-** @webpack-cli/info; version 1.5.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/info
-Copyright JS Foundation and other contributors
-** @webpack-cli/serve; version 1.7.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/serve
-Copyright JS Foundation and other contributors
 ** enhanced-resolve; version 4.5.0 -- http://github.com/webpack/enhanced-resolve
 Copyright (c) 2012-2016 Tobias Koppers
 Copyright JS Foundation and other contributors
@@ -10994,8 +10994,6 @@ Copyright JS Foundation and other contributors
 ** watchpack; version 2.4.0 -- https://github.com/webpack/watchpack
 Copyright JS Foundation and other contributors
 ** webpack; version 5.75.0 -- https://github.com/webpack/webpack
-Copyright JS Foundation and other contributors
-** webpack-cli; version 4.10.0 -- https://github.com/webpack/webpack-cli/tree/master/packages/webpack-cli
 Copyright JS Foundation and other contributors
 ** webpack-hot-middleware; version 2.25.1 -- https://github.com/webpack-contrib/webpack-hot-middleware#readme
 copyright Tobias Koppers
@@ -11021,6 +11019,7 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 ------
 
@@ -14048,6 +14047,7 @@ Copyright (c) Microsoft Corporation
 ** @types/istanbul-reports; version 3.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/istanbul-reports
 Copyright (c) Microsoft Corporation
 ** @types/jest; version 29.2.3 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest
+Copyright (c) Microsoft Corporation
 ** @types/js-cookie; version 2.2.6 -- 
 Copyright (c) Microsoft Corporation.
 ** @types/jsdom; version 16.2.14 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jsdom
