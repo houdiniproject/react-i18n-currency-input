@@ -4110,7 +4110,7 @@ Copyright (c) Isaac Z. Schlueter and Contributors
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** isexe; version 2.0.0 -- https://github.com/isaacs/isexe#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
-** lru-cache; version 6.0.0 -- https://github.com/isaacs/node-lru-cache#readme
+** lru-cache; version 5.1.1 -- https://github.com/isaacs/node-lru-cache#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** minimatch; version 3.1.2 -- https://github.com/isaacs/minimatch#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -12569,7 +12569,11 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** @jest/types; version 29.3.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
+** babel-jest; version 29.3.1 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
 ** babel-plugin-jest-hoist; version 29.2.0 -- https://github.com/facebook/jest#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** babel-preset-jest; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** diff-sequences; version 29.2.0 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
@@ -12723,10 +12727,6 @@ SOFTWARE.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/compat-data; version 7.19.4 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/core; version 7.20.2 -- https://babel.dev/docs/en/next/babel-core
-Copyright (c) 2021 Titus Wormer
-Copyright Joyent, Inc. and other Node contributors
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/generator; version 7.19.6 -- https://babel.dev/docs/en/next/babel-generator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-annotate-as-pure; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-annotate-as-pure
@@ -12775,9 +12775,6 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-wrap-function; version 7.18.6 -- https://babel.dev/docs/en/next/babel-helper-wrap-function
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helpers; version 7.19.4 -- https://babel.dev/docs/en/next/babel-helpers
-Copyright (c) 2014-present, Facebook, Inc.
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/highlight; version 7.18.6 -- https://babel.dev/docs/en/next/babel-highlight
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression
@@ -12790,7 +12787,11 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-class-static-block; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-class-static-block
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-proposal-decorators; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-decorators
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-dynamic-import; version 7.18.6 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-proposal-export-default-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-export-default-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-export-namespace-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-export-namespace-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12816,17 +12817,25 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-async-generators; version 7.8.4 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-bigint; version 7.8.3 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-class-properties; version 7.12.13 -- https://babel.dev/docs/en/next/babel-plugin-syntax-class-properties
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-class-static-block; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-class-static-block
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-decorators; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-decorators
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-dynamic-import; version 7.8.3 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-export-default-from; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-export-default-from
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-export-namespace-from; version 7.8.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-flow; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-import-assertions; version 7.18.6 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-import-meta; version 7.10.4 -- https://github.com/babel/babel#readme
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-json-strings; version 7.8.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12847,6 +12856,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-private-property-in-object; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-private-property-in-object
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-top-level-await; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-top-level-await
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-typescript
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-arrow-functions; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-arrow-functions
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -12918,6 +12929,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-typeof-symbol; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-typeof-symbol
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-typescript
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-escapes; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-escapes
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-regex; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-regex
@@ -12928,6 +12941,9 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-react; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-react
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/preset-typescript; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-typescript
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/register; version 7.18.6 -- https://babel.dev/docs/en/next/babel-register
 ** @babel/runtime; version 7.18.6 -- https://babel.dev/docs/en/next/babel-runtime
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -14147,6 +14163,7 @@ Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 Copyright Fedor Indutny, 2013.
 ** async-each; version 1.0.3 -- https://github.com/paulmillr/async-each/
 Copyright (c) 2016 Paul Miller (paulmillr.com) (http://paulmillr.com)
+** babel-core; version 7.0.0-bridge.0 -- 
 ** babel-plugin-add-react-displayname; version 0.0.5 -- https://github.com/opbeat/babel-plugin-add-react-displayname#readme
 ** bplist-parser; version 0.1.1 -- https://github.com/nearinfinity/node-bplist-parser#readme
 Copyright 2007 Apple Inc.
@@ -17126,6 +17143,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+------
+
+** babel-preset-current-node-syntax; version 1.0.1 -- 
+Copyright (c) 2020 Nicolo Ribaudo and other contributors
+
+MIT License
+
+Copyright (c) 2020 Nicolò Ribaudo and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ------
