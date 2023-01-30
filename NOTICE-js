@@ -2574,7 +2574,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ------
 
-** @sinonjs/fake-timers; version 9.1.2 -- https://github.com/sinonjs/fake-timers
+** @sinonjs/fake-timers; version 10.0.2 -- https://github.com/sinonjs/fake-timers
 Copyright (c) 2010-2014, Christian Johansen, christian@cjohansen.no
 
 Copyright (c) 2010-2014, Christian Johansen, christian@cjohansen.no. All rights reserved.
@@ -2948,7 +2948,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ------
 
-** @sinonjs/commons; version 1.8.3 -- https://github.com/sinonjs/commons#readme
+** @sinonjs/commons; version 2.0.0 -- https://github.com/sinonjs/commons#readme
 Copyright (c) 2018, Sinon.JS
 
 BSD 3-Clause License
@@ -12594,8 +12594,6 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-each; version 29.3.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** jest-environment-jsdom; version 29.3.1 -- https://github.com/facebook/jest#readme
-Copyright (c) Facebook, Inc. and its affiliates
 ** jest-environment-node; version 29.3.1 -- https://github.com/facebook/jest#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** jest-get-type; version 29.2.0 -- https://github.com/facebook/jest#readme
@@ -12659,9 +12657,11 @@ Copyright (c) Facebook, Inc. and its affiliates
 (c) Pb (c)
 (c) http://www.w3.org/1999/xhtml
 Copyright (c) Facebook, Inc. and its affiliates
-** react-is; version 17.0.2 -- https://reactjs.org/
+** react-is; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-is; version 16.13.1 -- https://reactjs.org/
+Copyright (c) Facebook, Inc. and its affiliates
+** react-is; version 17.0.2 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-refresh; version 0.11.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
@@ -17386,7 +17386,7 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** ansi-regex; version 5.0.1 -- https://github.com/chalk/ansi-regex#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** ansi-styles; version 4.2.1 -- https://github.com/chalk/ansi-styles#readme
+** ansi-styles; version 5.2.0 -- https://github.com/chalk/ansi-styles#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** array-union; version 2.1.0 -- https://github.com/sindresorhus/array-union#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
