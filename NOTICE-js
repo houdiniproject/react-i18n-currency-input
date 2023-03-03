@@ -13974,10 +13974,6 @@ THE SOFTWARE.
 
 ------
 
-** @testing-library/dom; version 8.19.0 -- https://github.com/testing-library/dom-testing-library#readme
-Copyright (c) 2017 Kent C. Dodds
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/jest-dom; version 5.16.5 -- https://github.com/testing-library/jest-dom#readme
 Copyright (c) 2017 Kent C. Dodds
 ** @testing-library/react; version 13.4.0 -- https://github.com/testing-library/react-testing-library#readme
@@ -14109,8 +14105,8 @@ IN THE SOFTWARE.
 ------
 
 ** @storybook/csf; version 0.0.2--canary.4566f4d.1 -- https://github.com/ComponentDriven/csf
-** @types/aria-query; version 4.2.0 -- 
-Copyright (c) Microsoft Corporation.
+** @types/aria-query; version 5.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aria-query
+Copyright (c) Microsoft Corporation
 ** @types/babel__core; version 7.1.19 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core
 Copyright (c) Microsoft Corporation
 ** @types/babel__generator; version 7.6.1 -- 
