@@ -14040,10 +14040,6 @@ THE SOFTWARE.
 
 ------
 
-** @testing-library/dom; version 8.19.0 -- https://github.com/testing-library/dom-testing-library#readme
-Copyright (c) 2017 Kent C. Dodds
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/jest-dom; version 5.16.5 -- https://github.com/testing-library/jest-dom#readme
 Copyright (c) 2017 Kent C. Dodds
 ** @testing-library/react; version 13.4.0 -- https://github.com/testing-library/react-testing-library#readme
@@ -14175,8 +14171,8 @@ IN THE SOFTWARE.
 ------
 
 ** @storybook/csf; version 0.0.2--canary.4566f4d.1 -- https://github.com/ComponentDriven/csf
-** @types/aria-query; version 4.2.0 -- 
-Copyright (c) Microsoft Corporation.
+** @types/aria-query; version 5.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aria-query
+Copyright (c) Microsoft Corporation
 ** @types/babel__core; version 7.1.19 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core
 Copyright (c) Microsoft Corporation
 ** @types/babel__generator; version 7.6.1 -- 
@@ -18779,28 +18775,6 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
-
-
-------
-
-** lz-string; version 1.4.4 -- http://pieroxy.net/blog/pages/lz-string/index.html
-Copyright (c) 2008-2011 Pivotal Labs
-Copyright (c) 2004 Sam Hocevar <sam@hocevar.net>
-Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
-
-DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-                    Version 2, December 2004 
-
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
-
- Everyone is permitted to copy and distribute verbatim or modified 
- copies of this license document, and changing it is allowed as long 
- as the name is changed. 
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
 
 
 ------
