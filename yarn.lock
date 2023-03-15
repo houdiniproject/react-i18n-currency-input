@@ -1751,7 +1751,7 @@ __metadata:
     "@testing-library/react-12": "npm:@testing-library/react@^12"
     "@testing-library/react-hooks": ^8
     "@types/jest": ^29
-    "@types/jsdom": ^16
+    "@types/jsdom": ^21
     "@types/lodash": ^4.14.133
     "@types/react": ^16.8.19
     "@types/react-dom": ^18.0.6
@@ -3629,17 +3629,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsdom@npm:^16":
-  version: 16.2.14
-  resolution: "@types/jsdom@npm:16.2.14"
-  dependencies:
-    "@types/node": "*"
-    "@types/parse5": "*"
-    "@types/tough-cookie": "*"
-  checksum: 12bb926fa74ea07c0ba0bfd5bf185ac0fd771b28666a5e8784b9af4bb96bb0c51fc5f494eff7da1d3cd804e4757f640a23c344c1cd5d188f95ab0ab51770d88b
-  languageName: node
-  linkType: hard
-
 "@types/jsdom@npm:^20.0.0":
   version: 20.0.0
   resolution: "@types/jsdom@npm:20.0.0"
@@ -3648,6 +3637,17 @@ __metadata:
     "@types/tough-cookie": "*"
     parse5: ^7.0.0
   checksum: 13e67d31347e02d46ec6a23919b3ce39d86136665922a2a6cb977e216a2f46c22d2f025d0586a64ab492ebaa5f43da669b6f173a5a8cfd3e3bb7c9d19b6cfa9e
+  languageName: node
+  linkType: hard
+
+"@types/jsdom@npm:^21":
+  version: 21.1.0
+  resolution: "@types/jsdom@npm:21.1.0"
+  dependencies:
+    "@types/node": "*"
+    "@types/tough-cookie": "*"
+    parse5: ^7.0.0
+  checksum: 39d3c580283cb7cc3b2729738fd2cd64344e44c815d08f7b6ee7d9c973f7512eff7e7187408649c9da69b76ec81c118868e8b8787d50320f3e2f9cbbd0b000d4
   languageName: node
   linkType: hard
 
@@ -3739,13 +3739,6 @@ __metadata:
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
   checksum: fd6bce2b674b6efc3db4c7c3d336bd70c90838e8439de639b909ce22f3720d21344f52427f1d9e57b265fcb7f6c018699b99e5e0c208a1a4823014269a6bf35b
-  languageName: node
-  linkType: hard
-
-"@types/parse5@npm:*":
-  version: 6.0.3
-  resolution: "@types/parse5@npm:6.0.3"
-  checksum: ddb59ee4144af5dfcc508a8dcf32f37879d11e12559561e65788756b95b33e6f03ea027d88e1f5408f9b7bfb656bf630ace31a2169edf44151daaf8dd58df1b7
   languageName: node
   linkType: hard
 
