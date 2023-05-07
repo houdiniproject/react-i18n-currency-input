@@ -47,6 +47,6 @@ jobs:
           git add NOTICE-js
           git commit -m 'Update NOTICE for ${{ env.date }}'
           git checkout -b notice-update-$date
-          git push --set-upstream origin notice-update-${{ env.date }}
+          git push --set-upstream origin notice-update-${{ env.date }} -f
           gh pr create --fill
         fi
