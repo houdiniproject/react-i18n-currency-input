@@ -22,3 +22,4 @@ webpack.config.js
 .node-version
 *.log
 .yarn
+storybook-static
