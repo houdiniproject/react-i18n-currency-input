@@ -43,20 +43,3 @@ jobs:
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3.5.2
-      - uses: actions/setup-node@v3.6.0
-        with:
-          node-version: 16.x
-          cache: 'yarn'
-          registry-url: https://npm.pkg.github.com/
-      - run: yarn install --frozen-lockfile
-      - name: Webpack compile everything
-        run: npm run webpack
-      - run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
