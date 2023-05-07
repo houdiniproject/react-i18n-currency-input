@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-
+  merge_group:
 concurrency: 
   group: build--${{ github.head_ref }}
   cancel-in-progress: true
