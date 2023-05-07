@@ -1,9 +1,6 @@
 module.exports = {
-  core: {
-    builder: 'webpack5',
-  },
   features: {
-    postcss: false,
+    postcss: false
   },
   stories: ['../src/**/*.stories.[tj]s?(x)'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
@@ -13,10 +10,13 @@ module.exports = {
       test: /\.(ts|tsx)?$/,
       exclude: [/node_modules/],
       loader: 'ts-loader'
-    })
-
-    config.resolve.extensions.push('.ts')
-    config.resolve.extensions.push('.tsx')
+    });
+    config.resolve.extensions.push('.ts');
+    config.resolve.extensions.push('.tsx');
     return config;
   },
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {}
+  }
 };
