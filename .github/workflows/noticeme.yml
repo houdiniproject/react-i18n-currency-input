@@ -16,6 +16,9 @@ jobs:
       security-events: write
 
     steps:
+    - name: save Date
+      run: echo "date=$(date +%Y-%m-%d)" >> "$GITHUB_ENV"
+      shell: bash
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
@@ -34,7 +37,7 @@ jobs:
 
     - name: Update NOTICE-js
       run: yarn notice_update
-    - name: configure git 
+    - name: configure git
       run: |
         git config user.name "notice-update@houdiniproject.org"
         git config user.email "notice-update@houdiniproject.org"
@@ -42,8 +45,8 @@ jobs:
       run: |
         if ! git diff --exit-code NOTICE-js; then
           git add NOTICE-js
-          git commit -m 'Update NOTICE for $(date +%Y-%m-%d)'
-          git checkout -b notice-update-$(date +%Y-%m-%d)
-          git push --set-upstream origin notice-update-$(date +%Y-%m-%d)
+          git commit -m 'Update NOTICE for ${{ env.date }}'
+          git checkout -b notice-update-$date
+          git push --set-upstream origin notice-update-${{ env.date }}
           gh pr create --fill
         fi
