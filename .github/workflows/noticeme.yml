@@ -4,7 +4,8 @@ on:
   schedule:
     - cron: '34 1 * * 1'
   workflow_dispatch:
-
+env:
+  GH_TOKEN: ${{ secrets.DEPENDABOT_PAT }}
 jobs:
   noticeme:
     name: Update JS notices
