@@ -24,6 +24,7 @@ jobs:
         run: yarn jest-on-react-${{ matrix.react }}
 
   build_package:
+      name: "Build package"
       needs: test
       runs-on: ubuntu-latest
       steps:
