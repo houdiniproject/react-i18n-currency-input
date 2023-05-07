@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   merge_group:
 concurrency: 
-  group: build--${{ github.head_ref }}
+  group: build--${{ github.head_ref || github.ref }} # if it's not a PR, we'll use the main ref
   cancel-in-progress: true
 jobs:
   test:
