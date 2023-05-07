@@ -1,5 +1,10 @@
 name: react-i18n-currency-input build
-on: [pull_request]
+on: 
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
 concurrency: 
   group: build--${{ github.head_ref }}
   cancel-in-progress: true
