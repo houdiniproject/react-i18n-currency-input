@@ -59,7 +59,7 @@
     "react-is-16": "npm:react-is@^16",
     "react-is-17": "npm:react-is@^17",
     "react-use": ">=15.3.0",
-    "rimraf": "^4.1.1",
+    "rimraf": "^5.0.0",
     "storybook": "^7.0.9",
     "terser-webpack-plugin": "^5.3.3",
     "ts-jest": "^29",
