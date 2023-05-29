@@ -16,7 +16,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** typescript; version 4.9.5 -- https://www.typescriptlang.org/
+** typescript; version 5.0.4 -- https://www.typescriptlang.org/
 (c) by W3C
 Copyright (c) 2018 WHATWG
 Copyright (c) Microsoft Corporation
@@ -4070,6 +4070,8 @@ Copyright (c) Isaac Z. Schlueter and Contributors
 ** semver; version 7.5.0 -- https://github.com/npm/node-semver#readme
 Copyright Isaac Z. Schlueter
 Copyright (c) Isaac Z. Schlueter and Contributors
+** tar; version 6.1.14 -- https://github.com/isaacs/node-tar#readme
+Copyright (c) Isaac Z. Schlueter and Contributors
 ** which; version 2.0.2 -- https://github.com/isaacs/node-which#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
 ** wrappy; version 1.0.2 -- https://github.com/npm/wrappy
@@ -4431,6 +4433,18 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+
+
+------
+
+** electron-to-chromium; version 1.4.385 -- https://github.com/kilian/electron-to-chromium#readme
+Copyright 2018 Kilian Valkhof
+
+Copyright 2018 Kilian Valkhof
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
 ------
@@ -5573,6 +5587,8 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** cli-boxes; version 2.2.1 -- https://github.com/sindresorhus/cli-boxes#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** cli-spinners; version 2.9.0 -- https://github.com/sindresorhus/cli-spinners#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** default-browser-id; version 3.0.0 -- https://github.com/sindresorhus/default-browser-id#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** del; version 6.1.1 -- https://github.com/sindresorhus/del#readme
@@ -5595,6 +5611,10 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** is-stream; version 2.0.1 -- https://github.com/sindresorhus/is-stream#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** is-unicode-supported; version 0.1.0 -- https://github.com/sindresorhus/is-unicode-supported#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** log-symbols; version 4.1.0 -- https://github.com/sindresorhus/log-symbols#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** onetime; version 5.1.2 -- https://github.com/sindresorhus/onetime#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** open; version 7.4.2 -- https://github.com/sindresorhus/open#readme
@@ -5602,6 +5622,8 @@ Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at>
 Copyright 2006, Jeremy White <jwhite@codeweavers.com>
 Copyright 2009-2010, Fathi Boudra <fabo@freedesktop.org>
 Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org>
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+** ora; version 5.4.1 -- https://github.com/sindresorhus/ora#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 ** p-limit; version 3.1.0 -- https://github.com/sindresorhus/p-limit#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -13467,6 +13489,32 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
+** clone; version 1.0.4 -- https://github.com/pvorb/node-clone#readme
+Copyright (c) 2011-2015 Paul Vorbach <paul@vorba.ch>
+Copyright (c) 2011-2015 Paul Vorbach (http://paul.vorba.ch/) and contributors (https://github.com/pvorb/node-clone/graphs/contributors)
+
+Copyright © 2011-2015 Paul Vorbach <paul@vorba.ch>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the “Software”), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+
 ** acorn-globals; version 7.0.1 -- https://github.com/ForbesLindesay/acorn-globals#readme
 Copyright (c) 2014 Forbes Lindesay
 
@@ -15245,6 +15293,36 @@ SOFTWARE.
 
 ------
 
+** defaults; version 1.0.4 -- https://github.com/sindresorhus/node-defaults#readme
+Copyright (c) 2015 Elijah Insua
+Copyright (c) 2022 Sindre Sorhus
+
+The MIT License (MIT)
+
+Copyright (c) 2022 Sindre Sorhus
+Copyright (c) 2015 Elijah Insua
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+------
+
 ** big.js; version 5.2.2 -- https://github.com/MikeMcl/big.js#readme
 Copyright (c) 2018 Michael Mclaughlin
 Copyright (c) 2018 Michael Mclaughlin <M8ch88l@gmail.com> https://github.com/MikeMcl/big.js/LICENCE
@@ -15313,9 +15391,6 @@ Copyright JS Foundation and other contributors
 Copyright JS Foundation and other contributors
 ** css-loader; version 6.7.3 -- https://github.com/webpack-contrib/css-loader
 Copyright JS Foundation and other contributors
-** enhanced-resolve; version 5.13.0 -- http://github.com/webpack/enhanced-resolve
-Copyright JS Foundation and other contributors
-Copyright (c) 2012-2019 JS Foundation and other contributors
 ** html-webpack-plugin; version 5.5.1 -- https://github.com/jantimon/html-webpack-plugin
 Copyright JS Foundation and other contributors
 ** loader-utils; version 2.0.4 -- https://github.com/webpack/loader-utils#readme
@@ -15326,6 +15401,8 @@ Copyright JS Foundation and other contributors
 ** schema-utils; version 3.1.2 -- https://github.com/webpack/schema-utils
 Copyright JS Foundation and other contributors
 ** style-loader; version 3.3.2 -- https://github.com/webpack-contrib/style-loader
+Copyright JS Foundation and other contributors
+** terser-webpack-plugin; version 5.3.9 -- https://github.com/webpack-contrib/terser-webpack-plugin
 Copyright JS Foundation and other contributors
 ** watchpack; version 2.4.0 -- https://github.com/webpack/watchpack
 Copyright JS Foundation and other contributors
@@ -16082,6 +16159,9 @@ SOFTWARE.
 
 ** core-js-compat; version 3.30.2 -- https://github.com/zloirock/core-js#readme
 Copyright (c) 2014-2023 Denis Pushkarev
+** core-js-pure; version 3.30.2 -- https://github.com/zloirock/core-js#readme
+Copyright (c) 2014-2023 Denis Pushkarev
+copyright (c) 2014-2023 Denis Pushkarev
 
 Copyright (c) 2014-2023 Denis Pushkarev
 
@@ -16491,11 +16571,11 @@ Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
+** react; version 17.0.2 -- https://reactjs.org/
+Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 16.14.0 -- https://reactjs.org/
 (c) Sindre Sorhus
 Copyright (c) 2013-present, Facebook, Inc.
-Copyright (c) Facebook, Inc. and its affiliates
-** react; version 17.0.2 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-docgen; version 5.4.3 -- https://github.com/reactjs/react-docgen#readme
 Copyright (c) Facebook, Inc. and its affiliates
@@ -16503,16 +16583,16 @@ Copyright (c) Facebook, Inc. and its affiliates
 (c) Ka (c)
 (c) http://www.w3.org/1999/xhtml
 Copyright (c) Facebook, Inc. and its affiliates
-** react-dom; version 16.14.0 -- https://reactjs.org/
-(c) Db (c)
-Copyright (c) 2013-present, Facebook, Inc.
-Copyright (c) Facebook, Inc. and its affiliates
 ** react-dom; version 17.0.2 -- https://reactjs.org/
 (c) Jb (c)
 (c) La (c)
 (c) Ma (c)
 (c) Pb (c)
 (c) http://www.w3.org/1999/xhtml
+Copyright (c) Facebook, Inc. and its affiliates
+** react-dom; version 16.14.0 -- https://reactjs.org/
+(c) Db (c)
+Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-is; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
@@ -17431,10 +17511,6 @@ THE SOFTWARE.
 
 ------
 
-** @testing-library/dom; version 9.2.0 -- https://github.com/testing-library/dom-testing-library#readme
-Copyright (c) 2017 Kent C. Dodds
-Copyright (c) Facebook, Inc. and its affiliates
-Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
 ** @testing-library/jest-dom; version 5.16.5 -- https://github.com/testing-library/jest-dom#readme
 Copyright (c) 2017 Kent C. Dodds
 ** @testing-library/react; version 12.1.5 -- https://github.com/testing-library/react-testing-library#readme
@@ -17588,6 +17664,8 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Microsoft Corporation.
 ** @types/minimatch; version 5.1.2 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/minimatch
 Copyright (c) Microsoft Corporation
+** @types/node; version 16.18.26 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node
+Copyright (c) Microsoft Corporation
 ** @types/node-fetch; version 2.6.2 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-fetch
 Copyright (c) Microsoft Corporation
 ** @types/normalize-package-data; version 2.4.0 -- 
@@ -17615,6 +17693,7 @@ Copyright (c) Microsoft Corporation
 ** @types/semver; version 7.3.13 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/semver
 Copyright (c) Microsoft Corporation
 ** @types/send; version 0.17.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/send
+Copyright (c) Microsoft Corporation
 ** @types/serve-static; version 1.15.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/serve-static
 Copyright (c) Microsoft Corporation
 ** @types/stack-utils; version 2.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/stack-utils
@@ -17640,7 +17719,7 @@ Copyright (c) Microsoft Corporation.
 ** @webassemblyjs/wasm-opt; version 1.11.5 -- https://github.com/xtuc/webassemblyjs#readme
 ** @webassemblyjs/wasm-parser; version 1.11.5 -- https://github.com/xtuc/webassemblyjs#readme
 ** @webassemblyjs/wast-printer; version 1.11.5 -- https://github.com/xtuc/webassemblyjs#readme
-** acorn-import-assertions; version 1.8.0 -- https://github.com/xtuc/acorn-import-assertions#readme
+** acorn-import-assertions; version 1.9.0 -- https://github.com/xtuc/acorn-import-assertions#readme
 ** agent-base; version 6.0.2 -- https://github.com/TooTallNate/node-agent-base#readme
 Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 ** babel-core; version 7.0.0-bridge.0 -- 
@@ -19986,6 +20065,8 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** clean-stack; version 2.2.0 -- https://github.com/sindresorhus/clean-stack#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+** cli-cursor; version 3.1.0 -- https://github.com/sindresorhus/cli-cursor#readme
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** crypto-random-string; version 2.0.0 -- https://github.com/sindresorhus/crypto-random-string#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -20017,6 +20098,8 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** is-generator-fn; version 2.1.0 -- https://github.com/sindresorhus/is-generator-fn#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+** is-interactive; version 1.0.0 -- https://github.com/sindresorhus/is-interactive#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** is-path-cwd; version 2.2.0 -- https://github.com/sindresorhus/is-path-cwd#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
@@ -20073,6 +20156,9 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** resolve-from; version 5.0.0 -- https://github.com/sindresorhus/resolve-from#readme
+(c) Sindre Sorhus (https://sindresorhus.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+** restore-cursor; version 3.1.0 -- https://github.com/sindresorhus/restore-cursor#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** screenfull; version 5.0.2 -- https://github.com/sindresorhus/screenfull.js#readme
@@ -20506,6 +20592,43 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+------
+
+** wcwidth; version 1.0.1 -- https://github.com/timoxley/wcwidth#readme
+Copyright (c) 2012 by Jun Woong
+
+wcwidth.js: JavaScript Portng of Markus Kuhn's wcwidth() Implementation
+=======================================================================
+
+Copyright (C) 2012 by Jun Woong.
+
+This package is a JavaScript porting of `wcwidth()` implementation
+[by Markus Kuhn](http://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
 
 
 ------
