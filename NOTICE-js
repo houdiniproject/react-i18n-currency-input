@@ -13715,6 +13715,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ** defu; version 6.1.2 -- https://github.com/unjs/defu#readme
 Copyright (c) Pooya Parsa <pooya@pi0.io>
 ** giget; version 1.1.2 -- https://github.com/unjs/giget#readme
+Copyright (c) Pooya Parsa <pooya@pi0.io>
 ** node-fetch-native; version 1.1.0 -- https://github.com/unjs/node-fetch-native#readme
 copyright 2015 Toru Nagashima
 Copyright (c) Pooya Parsa <pooya@pi0.io>
@@ -16575,19 +16576,15 @@ SOFTWARE.
 Copyright (c) Facebook, Inc. and its affiliates
 ** jscodeshift; version 0.14.0 -- https://github.com/facebook/jscodeshift#readme
 Copyright (c) Facebook, Inc. and its affiliates
-** react; version 18.2.0 -- https://reactjs.org/
-Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 16.14.0 -- https://reactjs.org/
 (c) Sindre Sorhus
 Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 17.0.2 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
-** react-docgen; version 5.4.3 -- https://github.com/reactjs/react-docgen#readme
+** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
-** react-dom; version 18.2.0 -- https://reactjs.org/
-(c) Ka (c)
-(c) http://www.w3.org/1999/xhtml
+** react-docgen; version 5.4.3 -- https://github.com/reactjs/react-docgen#readme
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-dom; version 16.14.0 -- https://reactjs.org/
 (c) Db (c)
@@ -16598,6 +16595,10 @@ Copyright (c) Facebook, Inc. and its affiliates
 (c) La (c)
 (c) Ma (c)
 (c) Pb (c)
+(c) http://www.w3.org/1999/xhtml
+Copyright (c) Facebook, Inc. and its affiliates
+** react-dom; version 18.2.0 -- https://reactjs.org/
+(c) Ka (c)
 (c) http://www.w3.org/1999/xhtml
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-is; version 18.2.0 -- https://reactjs.org/
@@ -16719,6 +16720,9 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-validator-option; version 7.21.0 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-wrap-function; version 7.20.5 -- https://babel.dev/docs/en/next/babel-helper-wrap-function
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/helpers; version 7.22.3 -- https://babel.dev/docs/en/next/babel-helpers
+Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/highlight; version 7.18.6 -- https://babel.dev/docs/en/next/babel-highlight
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
