@@ -16576,15 +16576,19 @@ SOFTWARE.
 Copyright (c) Facebook, Inc. and its affiliates
 ** jscodeshift; version 0.14.0 -- https://github.com/facebook/jscodeshift#readme
 Copyright (c) Facebook, Inc. and its affiliates
+** react; version 18.2.0 -- https://reactjs.org/
+Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 16.14.0 -- https://reactjs.org/
 (c) Sindre Sorhus
 Copyright (c) 2013-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 17.0.2 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
-** react; version 18.2.0 -- https://reactjs.org/
-Copyright (c) Facebook, Inc. and its affiliates
 ** react-docgen; version 5.4.3 -- https://github.com/reactjs/react-docgen#readme
+Copyright (c) Facebook, Inc. and its affiliates
+** react-dom; version 18.2.0 -- https://reactjs.org/
+(c) Ka (c)
+(c) http://www.w3.org/1999/xhtml
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-dom; version 16.14.0 -- https://reactjs.org/
 (c) Db (c)
@@ -16595,10 +16599,6 @@ Copyright (c) Facebook, Inc. and its affiliates
 (c) La (c)
 (c) Ma (c)
 (c) Pb (c)
-(c) http://www.w3.org/1999/xhtml
-Copyright (c) Facebook, Inc. and its affiliates
-** react-dom; version 18.2.0 -- https://reactjs.org/
-(c) Ka (c)
 (c) http://www.w3.org/1999/xhtml
 Copyright (c) Facebook, Inc. and its affiliates
 ** react-is; version 18.2.0 -- https://reactjs.org/
@@ -16728,6 +16728,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-class-properties; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-class-properties
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-proposal-nullish-coalescing-operator; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-proposal-nullish-coalescing-operator
@@ -16753,6 +16755,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-flow; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-import-assertions; version 7.20.0 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-import-attributes; version 7.22.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-import-meta; version 7.10.4 -- https://github.com/babel/babel#readme
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16782,11 +16786,17 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-arrow-functions; version 7.21.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-arrow-functions
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-async-generator-functions; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-async-generator-functions
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-async-to-generator; version 7.20.7 -- https://babel.dev/docs/en/next/babel-plugin-transform-async-to-generator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-block-scoped-functions; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-block-scoped-functions
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-block-scoping; version 7.21.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-block-scoping
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-class-properties; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-class-properties
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-class-static-block; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-class-static-block
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-classes; version 7.21.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-classes
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16802,13 +16812,19 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-exponentiation-operator; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-exponentiation-operator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-export-namespace-from; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-export-namespace-from
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-flow-strip-types; version 7.21.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-flow-strip-types
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-for-of; version 7.21.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-for-of
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-function-name; version 7.18.9 -- https://babel.dev/docs/en/next/babel-plugin-transform-function-name
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-json-strings; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-json-strings
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-literals; version 7.18.9 -- https://babel.dev/docs/en/next/babel-plugin-transform-literals
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-logical-assignment-operators; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-logical-assignment-operators
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-member-expression-literals; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-member-expression-literals
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16816,9 +16832,31 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-commonjs; version 7.21.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-commonjs
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-modules-systemjs; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-systemjs
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-umd; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-umd
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-named-capturing-groups-regex; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-named-capturing-groups-regex
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-new-target; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-new-target
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-nullish-coalescing-operator; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-nullish-coalescing-operator
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-numeric-separator; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-numeric-separator
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-object-rest-spread; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-object-rest-spread
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-object-super; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-object-super
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-optional-catch-binding; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-optional-catch-binding
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-optional-chaining; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-optional-chaining
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-parameters; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-parameters
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-private-methods; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-private-methods
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-private-property-in-object; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-private-property-in-object
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-property-literals; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-property-literals
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16848,7 +16886,11 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-escapes; version 7.21.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-escapes
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-unicode-property-regex; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-property-regex
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-regex; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-regex
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-unicode-sets-regex; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-sets-regex
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-flow; version 7.21.4 -- https://babel.dev/docs/en/next/babel-preset-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -17586,6 +17628,40 @@ IN THE SOFTWARE.
 ------
 
 ** @esbuild/linux-x64; version 0.17.18 -- https://github.com/evanw/esbuild#readme
+** @storybook/addon-actions; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/addons/actions
+** @storybook/addon-links; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/addons/links
+** @storybook/builder-manager; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/builder-manager
+** @storybook/builder-webpack5; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/builder-webpack5
+** @storybook/channel-postmessage; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/channel-postmessage
+** @storybook/channel-websocket; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/channel-websocket
+** @storybook/channels; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/channels
+** @storybook/cli; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
+** @storybook/client-api; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/client-api
+** @storybook/client-logger; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/client-logger
+** @storybook/codemod; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/codemod
+** @storybook/components; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/ui/components
+copyright xA9 2014-2022 Denis Pushkarev
+** @storybook/core-client; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-client
+** @storybook/core-common; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-common
+** @storybook/core-events; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-events
+** @storybook/core-server; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-server
+** @storybook/core-webpack; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-webpack
+** @storybook/csf-tools; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/csf-tools
+** @storybook/docs-tools; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/docs-tools
+** @storybook/manager; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/ui/manager
+** @storybook/manager-api; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/manager-api
+** @storybook/node-logger; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/node-logger
+** @storybook/preset-react-webpack; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/presets/react-webpack
+** @storybook/preview; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview
+** @storybook/preview-api; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview-api
+** @storybook/react; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/renderers/react
+** @storybook/react-dom-shim; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/react-dom-shim
+** @storybook/react-webpack5; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/frameworks/react-webpack5
+** @storybook/router; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/router
+** @storybook/store; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/store
+** @storybook/telemetry; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/telemetry
+** @storybook/theming; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/theming
+** @storybook/types; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/types
 ** @types/aria-query; version 5.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aria-query
 Copyright (c) Microsoft Corporation
 ** @types/babel__core; version 7.20.0 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core
@@ -17669,6 +17745,8 @@ Copyright (c) Microsoft Corporation.
 Copyright (c) Microsoft Corporation
 ** @types/range-parser; version 1.2.4 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/range-parser
 Copyright (c) Microsoft Corporation
+** @types/react; version 16.14.42 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react
+Copyright (c) Microsoft Corporation
 ** @types/react-dom; version 18.0.6 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom
 Copyright (c) Microsoft Corporation
 ** @types/scheduler; version 0.16.2 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/scheduler
@@ -17738,6 +17816,7 @@ Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 Copyright (c) 2016 Mael Nison
 ** natural-compare; version 1.4.0 -- https://github.com/litejs/natural-compare-lite#readme
 Copyright (c) 2012-2015 Lauri Rooden <lauri@rooden.ee>
+** storybook; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
 ** toggle-selection; version 1.0.6 -- https://github.com/sudodoki/toggle-selection#readme
 ** tr46; version 0.0.3 -- https://github.com/Sebmaster/tr46.js#readme
 ** wildcard; version 2.0.0 -- https://github.com/DamonOehlman/wildcard#readme
