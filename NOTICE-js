@@ -16892,6 +16892,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-sets-regex; version 7.22.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-sets-regex
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/preset-env; version 7.22.4 -- https://babel.dev/docs/en/next/babel-preset-env
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-flow; version 7.21.4 -- https://babel.dev/docs/en/next/babel-preset-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-react; version 7.18.6 -- https://babel.dev/docs/en/next/babel-preset-react
@@ -17630,6 +17632,8 @@ IN THE SOFTWARE.
 ** @esbuild/linux-x64; version 0.17.18 -- https://github.com/evanw/esbuild#readme
 ** @storybook/addon-actions; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/addons/actions
 ** @storybook/addon-links; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/addons/links
+** @storybook/addons; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/addons
+** @storybook/api; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/api
 ** @storybook/builder-manager; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/builder-manager
 ** @storybook/builder-webpack5; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/builder-webpack5
 ** @storybook/channel-postmessage; version 7.0.17 -- https://github.com/storybookjs/storybook/tree/next/code/lib/channel-postmessage
