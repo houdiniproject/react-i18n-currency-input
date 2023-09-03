@@ -2,8 +2,10 @@ module.exports = {
   features: {
     postcss: false
   },
+
   stories: ['../src/**/*.stories.[tj]s?(x)'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
+
   webpackFinal: async config => {
     // do mutation to the config
     config.module.rules.push({
@@ -15,8 +17,13 @@ module.exports = {
     config.resolve.extensions.push('.tsx');
     return config;
   },
+
   framework: {
     name: '@storybook/react-webpack5',
     options: {}
+  },
+
+  docs: {
+    autodocs: 'tag'
   }
 };
