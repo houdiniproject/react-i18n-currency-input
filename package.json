@@ -71,5 +71,6 @@
   },
   "repository": "github:houdiniproject/react-i18n-currency-input",
   "types": "./dist/index.d.ts",
-  "sideEffects": false
+  "sideEffects": false,
+  "packageManager": "yarn@3.6.4"
 }
