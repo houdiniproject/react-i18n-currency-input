@@ -6,7 +6,7 @@ import {MaskedAndRawValues} from './types';
 export interface MoneyFormatHelperOptions {
   //Do we want to require positive numbers? If so, we strip negative sign
   //Should numbers always be negative (other than 0)? If so, we make all non-zero numbers negative.
-  requireSign?: 'positive'|'negative'
+  requireSign?: 'positive'|'negative'|undefined
 }
 
 /**
