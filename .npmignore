@@ -24,3 +24,4 @@ webpack.config.js
 .yarn
 storybook-static
 .babelrc.json
+.nvmrc
