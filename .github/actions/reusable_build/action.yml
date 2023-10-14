@@ -5,7 +5,12 @@ inputs:
     default: '.'
     description: "Working directory"
   check-notice:
-    description: Should the notice be checked
+    description: Check notice
+  run-jest:
+    description: Run jest
+    default: 'true'
+  build-storybook:
+    description: Run build storybook
 runs:
   using: "composite"
   steps:
@@ -25,6 +30,7 @@ runs:
       shell: bash
 
     - name: run jest
+      if: ${{ inputs.run-jest }}
       working-directory: ${{inputs.working-directory}}
       run: yarn jest
       shell: bash
@@ -35,5 +41,6 @@ runs:
       shell: bash
 
     - name: Build storybook
+      if: ${{ inputs.build-storybook }}
       run: yarn build-storybook
       shell: bash
