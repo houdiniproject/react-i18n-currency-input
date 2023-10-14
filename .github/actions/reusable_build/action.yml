@@ -1,0 +1,46 @@
+name: Reusable build
+description: Build your buildery
+inputs:
+  working-directory:
+    default: '.'
+    description: "Working directory"
+  check-notice:
+    description: Check notice
+  run-jest:
+    description: Run jest
+    default: 'true'
+  build-storybook:
+    description: Run build storybook
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: 'yarn'
+
+    - name: install node packages
+      run: yarn install --immutable
+      shell: bash
+
+    - name: verify NOTICE
+      if: ${{inputs.check-notice}}
+      working-directory: ${{inputs.working-directory}}
+      run: yarn run notice
+      shell: bash
+
+    - name: run jest
+      if: ${{ inputs.run-jest }}
+      working-directory: ${{inputs.working-directory}}
+      run: yarn jest
+      shell: bash
+
+    - name: Webpack compile everything
+      working-directory: ${{inputs.working-directory}}
+      run: yarn webpack
+      shell: bash
+
+    - name: Build storybook
+      if: ${{ inputs.build-storybook }}
+      run: yarn build-storybook
+      shell: bash
