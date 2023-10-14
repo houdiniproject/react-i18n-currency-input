@@ -33,16 +33,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v4
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-          cache: 'yarn'
-      - run: yarn install --immutable
-      - name: Webpack compile everything
-        run: webpack
-      - name: Build storybook
-        run: yarn build-storybook
+      
+      - uses: ./.github/actions/reusable_build
+  
       - name: build package locally
         run: yarn pack
       - name: Archive the output of yarn pack
