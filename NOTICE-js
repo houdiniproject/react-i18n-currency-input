@@ -5450,6 +5450,35 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
+** unplugin; version 1.5.0 -- https://github.com/unjs/unplugin#readme
+(c) 2021-PRESENT Nuxt Contrib
+Copyright (c) 2021-PRESENT Nuxt Contrib
+
+MIT License
+
+Copyright (c) 2021-PRESENT Nuxt Contrib
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+------
+
 ** fastest-levenshtein; version 1.0.12 -- https://github.com/ka-weihe/fastest-levenshtein#README
 Copyright (c) 2020 Kasper Unn Weihe
 
@@ -16215,6 +16244,12 @@ SOFTWARE.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/compat-data; version 7.22.20 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/core; version 7.23.0 -- https://babel.dev/docs/en/next/babel-core
+Copyright (c) 2021 Titus Wormer
+Copyright Joyent, Inc. and other Node contributors
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/generator; version 7.23.0 -- https://babel.dev/docs/en/next/babel-generator
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-annotate-as-pure; version 7.22.5 -- https://babel.dev/docs/en/next/babel-helper-annotate-as-pure
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-builder-binary-assignment-operator-visitor; version 7.22.5 -- https://babel.dev/docs/en/next/babel-helper-builder-binary-assignment-operator-visitor
@@ -16227,11 +16262,15 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-environment-visitor; version 7.22.20 -- https://babel.dev/docs/en/next/babel-helper-environment-visitor
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/helper-function-name; version 7.23.0 -- https://babel.dev/docs/en/next/babel-helper-function-name
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-hoist-variables; version 7.22.5 -- https://babel.dev/docs/en/next/babel-helper-hoist-variables
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-member-expression-to-functions; version 7.22.5 -- https://babel.dev/docs/en/next/babel-helper-member-expression-to-functions
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-module-imports; version 7.22.15 -- https://babel.dev/docs/en/next/babel-helper-module-imports
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/helper-module-transforms; version 7.23.0 -- https://babel.dev/docs/en/next/babel-helper-module-transforms
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-optimise-call-expression; version 7.22.5 -- https://babel.dev/docs/en/next/babel-helper-optimise-call-expression
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16254,6 +16293,9 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-validator-option; version 7.22.15 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-wrap-function; version 7.22.10 -- https://babel.dev/docs/en/next/babel-helper-wrap-function
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/helpers; version 7.23.1 -- https://babel.dev/docs/en/next/babel-helpers
+Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/highlight; version 7.22.13 -- https://babel.dev/docs/en/next/babel-highlight
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16321,6 +16363,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-block-scoped-functions; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-block-scoped-functions
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-block-scoping; version 7.23.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-block-scoping
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-class-properties; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-class-properties
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-class-static-block; version 7.22.11 -- https://babel.dev/docs/en/next/babel-plugin-transform-class-static-block
@@ -16328,6 +16372,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-classes; version 7.22.15 -- https://babel.dev/docs/en/next/babel-plugin-transform-classes
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-computed-properties; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-computed-properties
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-destructuring; version 7.23.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-destructuring
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-dotall-regex; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-dotall-regex
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16355,6 +16401,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-amd; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-amd
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-modules-commonjs; version 7.23.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-commonjs
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-systemjs; version 7.22.11 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-systemjs
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-modules-umd; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-modules-umd
@@ -16372,6 +16420,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-object-super; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-object-super
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-optional-catch-binding; version 7.22.11 -- https://babel.dev/docs/en/next/babel-plugin-transform-optional-catch-binding
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-optional-chaining; version 7.23.0 -- https://babel.dev/docs/en/next/babel-plugin-transform-optional-chaining
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-parameters; version 7.22.15 -- https://babel.dev/docs/en/next/babel-plugin-transform-parameters
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16430,6 +16480,10 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/template; version 7.22.15 -- https://babel.dev/docs/en/next/babel-template
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/traverse; version 7.23.0 -- https://babel.dev/docs/en/next/babel-traverse
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/types; version 7.23.0 -- https://babel.dev/docs/en/next/babel-types
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 
 MIT License
@@ -18563,6 +18617,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------
+
+** @babel/parser; version 7.23.0 -- https://babel.dev/docs/en/next/babel-parser
+Copyright (c) 2012-2014 by various contributors
+
+Copyright (C) 2012-2014 by various contributors (see AUTHORS)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
 
 ------
 
