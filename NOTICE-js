@@ -17867,6 +17867,7 @@ copyright xA9 2014-2022 Denis Pushkarev
 ** @storybook/node-logger; version 7.4.6 -- https://github.com/storybookjs/storybook/tree/next/code/lib/node-logger
 ** @storybook/preview; version 7.4.6 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview
 ** @storybook/preview-api; version 7.4.6 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview-api
+** @storybook/react; version 7.5.2 -- https://github.com/storybookjs/storybook/tree/next/code/renderers/react
 ** @storybook/react-dom-shim; version 7.4.6 -- https://github.com/storybookjs/storybook/tree/next/code/lib/react-dom-shim
 ** @storybook/react-vite; version 7.4.6 -- https://github.com/storybookjs/storybook/tree/next/code/frameworks/react-vite
 ** @storybook/router; version 7.4.6 -- https://github.com/storybookjs/storybook/tree/next/code/lib/router
