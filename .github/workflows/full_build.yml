@@ -39,12 +39,12 @@ jobs:
       - name: build package locally
         run: yarn pack
       - name: Archive the output of yarn pack
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with: 
           name: npm_package
           path: '*.tgz'
       - name: Archive build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dist
           path: dist
