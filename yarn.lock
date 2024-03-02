@@ -2571,16 +2571,16 @@ __metadata:
   linkType: hard
 
 "@storybook/addon-actions@npm:^7.6.3":
-  version: 7.6.3
-  resolution: "@storybook/addon-actions@npm:7.6.3"
+  version: 7.6.17
+  resolution: "@storybook/addon-actions@npm:7.6.17"
   dependencies:
-    "@storybook/core-events": 7.6.3
+    "@storybook/core-events": 7.6.17
     "@storybook/global": ^5.0.0
     "@types/uuid": ^9.0.1
     dequal: ^2.0.2
     polished: ^4.2.2
     uuid: ^9.0.0
-  checksum: f9712937bc2ea22f0b8c04c60babe503cdda3844a9ddbbd7fcee44a3f227f7f77e433690bf17e495bd137a91460bf4a70f03edb06cd3f4de33c7fd27bffeba78
+  checksum: bc512cb1664b614b39fe00340f4eb6bd3311fd26828a5fd6f02448427c6b20bebe17d1f17de2fff1f2a16195b277945920208b924f0a7cca6f4155eec70b79d9
   languageName: node
   linkType: hard
 
