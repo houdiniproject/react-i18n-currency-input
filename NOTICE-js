@@ -2012,43 +2012,6 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ------
 
-** terser; version 5.17.1 -- https://terser.org
-Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>
-Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
-
-Terser is released under the BSD license:
-
-Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-    * Redistributions of source code must retain the above
-      copyright notice, this list of conditions and the following
-      disclaimer.
-
-    * Redistributions in binary form must reproduce the above
-      copyright notice, this list of conditions and the following
-      disclaimer in the documentation and/or other materials
-      provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER “AS IS” AND ANY
-EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
-PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
-TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
-THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE.
-
-
-------
-
 ** uglify-js; version 3.16.1 -- https://github.com/mishoo/UglifyJS#readme
 Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>
 Copyright 2012-2019 (c) Mihai Bazon <mihai.bazon@gmail.com>
@@ -2231,6 +2194,41 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+------
+
+** terser; version 5.28.1 -- https://terser.org
+Copyright 2012 (c) Mihai Bazon <mihai.bazon@gmail.com>
+Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
+
+Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+    * Redistributions of source code must retain the above
+      copyright notice, this list of conditions and the following
+      disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials
+      provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER “AS IS” AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
 
 
 ------
@@ -2994,7 +2992,7 @@ Creative Commons may be contacted at http://creativecommons.org/.
 
 ------
 
-** caniuse-lite; version 1.0.30001514 -- https://github.com/browserslist/caniuse-lite#readme
+** caniuse-lite; version 1.0.30001572 -- https://github.com/browserslist/caniuse-lite#readme
 
 Attribution 4.0 International
 
@@ -3618,6 +3616,27 @@ THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO
 
 ------
 
+** common-path-prefix; version 3.0.0 -- https://github.com/novemberborn/common-path-prefix#readme
+Copyright (c) 2016, Mark Wubben
+
+ISC License (ISC)
+Copyright (c) 2016, Mark Wubben
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+
+
+------
+
 ** glob; version 7.2.3 -- https://github.com/isaacs/node-glob#readme
 Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -4004,7 +4023,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** electron-to-chromium; version 1.4.454 -- https://github.com/kilian/electron-to-chromium#readme
+** electron-to-chromium; version 1.4.616 -- https://github.com/kilian/electron-to-chromium#readme
 Copyright 2018 Kilian Valkhof
 
 Copyright 2018 Kilian Valkhof
@@ -6086,7 +6105,7 @@ SOFTWARE.
 
 ------
 
-** ts-jest; version 29.1.1 -- https://kulshekhar.github.io/ts-jest
+** ts-jest; version 29.1.2 -- https://kulshekhar.github.io/ts-jest
 Copyright (c) 2016-2018 Permission
 
 MIT License
@@ -13427,35 +13446,6 @@ SOFTWARE.
 
 ------
 
-** simple-update-notifier; version 2.0.0 -- https://github.com/alexbrazier/simple-update-notifier.git
-Copyright (c) 2022 Alex Brazier
-Copyright (c) Microsoft Corporation
-
-MIT License
-
-Copyright (c) 2022 Alex Brazier
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
 ** @jest/console; version 29.7.0 -- https://github.com/jestjs/jest#readme
 Copyright (c) Meta Platforms, Inc. and affiliates
 ** @jest/core; version 29.7.0 -- https://jestjs.io/
@@ -15526,7 +15516,7 @@ Copyright (c) 2012-2014 Tobias Koppers
 Copyright JS Foundation and other contributors
 ** schema-utils; version 3.3.0 -- https://github.com/webpack/schema-utils
 Copyright JS Foundation and other contributors
-** terser-webpack-plugin; version 5.3.9 -- https://github.com/webpack-contrib/terser-webpack-plugin
+** terser-webpack-plugin; version 5.3.10 -- https://github.com/webpack-contrib/terser-webpack-plugin
 Copyright JS Foundation and other contributors
 ** watchpack; version 2.4.0 -- https://github.com/webpack/watchpack
 Copyright JS Foundation and other contributors
@@ -16628,6 +16618,8 @@ SOFTWARE.
 
 ------
 
+** jscodeshift; version 0.15.1 -- https://github.com/facebook/jscodeshift#readme
+Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 18.2.0 -- https://reactjs.org/
 Copyright (c) Facebook, Inc. and its affiliates
 ** react; version 16.14.0 -- https://reactjs.org/
@@ -16719,7 +16711,7 @@ SOFTWARE.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/compat-data; version 7.23.5 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/core; version 7.23.0 -- https://babel.dev/docs/en/next/babel-core
+** @babel/core; version 7.23.9 -- https://babel.dev/docs/en/next/babel-core
 Copyright (c) 2021 Titus Wormer
 Copyright Joyent, Inc. and other Node contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16761,7 +16753,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-split-export-declaration; version 7.22.6 -- https://babel.dev/docs/en/next/babel-helper-split-export-declaration
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helper-string-parser; version 7.22.5 -- https://babel.dev/docs/en/next/babel-helper-string-parser
+** @babel/helper-string-parser; version 7.23.4 -- https://babel.dev/docs/en/next/babel-helper-string-parser
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-validator-identifier; version 7.22.20 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16769,10 +16761,10 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/helper-wrap-function; version 7.22.20 -- https://babel.dev/docs/en/next/babel-helper-wrap-function
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/helpers; version 7.23.1 -- https://babel.dev/docs/en/next/babel-helpers
+** @babel/helpers; version 7.23.9 -- https://babel.dev/docs/en/next/babel-helpers
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/highlight; version 7.22.13 -- https://babel.dev/docs/en/next/babel-highlight
+** @babel/highlight; version 7.23.4 -- https://babel.dev/docs/en/next/babel-highlight
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-bugfix-safari-id-destructuring-collision-in-function-expression
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16793,6 +16785,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-dynamic-import; version 7.8.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-export-namespace-from; version 7.8.3 -- 
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-syntax-flow; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-syntax-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-import-assertions; version 7.23.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16820,7 +16814,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-top-level-await; version 7.14.5 -- https://babel.dev/docs/en/next/babel-plugin-syntax-top-level-await
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/plugin-syntax-typescript; version 7.21.4 -- https://babel.dev/docs/en/next/babel-plugin-syntax-typescript
+** @babel/plugin-syntax-typescript; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-syntax-typescript
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-syntax-unicode-sets-regex; version 7.18.6 -- https://babel.dev/docs/en/next/babel-plugin-syntax-unicode-sets-regex
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16853,6 +16847,8 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-exponentiation-operator; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-exponentiation-operator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-export-namespace-from; version 7.23.4 -- https://babel.dev/docs/en/next/babel-plugin-transform-export-namespace-from
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/plugin-transform-flow-strip-types; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-flow-strip-types
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-for-of; version 7.23.6 -- https://babel.dev/docs/en/next/babel-plugin-transform-for-of
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16898,7 +16894,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-property-literals; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-property-literals
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/plugin-transform-react-display-name; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-react-display-name
+** @babel/plugin-transform-react-display-name; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-react-display-name
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-react-jsx; version 7.22.15 -- https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16908,7 +16904,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-react-jsx-source; version 7.22.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx-source
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/plugin-transform-react-pure-annotations; version 7.22.5 -- 
+** @babel/plugin-transform-react-pure-annotations; version 7.23.3 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-regenerator; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-regenerator
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16924,7 +16920,7 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-typeof-symbol; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-typeof-symbol
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/plugin-transform-typescript; version 7.21.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-typescript
+** @babel/plugin-transform-typescript; version 7.23.5 -- https://babel.dev/docs/en/next/babel-plugin-transform-typescript
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/plugin-transform-unicode-escapes; version 7.23.3 -- https://babel.dev/docs/en/next/babel-plugin-transform-unicode-escapes
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -16936,9 +16932,13 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/preset-env; version 7.23.7 -- https://babel.dev/docs/en/next/babel-preset-env
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/preset-react; version 7.22.15 -- https://babel.dev/docs/en/next/babel-preset-react
+** @babel/preset-flow; version 7.23.3 -- https://babel.dev/docs/en/next/babel-preset-flow
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
-** @babel/preset-typescript; version 7.21.5 -- https://babel.dev/docs/en/next/babel-preset-typescript
+** @babel/preset-react; version 7.23.3 -- https://babel.dev/docs/en/next/babel-preset-react
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/preset-typescript; version 7.23.3 -- https://babel.dev/docs/en/next/babel-preset-typescript
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+** @babel/register; version 7.22.15 -- https://babel.dev/docs/en/next/babel-register
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/runtime; version 7.22.11 -- https://babel.dev/docs/en/next/babel-runtime
 Copyright (c) 2014-present, Facebook, Inc.
@@ -17541,34 +17541,25 @@ SOFTWARE.
 
 ** @esbuild/linux-x64; version 0.18.20 -- https://github.com/evanw/esbuild#readme
 ** @rollup/pluginutils; version 5.0.5 -- https://github.com/rollup/plugins/tree/master/packages/pluginutils#readme
-** @storybook/addon-actions; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/addons/actions
-** @storybook/addon-links; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/addons/links
 ** @storybook/addons; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/deprecated/addons
-** @storybook/builder-manager; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/builders/builder-manager
-** @storybook/builder-vite; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/builders/builder-vite/#readme
+** @storybook/builder-manager; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/builders/builder-manager
 ** @storybook/channels; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/channels
-** @storybook/cli; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
+** @storybook/cli; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
 ** @storybook/client-logger; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/client-logger
-** @storybook/codemod; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/codemod
-** @storybook/core-client; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/deprecated/core-client
-** @storybook/core-common; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-common
-** @storybook/core-events; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-events
-** @storybook/core-server; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-server
-** @storybook/csf-plugin; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/csf-plugin
-** @storybook/csf-tools; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/csf-tools
-** @storybook/docs-tools; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/docs-tools
-** @storybook/manager; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/ui/manager
+** @storybook/codemod; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/codemod
+** @storybook/core-common; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-common
+** @storybook/core-events; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-events
+** @storybook/core-server; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/core-server
+** @storybook/csf-tools; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/csf-tools
+** @storybook/manager; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/ui/manager
 ** @storybook/manager-api; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/manager-api
-** @storybook/node-logger; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/node-logger
-** @storybook/preview; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview
-** @storybook/preview-api; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview-api
-** @storybook/react; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/renderers/react
-** @storybook/react-dom-shim; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/react-dom-shim
-** @storybook/react-vite; version 7.6.7 -- https://github.com/storybookjs/storybook/tree/next/code/frameworks/react-vite
+** @storybook/node-logger; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/node-logger
+** @storybook/preview-api; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview-api
+** @storybook/react; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/renderers/react
 ** @storybook/router; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/router
-** @storybook/telemetry; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/telemetry
+** @storybook/telemetry; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/telemetry
 ** @storybook/theming; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/theming
-** @storybook/types; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/types
+** @storybook/types; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/types
 ** @types/aria-query; version 5.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aria-query
 Copyright (c) Microsoft Corporation
 ** @types/babel__core; version 7.20.0 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core
@@ -17616,7 +17607,7 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Microsoft Corporation
 ** @types/istanbul-reports; version 3.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/istanbul-reports
 Copyright (c) Microsoft Corporation
-** @types/jest; version 29.5.11 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest
+** @types/jest; version 29.5.12 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest
 Copyright (c) Microsoft Corporation
 ** @types/js-cookie; version 2.2.6 -- 
 Copyright (c) Microsoft Corporation.
@@ -17690,6 +17681,7 @@ Copyright (c) Microsoft Corporation.
 ** acorn-import-assertions; version 1.9.0 -- https://github.com/xtuc/acorn-import-assertions#readme
 ** agent-base; version 6.0.2 -- https://github.com/TooTallNate/node-agent-base#readme
 Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+** babel-core; version 7.0.0-bridge.0 -- 
 ** bplist-parser; version 0.2.0 -- https://github.com/nearinfinity/node-bplist-parser
 Copyright 2007 Apple Inc.
 Copyright (c) 2012 Near Infinity Corporation
@@ -17716,7 +17708,7 @@ Copyright Fedor Indutny, 2012
 Copyright (c) 2016 Mael Nison
 ** natural-compare; version 1.4.0 -- https://github.com/litejs/natural-compare-lite#readme
 Copyright (c) 2012-2015 Lauri Rooden <lauri@rooden.ee>
-** storybook; version 7.6.3 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
+** storybook; version 7.6.12 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
 ** toggle-selection; version 1.0.6 -- https://github.com/sudodoki/toggle-selection#readme
 ** tr46; version 0.0.3 -- https://github.com/Sebmaster/tr46.js#readme
 ** undici-types; version 5.26.5 -- https://undici.nodejs.org
@@ -18012,7 +18004,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** babel-loader; version 9.1.2 -- https://github.com/babel/babel-loader
+** babel-loader; version 9.1.3 -- https://github.com/babel/babel-loader
 Copyright (c) 2014-2019 Luis Couto <hello@luiscouto.pt>
 
 Copyright (c) 2014-2019 Luís Couto <hello@luiscouto.pt>
@@ -19400,7 +19392,7 @@ THE SOFTWARE.
 
 ** @jridgewell/resolve-uri; version 3.1.1 -- https://github.com/jridgewell/resolve-uri#readme
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
-** @jridgewell/source-map; version 0.3.2 -- https://github.com/jridgewell/source-map#readme
+** @jridgewell/source-map; version 0.3.5 -- https://github.com/jridgewell/source-map#readme
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
 
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
