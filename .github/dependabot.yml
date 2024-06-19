@@ -38,3 +38,20 @@ updates:
         update-types:
           - major
 
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    allow:
+      - dependency-name: storybook
+      - dependency-name: "@storybook/*"
+    groups:
+      minor-storybook-updates:
+        update-types:
+          - "patch"
+          - "minor"
+      major-storybook-updates:
+        update-types:
+          - "major"
+
+
