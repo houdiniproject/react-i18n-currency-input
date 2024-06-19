@@ -8,7 +8,5 @@ module.exports = {
     options: {}
   },
 
-  docs: {
-    autodocs: 'tag'
-  }
+  docs: {}
 };
