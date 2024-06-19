@@ -15,17 +15,33 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
-    ignore:
-      - dependency-name: storybook
-      - dependency-name: "@storybook/*"
     groups:
       development_minor:
         dependency-type: development
         update-types:
           - minor
           - patch
+        exclude-patterns:
+          - "storybook"
+          - "@storybook/*"
       development_major:
         dependency-type: development
+        update-types:
+          - major
+        exclude-patterns:
+          - "storybook"
+          - "@storybook/*"
+      storybook-minor:
+        patterns:
+          - "storybook"
+          - "@storybook/*"
+        update-types:
+          - "patch"
+          - "minor"
+      storybook-major:
+        patterns:
+          - "storybook"
+          - "@storybook/*"
         update-types:
           - major
       production_minor:
@@ -43,8 +59,7 @@ updates:
     schedule:
       interval: weekly
     allow:
-      - dependency-name: storybook
-      - dependency-name: "@storybook/*"
+
     groups:
       minor-storybook-updates:
         update-types:
