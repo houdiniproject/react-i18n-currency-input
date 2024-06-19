@@ -15,6 +15,9 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
+    ignore:
+      - dependency-name: storybook
+      - dependency-name: "@storybook/*"
     groups:
       development_minor:
         dependency-type: development
