@@ -7,7 +7,7 @@ import {useI18nCurrencyInput, Types} from './index'
 import { useRef } from 'react';
 
 import {renderHook, RenderResult} from '@testing-library/react-hooks';
-import '@testing-library/jest-dom/extend-expect';
+import "@testing-library/jest-dom";
 import { CurrencyInputTests } from './test';
 
 function UpdateWrapper(props: Omit<Types.UseI18nCurrencyInputProps, 'inputRef'>) {

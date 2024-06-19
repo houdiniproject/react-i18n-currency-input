@@ -3,7 +3,7 @@ import 'jest';
 import * as React from 'react'
 
 import { render, fireEvent, RenderResult } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import "@testing-library/jest-dom"
 const nbsp = " ";
 
 export function CurrencyInputTests(WrapperClass:React.FunctionComponent<any>) {
