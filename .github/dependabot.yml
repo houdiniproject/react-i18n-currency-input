@@ -53,20 +53,3 @@ updates:
         dependency-type: production
         update-types:
           - major
-
-  - package-ecosystem: npm
-    directory: "/"
-    schedule:
-      interval: weekly
-    allow:
-
-    groups:
-      minor-storybook-updates:
-        update-types:
-          - "patch"
-          - "minor"
-      major-storybook-updates:
-        update-types:
-          - "major"
-
-
