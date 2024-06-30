@@ -98,12 +98,12 @@ export class MoneyFormatHelper {
         return {
           value,
           maskedValue: this.numberFormat.format(value),
-          valueInCents: Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits))
+          valueInCents: Math.round(value * Math.pow(10, this.numberFormat.resolvedOptions().minimumFractionDigits || 0))
         }
       }
       else {
         const valueInCents = Math.round(value)
-        value = valueInCents * Math.pow(10, -1 * this.numberFormat.resolvedOptions().minimumFractionDigits)
+        value = valueInCents * Math.pow(10, -1 * (this.numberFormat.resolvedOptions().minimumFractionDigits || 0))
         
         return {
           value,
@@ -129,15 +129,15 @@ export class MoneyFormatHelper {
       if (hasDecimalSeparator) {
 
         //we need to add leading zeros if we don't have them!
-        const numberOfZerosToAdd = this.numberFormat.resolvedOptions().minimumFractionDigits - items.length
-        if (items.length <= this.numberFormat.resolvedOptions().minimumFractionDigits) {
+        const numberOfZerosToAdd = (this.numberFormat.resolvedOptions().minimumFractionDigits || 0) - items.length
+        if (items.length <= (this.numberFormat.resolvedOptions().minimumFractionDigits || 0)) {
           for (let i = 0; i < numberOfZerosToAdd; i++) {
             items.unshift('0')
           }
 
         }
         //add in decimal separator
-        items.splice(items.length - this.numberFormat.resolvedOptions().minimumFractionDigits, 0, '.')
+        items.splice(items.length - (this.numberFormat.resolvedOptions().minimumFractionDigits || 0), 0, '.')
 
       }
 

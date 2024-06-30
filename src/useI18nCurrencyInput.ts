@@ -121,7 +121,7 @@ export default function useI18nCurrencyInput(props: UseI18nCurrencyInputProps) :
             selectionEnd = selectionEnd + adjustment;
             selectionStart = selectionStart + adjustment;
 
-            const precision = formatHelper.numberFormat.resolvedOptions().minimumFractionDigits
+            const precision = formatHelper.numberFormat.resolvedOptions().minimumFractionDigits || 0;
 
             let baselength = suffix.length
                 + prefix.length
