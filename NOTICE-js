@@ -16,7 +16,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** typescript; version 5.4.5 -- https://www.typescriptlang.org/
+** typescript; version 5.5.2 -- https://www.typescriptlang.org/
 (c) by W3C
 Copyright (c) 2018 WHATWG
 Copyright (c) Microsoft Corporation
@@ -18945,7 +18945,7 @@ THE SOFTWARE.
 
 ------
 
-** @testing-library/dom; version 10.1.0 -- https://github.com/testing-library/dom-testing-library#readme
+** @testing-library/dom; version 10.2.0 -- https://github.com/testing-library/dom-testing-library#readme
 Copyright (c) 2017 Kent C. Dodds
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
