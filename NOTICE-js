@@ -5084,7 +5084,7 @@ SOFTWARE.
 
 ------
 
-** postcss; version 8.4.39 -- https://postcss.org/
+** postcss; version 8.4.41 -- https://postcss.org/
 Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
 
 The MIT License (MIT)
@@ -13171,7 +13171,7 @@ SOFTWARE.
 
 ------
 
-** vite; version 5.3.5 -- https://vitejs.dev
+** vite; version 5.4.0 -- https://vitejs.dev
 (c) Sindre Sorhus
 Copyright (c) EGOIST
 Copyright (c) Felix Bohm
@@ -17802,12 +17802,12 @@ SOFTWARE.
 ** @joshwooding/vite-plugin-react-docgen-typescript; version 0.3.1 -- https://github.com/joshwooding/vite-plugin-react-docgen-typescript#readme
 ** @rollup/pluginutils; version 5.0.5 -- https://github.com/rollup/plugins/tree/master/packages/pluginutils#readme
 ** @rollup/rollup-linux-x64-gnu; version 4.17.2 -- https://rollupjs.org/
-** @storybook/addon-actions; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/addons/actions
-** @storybook/addon-links; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/addons/links
-** @storybook/builder-vite; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/builders/builder-vite/#readme
-** @storybook/codemod; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/codemod
-** @storybook/components; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/deprecated/components
-** @storybook/core; version 8.2.7 -- https://storybook.js.org
+** @storybook/addon-actions; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/addons/actions
+** @storybook/addon-links; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/addons/links
+** @storybook/builder-vite; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/builders/builder-vite/#readme
+** @storybook/codemod; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/codemod
+** @storybook/components; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/deprecated/components
+** @storybook/core; version 8.2.8 -- https://storybook.js.org
 (c) co
 (c) bvt
 (c) Ec (c)
@@ -17823,13 +17823,13 @@ Copyright (c) 2014-present, Facebook, Inc.
 (c) b JSON.stringify(c.value) b JSON.stringify Pce Bv
 (c), . , InvalidLhsOptionalChaining , InvalidNumber Invalid
 (c), . , InvalidLhsBinding , InvalidLhsOptionalChaining PURE
-** @storybook/csf-plugin; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/csf-plugin
-** @storybook/manager-api; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/manager-api
-** @storybook/preview-api; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview-api
-** @storybook/react; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/renderers/react
-** @storybook/react-dom-shim; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/react-dom-shim
-** @storybook/react-vite; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/frameworks/react-vite
-** @storybook/theming; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/theming
+** @storybook/csf-plugin; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/csf-plugin
+** @storybook/manager-api; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/manager-api
+** @storybook/preview-api; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/preview-api
+** @storybook/react; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/renderers/react
+** @storybook/react-dom-shim; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/react-dom-shim
+** @storybook/react-vite; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/frameworks/react-vite
+** @storybook/theming; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/theming
 ** @types/aria-query; version 5.0.1 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aria-query
 Copyright (c) Microsoft Corporation
 ** @types/babel__core; version 7.20.5 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core
@@ -17946,7 +17946,7 @@ Copyright (c) 2013 Gary Court, Jens Taylor
 Copyright (c) 2016 Mael Nison
 ** natural-compare; version 1.4.0 -- https://github.com/litejs/natural-compare-lite#readme
 Copyright (c) 2012-2015 Lauri Rooden <lauri@rooden.ee>
-** storybook; version 8.2.7 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
+** storybook; version 8.2.8 -- https://github.com/storybookjs/storybook/tree/next/code/lib/cli
 ** toggle-selection; version 1.0.6 -- https://github.com/sudodoki/toggle-selection#readme
 ** undici-types; version 5.26.5 -- https://undici.nodejs.org
 ** wildcard; version 2.0.0 -- https://github.com/DamonOehlman/wildcard#readme
