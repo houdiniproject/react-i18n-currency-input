@@ -26,6 +26,15 @@ switch(process.env.USE_REACT_VERSION) {
       '^@testing-library/react((\\/.*)?)$': '@testing-library/react-12$1'
     }
     break;
+  case '18':
+    module.exports.cacheDirectory = '.cache/jest-cache-react-18'
+    module.exports.moduleNameMapper = {
+      ...module.exports.moduleNameMapper,
+      '^react-is((\\/.*)?)$': 'react-is-18$1',
+      '^react-dom((\\/.*)?)$': 'react-dom-18$1',
+      '^react((\\/.*)?)$': 'react-18$1',
+    }
+    break;
   default:
     module.exports.moduleNameMapper = {
       ...module.exports.moduleNameMapper,
