@@ -1,6 +1,5 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/mask.js
-import isInteger from "lodash/isInteger";
 import {MaskedAndRawValues} from './types';
 
 export interface MoneyFormatHelperOptions {
@@ -177,7 +176,7 @@ export class MoneyFormatHelper {
    * @memberof MoneyFormatHelper
    */
   public maskFromCents(cents:number) : MaskedAndRawValues {
-    if (!isInteger(cents))
+    if (!Number.isInteger(cents))
       throw new TypeError("cents must be provided an integer")
     return this.mask(cents.toString())
   }
