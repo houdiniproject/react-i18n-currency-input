@@ -1617,7 +1617,6 @@ __metadata:
     "@testing-library/react-hooks": ^8
     "@types/jest": ^29
     "@types/jsdom": ^16
-    "@types/lodash": ^4.14.133
     "@types/react": ^16.8.19
     "@types/react-dom": ^18.0.6
     "@vitejs/plugin-react": ^4.3.1
@@ -2687,13 +2686,6 @@ __metadata:
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 97ed0cb44d4070aecea772b7b2e2ed971e10c81ec87dd4ecc160322ffa55ff330dace1793489540e3e318d90942064bb697cc0f8989391797792d919737b3b98
-  languageName: node
-  linkType: hard
-
-"@types/lodash@npm:^4.14.133":
-  version: 4.17.13
-  resolution: "@types/lodash@npm:4.17.13"
-  checksum: d0bf8fbd950be71946e0076b30fd40d492293baea75f05931b6b5b906fd62583708c6229abdb95b30205ad24ce1ed2f48bc9d419364f682320edd03405cc0c7e
   languageName: node
   linkType: hard
 
