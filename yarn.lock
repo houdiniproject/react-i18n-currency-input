@@ -1625,6 +1625,7 @@ __metadata:
     react-dom-18: "npm:react-dom@^18"
     react-is-16: "npm:react-is@^16"
     react-is-17: "npm:react-is@^17"
+    react-is-18: "npm:react-is@^18"
     react-use: ">=15.3.0"
     rimraf: ^6.0.1
     storybook: ^8.1.10
@@ -7019,6 +7020,13 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-is-18@npm:react-is@^18":
+  version: 18.3.1
+  resolution: "react-is@npm:18.3.1"
+  checksum: e20fe84c86ff172fc8d898251b7cc2c43645d108bf96d0b8edf39b98f9a2cae97b40520ee7ed8ee0085ccc94736c4886294456033304151c3f94978cec03df21
   languageName: node
   linkType: hard
 
