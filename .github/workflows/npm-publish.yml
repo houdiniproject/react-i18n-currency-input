@@ -27,6 +27,6 @@ jobs:
           check-notice: false
           build-storybook: false
 
-      - run: yarn publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
