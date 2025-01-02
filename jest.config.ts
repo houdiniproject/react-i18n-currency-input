@@ -1,15 +1,23 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/setup.js
-module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'jsdom'
+
+import type { Config } from '@jest/types';
+
+const config: Config.InitialOptions = {
+  'preset': 'ts-jest',
+  'clearMocks': true,
+  'coverageDirectory': 'coverage',
+  'testMatch': [
+    '<rootDir>/spec/**/*.spec.(ts|tsx)'
+  ],
+  'testEnvironment': 'jsdom'
 };
 
 switch(process.env.USE_REACT_VERSION) {
   case '16':
-    module.exports.cacheDirectory = '.cache/jest-cache-react-16'
-    module.exports.moduleNameMapper = {
-      ...module.exports.moduleNameMapper,
+    config.cacheDirectory = '.cache/jest-cache-react-16'
+    config.moduleNameMapper = {
+      ...config.moduleNameMapper,
       '^react-is((\\/.*)?)$': 'react-is-16$1',
       '^react-dom((\\/.*)?)$': 'react-dom-16$1',
       '^react((\\/.*)?)$': 'react-16$1',
@@ -17,9 +25,9 @@ switch(process.env.USE_REACT_VERSION) {
     }
     break;
   case '17':
-    module.exports.cacheDirectory = '.cache/jest-cache-react-17'
-    module.exports.moduleNameMapper = {
-      ...module.exports.moduleNameMapper,
+    config.cacheDirectory = '.cache/jest-cache-react-17'
+    config.moduleNameMapper = {
+      ...config.moduleNameMapper,
       '^react-is((\\/.*)?)$': 'react-is-17$1',
       '^react-dom((\\/.*)?)$': 'react-dom-17$1',
       '^react((\\/.*)?)$': 'react-17$1',
@@ -27,19 +35,21 @@ switch(process.env.USE_REACT_VERSION) {
     }
     break;
   case '18':
-    module.exports.cacheDirectory = '.cache/jest-cache-react-18'
-    module.exports.moduleNameMapper = {
-      ...module.exports.moduleNameMapper,
+    config.cacheDirectory = '.cache/jest-cache-react-18'
+    config.moduleNameMapper = {
+      ...config.moduleNameMapper,
       '^react-is((\\/.*)?)$': 'react-is-18$1',
       '^react-dom((\\/.*)?)$': 'react-dom-18$1',
       '^react((\\/.*)?)$': 'react-18$1',
     }
     break;
   default:
-    module.exports.moduleNameMapper = {
-      ...module.exports.moduleNameMapper,
+    config.moduleNameMapper = {
+      ...config.moduleNameMapper,
       '^@testing-library/react-hooks((\\/.*)?)$': '@testing-library/react$1',
     }
 }
 
-module.exports.reporters = ['default', 'github-actions'];
+config.reporters = ['default', 'github-actions'];
+
+export default config;
