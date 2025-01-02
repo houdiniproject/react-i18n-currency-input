@@ -37,7 +37,7 @@ runs:
 
     - name: Webpack compile everything
       working-directory: ${{inputs.working-directory}}
-      run: yarn webpack
+      run: yarn build
       shell: bash
 
     - name: Build storybook
