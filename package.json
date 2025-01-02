@@ -41,7 +41,7 @@
     "@testing-library/react-12": "npm:@testing-library/react@^12",
     "@testing-library/react-hooks": "^8",
     "@types/jest": "^29",
-    "@types/jsdom": "^16",
+    "@types/jsdom": "^20.0",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^4.3.1",
