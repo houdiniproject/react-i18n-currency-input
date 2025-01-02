@@ -1785,9 +1785,9 @@ __metadata:
     "@testing-library/react-hooks": ^8
     "@types/jest": ^29
     "@types/jsdom": ^20.0
-    "@types/node": ^18.8.8
-    "@types/react": ^18.0
-    "@types/react-dom": ^18.0
+    "@types/node": ^22.10.4
+    "@types/react": ^19.0
+    "@types/react-dom": ^19.0
     "@vitejs/plugin-react": ^4.3.1
     jest: ^29
     jest-environment-jsdom: ^29
@@ -2820,12 +2820,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.8.8":
-  version: 18.19.69
-  resolution: "@types/node@npm:18.19.69"
+"@types/node@npm:^22.10.4":
+  version: 22.10.4
+  resolution: "@types/node@npm:22.10.4"
   dependencies:
-    undici-types: ~5.26.4
-  checksum: 4c4dcb79aa4c6680e05cad8514140a9b6f50387e33255afa53619ed7971371cdba09b235acad9bb7e2464ad8375db7681dcef0bb54170d136ba63605736700ef
+    undici-types: ~6.20.0
+  checksum: df4afd23fee6f75f9ae6558794ca7b9fb92e5ff817e9ffcd26c67cd9a366dcb4f34f83184513b66646a54e2659adbd46cd4839d3268be11e2d74fde2d09c5f66
   languageName: node
   linkType: hard
 
@@ -2845,12 +2845,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0":
-  version: 18.3.5
-  resolution: "@types/react-dom@npm:18.3.5"
+"@types/react-dom@npm:^19.0":
+  version: 19.0.2
+  resolution: "@types/react-dom@npm:19.0.2"
   peerDependencies:
-    "@types/react": ^18.0.0
-  checksum: 95c757684f71e761515c5a11299e5feec550c72bb52975487f360e6f0d359b26454c26eaf2ce45dd22748205aa9b2c2fe0abe7005ebcbd233a7615283ac39a7d
+    "@types/react": ^19.0.0
+  checksum: d2ae81ec0b8eee7a4bf31918796fdaa34e8db68f69682163bc212d759de76783e6ffcc02c02722dcf508429067148841e6da81414cc730ca2a28c9c2b350c880
   languageName: node
   linkType: hard
 
@@ -2865,13 +2865,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.0":
-  version: 18.3.18
-  resolution: "@types/react@npm:18.3.18"
+"@types/react@npm:^19.0":
+  version: 19.0.2
+  resolution: "@types/react@npm:19.0.2"
   dependencies:
-    "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: 5933597bc9f53e282f0438f0bb76d0f0fab60faabe760ea806e05ffe6f5c61b9b4d363e1a03a8fea47c510d493c6cf926cdeeba9f7074fa97b61940c350245e7
+  checksum: 2f12c2a84b778283884d41560c723d815153d88c56cacf25c0166329e9099c35c82c602a21d8831a381e2ef5574434ebd7bf09a636fe073558919474b0b3c9ed
   languageName: node
   linkType: hard
 
@@ -7497,6 +7496,13 @@ __metadata:
   version: 5.26.5
   resolution: "undici-types@npm:5.26.5"
   checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.20.0":
+  version: 6.20.0
+  resolution: "undici-types@npm:6.20.0"
+  checksum: b7bc50f012dc6afbcce56c9fd62d7e86b20a62ff21f12b7b5cbf1973b9578d90f22a9c7fe50e638e96905d33893bf2f9f16d98929c4673c2480de05c6c96ea8b
   languageName: node
   linkType: hard
 
