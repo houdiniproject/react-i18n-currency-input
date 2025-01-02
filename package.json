@@ -14,6 +14,7 @@
     "jest-on-react-17": "USE_REACT_VERSION=17 jest",
     "jest-on-react-18": "USE_REACT_VERSION=18 jest",
     "jest-on-react-19": "USE_REACT_VERSION=19 jest",
+    "lint": "tsc --noEmit",
     "webpack": "webpack",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",

@@ -25,6 +25,8 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: 'yarn'
       - run: yarn install --immutable
+      - name: verify types
+        run: yarn lint
       - name: run jest
         run: yarn jest-on-react-${{ matrix.react }}
 
