@@ -1792,6 +1792,7 @@ __metadata:
     "@testing-library/react-hooks": ^8
     "@types/jest": ^29
     "@types/jsdom": ^20.0
+    "@types/node": ^20.0
     "@types/react": ^18.0
     "@types/react-dom": ^18.0
     "@vitejs/plugin-react": ^4.3.1
@@ -2865,6 +2866,15 @@ __metadata:
   dependencies:
     undici-types: ~5.26.4
   checksum: d6a82bfc28bca8e4e32ffc9526798d1aea62f6993ea3a535cd3f47ac3f725a48efe3f484d68168dd154af0001c89935e4e1d77e7b1809c3824c6382bf99b86f6
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.0":
+  version: 20.17.11
+  resolution: "@types/node@npm:20.17.11"
+  dependencies:
+    undici-types: ~6.19.2
+  checksum: 8841a85ce5cbc402d87492527721d32b2c3ab9159a362a6ba05e957807e1991a056df61ce5e58166489d07d90f1ad61516121d6fd4c9e62c5429ce67f4b82d98
   languageName: node
   linkType: hard
 
@@ -8354,6 +8364,13 @@ __metadata:
   version: 5.26.5
   resolution: "undici-types@npm:5.26.5"
   checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: de51f1b447d22571cf155dfe14ff6d12c5bdaec237c765085b439c38ca8518fc360e88c70f99469162bf2e14188a7b0bcb06e1ed2dc031042b984b0bb9544017
   languageName: node
   linkType: hard
 
