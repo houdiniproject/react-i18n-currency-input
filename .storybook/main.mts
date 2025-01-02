@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 
   stories: ['../stories/**/*.stories.[tj]s?(x)'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
