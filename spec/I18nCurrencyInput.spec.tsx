@@ -2,7 +2,7 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/index.spec.js
 import 'jest';
 import * as React from 'react'
-import I18nCurrencyInput, { Types } from './index';
+import I18nCurrencyInput, { Types } from '../src/index';
 import { useCallback, useState } from 'react';
 import { cleanup, fireEvent, render} from '@testing-library/react';
 import { CurrencyInputTests } from './test';

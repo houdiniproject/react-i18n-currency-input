@@ -1,7 +1,7 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/test/mask.spec.js
 import 'jest';
-import {MoneyFormatHelper} from './money_format_helper'
+import {MoneyFormatHelper} from '../src/money_format_helper'
 
 const nbsp = String.fromCharCode(160)
 
