@@ -1,7 +1,7 @@
 // License: LGPL-3.0-or-later
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/src/index.js
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import usePrevious from 'react-use/lib/usePrevious';
+import usePrevious from './usePrevious';
 import { MoneyFormatHelper} from './money_format_helper';
 import { UseI18nCurrencyInputProps,  MaskedAndRawValues, UseI18nCurrencyInputResult } from './types';
 
