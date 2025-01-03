@@ -78,7 +78,7 @@
   },
   "types": "./dist/index.d.ts",
   "sideEffects": false,
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@4.6.0",
   "publishConfig": {
     "provenance": true
   }
