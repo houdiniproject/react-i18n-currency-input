@@ -60,6 +60,7 @@
     "react-is-17": "npm:react-is@^17",
     "react-is-18": "npm:react-is@^18",
     "rimraf": "^6.0.1",
+    "semantic-release": "^24.2.0",
     "storybook": "^8.1.10",
     "ts-jest": "^29",
     "ts-node": "^10.9.2",
@@ -69,6 +70,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/houdiniproject/react-i18n-currency-input.git"
+  },
+
+  "release": {
+    "branches": ["main"]
   },
   "types": "./dist/index.d.ts",
   "sideEffects": false,
