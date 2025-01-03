@@ -21,7 +21,7 @@ jobs:
           cache: npm
           node-version: lts/*
       - run: yarn install --immutable
-      - run: corepack npm audit signatures
+      - run: npm audit signatures
       # pinned version updated automatically by Renovate.
       # details at https://semantic-release.gitbook.io/semantic-release/usage/installation#global-installation
       - run: npx semantic-release@21.0.2
