@@ -22,9 +22,8 @@ jobs:
           node-version: lts/*
       - run: yarn install --immutable
       - run: npm audit signatures
-      # pinned version updated automatically by Renovate.
-      # details at https://semantic-release.gitbook.io/semantic-release/usage/installation#global-installation
-      - run: npx semantic-release@21.0.2
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.npm_token }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
