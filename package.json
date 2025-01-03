@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "clean": "rimraf esm dist",
     "test": "yarn build && yarn jest",
     "jest": "yarn jest-on-react-19",
     "jest-on-react-16": "USE_REACT_VERSION=16 jest",
