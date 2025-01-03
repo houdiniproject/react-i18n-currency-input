@@ -3677,7 +3677,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ------
 
-** signal-exit; version 4.0.1 -- https://github.com/tapjs/signal-exit#readme
+** signal-exit; version 4.1.0 -- https://github.com/tapjs/signal-exit#readme
 Copyright (c) 2015-2023 Benjamin Coe, Isaac Z. Schlueter, and Contributors
 
 The ISC License
@@ -4053,7 +4053,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 ** @isaacs/cliui; version 8.0.2 -- https://github.com/yargs/cliui#readme
 Copyright (c) 2015, Contributors
-** cliui; version 7.0.4 -- https://github.com/yargs/cliui#readme
+** cliui; version 8.0.1 -- https://github.com/yargs/cliui#readme
 Copyright (c) 2015, Contributors
 Copyright (c) npm, Inc. and Contributors
 ** y18n; version 5.0.8 -- https://github.com/yargs/y18n
@@ -4172,7 +4172,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** acorn-walk; version 8.2.0 -- https://github.com/acornjs/acorn
+** acorn-walk; version 8.3.4 -- https://github.com/acornjs/acorn
 Copyright (c) 2012-2020 by various contributors
 
 MIT License
@@ -6907,34 +6907,6 @@ SOFTWARE.
 
 ------
 
-** debug; version 4.3.4 -- https://github.com/debug-js/debug#readme
-Copyright (c) 2018-2021 Josh Junon
-Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
-
-(The MIT License)
-
-Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
-Copyright (c) 2018-2021 Josh Junon
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software
-and associated documentation files (the 'Software'), to deal in the Software without restriction,
-including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial
-portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-------
-
 ** util-deprecate; version 1.0.2 -- https://github.com/TooTallNate/util-deprecate
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
@@ -8332,7 +8304,7 @@ This software is provided by the copyright holders and contributors “as is” 
 
 ------
 
-** @babel/code-frame; version 7.26.0 -- https://babel.dev/docs/en/next/babel-code-frame
+** @babel/code-frame; version 7.26.2 -- https://babel.dev/docs/en/next/babel-code-frame
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 ** @babel/compat-data; version 7.26.0 -- 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -9116,7 +9088,6 @@ SOFTWARE.
 
 ------
 
-** @esbuild/linux-x64; version 0.24.0 -- https://github.com/evanw/esbuild#readme
 ** @pnpm/config.env-replace; version 1.1.0 -- https://bit.cloud/pnpm/config/env-replace
 ** @pnpm/network.ca-file; version 1.0.2 -- https://bit.dev/pnpm/network/ca-file
 ** @rollup/pluginutils; version 5.0.5 -- https://github.com/rollup/plugins/tree/master/packages/pluginutils#readme
@@ -10550,7 +10521,7 @@ THE SOFTWARE.
 
 ------
 
-** @jridgewell/resolve-uri; version 3.1.1 -- https://github.com/jridgewell/resolve-uri#readme
+** @jridgewell/resolve-uri; version 3.1.2 -- https://github.com/jridgewell/resolve-uri#readme
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
 
 Copyright 2019 Justin Ridgewell <jridgewell@google.com>
@@ -10747,34 +10718,6 @@ Copyright (c) Sebastian Mayr
 The MIT License (MIT)
 
 Copyright (c) Sebastian Mayr
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
-** esbuild; version 0.24.0 -- https://github.com/evanw/esbuild#readme
-Copyright (c) 2020 Evan Wallace
-
-MIT License
-
-Copyright (c) 2020 Evan Wallace
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11052,7 +10995,7 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** strip-indent; version 3.0.0 -- https://github.com/sindresorhus/strip-indent#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** supports-color; version 7.1.0 -- https://github.com/chalk/supports-color#readme
+** supports-color; version 7.2.0 -- https://github.com/chalk/supports-color#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** yn; version 3.1.1 -- https://github.com/sindresorhus/yn#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
