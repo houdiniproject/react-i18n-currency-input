@@ -71,9 +71,10 @@
     "type": "git",
     "url": "git+https://github.com/houdiniproject/react-i18n-currency-input.git"
   },
-
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "types": "./dist/index.d.ts",
   "sideEffects": false,
