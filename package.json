@@ -3,11 +3,14 @@
   "version": "3.0.1",
   "description": "Typescript React component for currency using the ECMAScript Internationalization API",
   "main": "./dist/index.js",
+  "module": "./esm/index.js",
   "bugs": {
     "url": "https://github.com/houdiniproject/react-i18n-currency-input/issues"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "yarn build:cjs && yarn build:esm",
+    "build:cjs": "tsc",
+    "build:esm": "tsc -m esNext --outDir esm",
     "clean": "rimraf esm dist",
     "test": "yarn build && yarn jest",
     "jest": "yarn jest-on-react-19",
