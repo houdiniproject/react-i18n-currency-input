@@ -25,3 +25,8 @@ webpack.config.js
 storybook-static
 .babelrc.json
 .nvmrc
+spec
+stories
+.yarnrc.yml
+jest.config.ts
+included.json
