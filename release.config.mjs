@@ -12,7 +12,7 @@ export default {
         "@semantic-release/npm",
         [
             "@semantic-release/git", {
-                "assets": ["docs", "package.json"],
+                "assets": ["CHANGELOG.md", "package.json"],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ]
