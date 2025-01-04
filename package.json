@@ -7,6 +7,11 @@
   "bugs": {
     "url": "https://github.com/houdiniproject/react-i18n-currency-input/issues"
   },
+  "files": [
+    "dist",
+    "esm",
+    "NOTICE-js"
+  ],
   "scripts": {
     "build": "yarn build:cjs && yarn build:esm",
     "build:cjs": "tsc",
