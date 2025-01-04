@@ -75,21 +75,6 @@
     "type": "git",
     "url": "git+https://github.com/houdiniproject/react-i18n-currency-input.git"
   },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "verifyConditions": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ],
-    "prepare": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git"
-    ]
-  },
   "types": "./dist/index.d.ts",
   "sideEffects": false,
   "packageManager": "yarn@4.6.0",
