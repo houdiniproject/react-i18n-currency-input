@@ -1,7 +1,7 @@
 export default {
 
   stories: ['../stories/**/*.stories.[tj]s?(x)'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links'],
+  addons: ['@storybook/addon-links'],
 
   framework: {
     name: '@storybook/react-vite',
