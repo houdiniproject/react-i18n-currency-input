@@ -2,7 +2,7 @@
 // from: https://github.com/jsillitoe/react-currency-input/blob/master/examples/index.js
 
 import React, {useRef, useState, useCallback} from 'react';
-import { action } from '@storybook/addon-actions';
+import { action } from 'storybook/actions';
 import I18nCurrencyInput from '../src/I18nCurrencyInput';
 
 export default { title: 'I18nCurrencyInput' };

@@ -1769,7 +1769,6 @@ __metadata:
     "@babel/preset-env": "npm:^7.21.5"
     "@babel/preset-react": "npm:^7.18.6"
     "@babel/preset-typescript": "npm:^7.21.5"
-    "@storybook/addon-actions": "npm:^9.0.4"
     "@storybook/addon-links": "npm:^9.0.4"
     "@storybook/react": "npm:^9.0.4"
     "@storybook/react-vite": "npm:^9.0.4"
@@ -2936,13 +2935,6 @@ __metadata:
   dependencies:
     "@sinonjs/commons": "npm:^2.0.0"
   checksum: 10/f7b47a290426d545894774c946c39877de6d6b3645e46d7d4dc99b9fc869c513791fb5be2496e877472fa630df0b61fc05b12a150bbdca606651a41ec3d5da2d
-  languageName: node
-  linkType: hard
-
-"@storybook/addon-actions@npm:^9.0.4":
-  version: 9.0.4
-  resolution: "@storybook/addon-actions@npm:9.0.4"
-  checksum: 10/2d511dfc62fb3179541de2a8c6facd59ad6598fc02a9a1c9e690e6a05eacabcebf5ad9e91ec368aaabcf3f10a7eba06941059ca81736118e90796a2c55c4a765
   languageName: node
   linkType: hard
 
