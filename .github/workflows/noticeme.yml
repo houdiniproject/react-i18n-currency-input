@@ -28,7 +28,7 @@ jobs:
         token: ${{ secrets.DEPENDABOT_PAT }}
         fetch-depth: 2
 
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v5
       with:
         node-version: ${{ matrix.node }}
         cache: 'yarn'
