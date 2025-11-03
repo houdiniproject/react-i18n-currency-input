@@ -2172,7 +2172,7 @@ __metadata:
     "@babel/preset-react": "npm:^7.18.6"
     "@babel/preset-typescript": "npm:^7.21.5"
     "@storybook/addon-links": "npm:^9.0.4"
-    "@storybook/react": "npm:^9.0.4"
+    "@storybook/react": "npm:^10.0.3"
     "@storybook/react-vite": "npm:^9.0.4"
     "@testing-library/dom": "npm:^10"
     "@testing-library/jest-dom": "npm:^6"
@@ -3555,6 +3555,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/react-dom-shim@npm:10.0.3":
+  version: 10.0.3
+  resolution: "@storybook/react-dom-shim@npm:10.0.3"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.0.3
+  checksum: 10/bc7a2b9ed7a9f783e54596e5c87450985befc2cf05eea0909dfc55fd0ce129456be0434a08057ef3e871e3161f9c8fc552b8a715c4741ee3b8de23156d88427a
+  languageName: node
+  linkType: hard
+
 "@storybook/react-dom-shim@npm:9.1.15":
   version: 9.1.15
   resolution: "@storybook/react-dom-shim@npm:9.1.15"
@@ -3588,7 +3599,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:9.1.15, @storybook/react@npm:^9.0.4":
+"@storybook/react@npm:9.1.15":
   version: 9.1.15
   resolution: "@storybook/react@npm:9.1.15"
   dependencies:
@@ -3603,6 +3614,24 @@ __metadata:
     typescript:
       optional: true
   checksum: 10/b6884e5c785e77c05cc2f20b921fc7613f5749c2e0c92731680c9cbcff85ab8ddc7cf2a47bd7afa9aef93fce1f675ab3d595a4476e9e7d158eda8145a72fc39c
+  languageName: node
+  linkType: hard
+
+"@storybook/react@npm:^10.0.3":
+  version: 10.0.3
+  resolution: "@storybook/react@npm:10.0.3"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+    "@storybook/react-dom-shim": "npm:10.0.3"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.0.3
+    typescript: ">= 4.9.x"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10/70d358cb18961f9170bad5a361d8e6b6943c5fd313b77aab9ec44d028cf50e07bab5f0fc2dbfda3d9cec57f4173de40b7a08eb35bf111cd9ebce6f5aca7c63df
   languageName: node
   linkType: hard
 
