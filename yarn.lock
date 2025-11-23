@@ -79,7 +79,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.12.0, @babel/core@npm:^7.18.9, @babel/core@npm:^7.23.9, @babel/core@npm:^7.27.4, @babel/core@npm:^7.28.5":
+"@babel/core@npm:^7.12, @babel/core@npm:^7.18.9, @babel/core@npm:^7.23.9, @babel/core@npm:^7.27.4, @babel/core@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/core@npm:7.28.5"
   dependencies:
@@ -1292,7 +1292,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.21.5":
+"@babel/preset-env@npm:^7.21":
   version: 7.28.5
   resolution: "@babel/preset-env@npm:7.28.5"
   dependencies:
@@ -1385,7 +1385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.18.6":
+"@babel/preset-react@npm:^7.18":
   version: 7.28.5
   resolution: "@babel/preset-react@npm:7.28.5"
   dependencies:
@@ -1401,7 +1401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.21.5":
+"@babel/preset-typescript@npm:^7.21":
   version: 7.28.5
   resolution: "@babel/preset-typescript@npm:7.28.5"
   dependencies:
@@ -1751,10 +1751,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@houdiniproject/react-i18n-currency-input@workspace:."
   dependencies:
-    "@babel/core": "npm:^7.12.0"
-    "@babel/preset-env": "npm:^7.21.5"
-    "@babel/preset-react": "npm:^7.18.6"
-    "@babel/preset-typescript": "npm:^7.21.5"
+    "@babel/core": "npm:^7.12"
+    "@babel/preset-env": "npm:^7.21"
+    "@babel/preset-react": "npm:^7.18"
+    "@babel/preset-typescript": "npm:^7.21"
     "@storybook/addon-links": "npm:^10.0.8"
     "@storybook/react-vite": "npm:^10.0.8"
     "@testing-library/dom": "npm:^10"
@@ -1763,10 +1763,10 @@ __metadata:
     "@testing-library/react-12": "npm:@testing-library/react@^12"
     "@testing-library/react-hooks": "npm:^8"
     "@types/jest": "npm:^30"
-    "@types/jsdom": "npm:^20.0"
+    "@types/jsdom": "npm:^27.0.0"
     "@types/react": "npm:^18.0"
     "@types/react-dom": "npm:^18.0"
-    "@vitejs/plugin-react": "npm:^5.0.0"
+    "@vitejs/plugin-react": "npm:^5.0"
     jest: "npm:^30"
     jest-environment-jsdom: "npm:^30"
     react: "npm:^19"
@@ -1780,13 +1780,13 @@ __metadata:
     react-is-16: "npm:react-is@^16"
     react-is-17: "npm:react-is@^17"
     react-is-18: "npm:react-is@^18"
-    rimraf: "npm:^6.0.1"
-    semantic-release: "npm:^25.0.1"
+    rimraf: "npm:^6"
+    semantic-release: "npm:^25.0"
     storybook: "npm:^10.0.8"
     ts-jest: "npm:^29"
-    ts-node: "npm:^10.9.2"
+    ts-node: "npm:^10.9"
     typescript: "npm:^5.2"
-    vite: "npm:^7.0.0"
+    vite: "npm:^7.2"
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
@@ -3396,17 +3396,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsdom@npm:^20.0":
-  version: 20.0.1
-  resolution: "@types/jsdom@npm:20.0.1"
-  dependencies:
-    "@types/node": "npm:*"
-    "@types/tough-cookie": "npm:*"
-    parse5: "npm:^7.0.0"
-  checksum: 10/15fbb9a0bfb4a5845cf6e795f2fd12400aacfca53b8c7e5bca4a3e5e8fa8629f676327964d64258aefb127d2d8a2be86dad46359efbfca0e8c9c2b790e7f8a88
-  languageName: node
-  linkType: hard
-
 "@types/jsdom@npm:^21.1.7":
   version: 21.1.7
   resolution: "@types/jsdom@npm:21.1.7"
@@ -3415,6 +3404,17 @@ __metadata:
     "@types/tough-cookie": "npm:*"
     parse5: "npm:^7.0.0"
   checksum: 10/a5ee54aec813ac928ef783f69828213af4d81325f584e1fe7573a9ae139924c40768d1d5249237e62d51b9a34ed06bde059c86c6b0248d627457ec5e5d532dfa
+  languageName: node
+  linkType: hard
+
+"@types/jsdom@npm:^27.0.0":
+  version: 27.0.0
+  resolution: "@types/jsdom@npm:27.0.0"
+  dependencies:
+    "@types/node": "npm:*"
+    "@types/tough-cookie": "npm:*"
+    parse5: "npm:^7.0.0"
+  checksum: 10/67dc284f74960e1ba0787599dfb0a46ca94ea4443242d3fc1e513b0c5313d2d4136176764acce2b03b8c66dec942ff4ab15322208ccc17b7c1dccc8cd01d4cc2
   languageName: node
   linkType: hard
 
@@ -3673,7 +3673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^5.0.0":
+"@vitejs/plugin-react@npm:^5.0":
   version: 5.1.1
   resolution: "@vitejs/plugin-react@npm:5.1.1"
   dependencies:
@@ -9192,7 +9192,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^6.0.1":
+"rimraf@npm:^6":
   version: 6.1.2
   resolution: "rimraf@npm:6.1.2"
   dependencies:
@@ -9352,7 +9352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^25.0.1":
+"semantic-release@npm:^25.0":
   version: 25.0.2
   resolution: "semantic-release@npm:25.0.2"
   dependencies:
@@ -10228,7 +10228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.9.2":
+"ts-node@npm:^10.9":
   version: 10.9.2
   resolution: "ts-node@npm:10.9.2"
   dependencies:
@@ -10644,7 +10644,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^7.0.0":
+"vite@npm:^7.2":
   version: 7.2.4
   resolution: "vite@npm:7.2.4"
   dependencies:
