@@ -10189,8 +10189,8 @@ __metadata:
   linkType: hard
 
 "ts-jest@npm:^29":
-  version: 29.4.5
-  resolution: "ts-jest@npm:29.4.5"
+  version: 29.4.6
+  resolution: "ts-jest@npm:29.4.6"
   dependencies:
     bs-logger: "npm:^0.2.6"
     fast-json-stable-stringify: "npm:^2.1.0"
@@ -10224,7 +10224,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 10/48d867e0707474241b6339336cbe57d85122d6018fef957c8c095ff365e5d9428f112fe2cb11a8301343bbd32cec3ff639523d9bf9eea3a371734aa9a100f8a2
+  checksum: 10/e0ff9e13f684166d5331808b288043b8054f49a1c2970480a92ba3caec8d0ff20edd092f2a4e7a3ad8fcb9ba4d674bee10ec7ee75046d8066bbe43a7d16cf72e
   languageName: node
   linkType: hard
 
@@ -10645,8 +10645,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^7.2":
-  version: 7.2.4
-  resolution: "vite@npm:7.2.4"
+  version: 7.2.6
+  resolution: "vite@npm:7.2.6"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.5.0"
@@ -10695,7 +10695,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/25962e65159e62fa6b643ac5bc79457c61c9b2cec9a1a17763b067b1e5ecac6483ad84247d6d457d81e25c5d1f8c553372bedf71dee09d8c1bd41af6c7b016a5
+  checksum: 10/c640ed9c91957749287af2f483f5b5024a56718ba7cf32b0e2c398772fdf7fdb9fd5f97665c41712d4e9422c14009e283d0b69ac1b64b4f91474625bebe324de
   languageName: node
   linkType: hard
 
