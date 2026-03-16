@@ -51,7 +51,7 @@
     "@types/jsdom": "^27.0.0",
     "@types/react": "^18.0",
     "@types/react-dom": "^18.0",
-    "@vitejs/plugin-react": "^5.0",
+    "@vitejs/plugin-react": "^6.0",
     "jest": "^30",
     "jest-environment-jsdom": "^30",
     "react": "^19",
@@ -71,7 +71,7 @@
     "ts-jest": "^29",
     "ts-node": "^10.9",
     "typescript": "^5.2",
-    "vite": "^7.2"
+    "vite": "^8.0"
   },
   "repository": {
     "type": "git",
