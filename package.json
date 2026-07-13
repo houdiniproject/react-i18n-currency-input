@@ -36,10 +36,10 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12",
-    "@babel/preset-env": "^7.21",
-    "@babel/preset-react": "^7.18",
-    "@babel/preset-typescript": "^7.21",
+    "@babel/core": "^8.0",
+    "@babel/preset-env": "^8.0",
+    "@babel/preset-react": "^8.0",
+    "@babel/preset-typescript": "^8.0",
     "@storybook/addon-links": "^10.0.8",
     "@storybook/react-vite": "^10.0.8",
     "@testing-library/dom": "^10",
