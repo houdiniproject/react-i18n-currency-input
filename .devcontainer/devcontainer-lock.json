@@ -5,6 +5,11 @@
       "resolved": "ghcr.io/devcontainers/features/github-cli@sha256:bd7ab48a832228f633239277552c30b353867fef2e5b037e064b4e64f0b843f2",
       "integrity": "sha256:bd7ab48a832228f633239277552c30b353867fef2e5b037e064b4e64f0b843f2"
     },
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "2.1.1",
+      "resolved": "ghcr.io/devcontainers/features/node@sha256:2a19d3b0b3879437637cfd292eb29fee0afcfbe6364e33db9afc4f80c5c1f956",
+      "integrity": "sha256:2a19d3b0b3879437637cfd292eb29fee0afcfbe6364e33db9afc4f80c5c1f956"
+    },
     "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:1": {
       "version": "1.0.4",
       "resolved": "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence@sha256:b9c4ad752999277d80f13d2d7a19117b209b5bc6fb1848eac781523fb994c553",
