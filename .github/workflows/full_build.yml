@@ -20,10 +20,10 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
       - run: corepack enable yarn
       - name: Setup Node.js environment
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@v7.1.0
         with:
           node-version: ${{ matrix.node }}
           cache: 'yarn'
@@ -40,24 +40,24 @@ jobs:
       permissions:
         contents: read
       steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
       
-      - uses: ./.github/actions/reusable_build
+      - uses: $/.github/actions/reusable_build
   
       - name: build package locally
         run: yarn pack
       - name: Archive the output of yarn pack
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v7.0.2
         with: 
           name: npm_package
           path: '*.tgz'
       - name: Archive cjs artifacts
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: dist
           path: dist
       - name: Archive esm artifacts
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: esm
           path: esm
@@ -71,11 +71,11 @@ jobs:
       group: validate-dev-container-${{ github.head_ref || github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
       - name: Build and run dev container task
-        uses: devcontainers/ci@513af61f4de4f75d37e4438f184ba4358f0fc1ca #v0.3.1900000450
+        uses: devcontainers/ci@v0.3.1900000450
         with:
           runCmd: yarn && yarn test # run the specs
 
