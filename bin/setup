@@ -1,0 +1,7 @@
+#!/bin/bash
+# enable corepack
+corepack install
+corepack enable yarn
+
+# install packages
+yarn
