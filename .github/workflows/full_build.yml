@@ -59,3 +59,21 @@ jobs:
         with:
           name: esm
           path: esm
+
+  validate-dev-container:
+    runs-on: ubuntu-latest
+    name: Validate Devcontainer
+    permissions:
+      contents: read
+    concurrency:
+      group: validate-dev-container-${{ github.head_ref || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build and run dev container task
+        uses: devcontainers/ci@513af61f4de4f75d37e4438f184ba4358f0fc1ca #v0.3.1900000450
+        with:
+          runCmd: yarn && yarn test # run the specs
+
