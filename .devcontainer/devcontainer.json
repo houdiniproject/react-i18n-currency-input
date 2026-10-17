@@ -23,6 +23,15 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "bin/setup",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"redhat.vscode-yaml",
+				"github.vscode-github-actions"
+			]
+		}
+	},
 
 	// Configure tool-specific properties.
 	// "customizations": {},
